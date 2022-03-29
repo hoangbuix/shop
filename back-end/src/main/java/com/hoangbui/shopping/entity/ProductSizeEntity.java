@@ -11,8 +11,11 @@ import javax.persistence.Table;
 @Table(name = "product_size")
 public class ProductSizeEntity extends BaseEntity {
     @Column(name = "size")
-    private int size;
+    private String size;
 
     @Column(name = "quantity")
-    private int quantity;
+    private String quantity;
+
+    @Column(name="gender")
+    private String gender;
 }

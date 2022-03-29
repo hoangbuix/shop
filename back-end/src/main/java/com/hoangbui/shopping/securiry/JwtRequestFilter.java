@@ -37,21 +37,18 @@ public class JwtRequestFilter extends OncePerRequestFilter {
             filterChain.doFilter(request, response);
             return;
         }
-
         // Parse thông tin từ token
         Claims claims = jwtTokenUtil.getClaimsFromToken(token);
         if (claims == null) {
             filterChain.doFilter(request, response);
             return;
         }
-
         // Tạo object Authentication
         UsernamePasswordAuthenticationToken authenticationObject = getAuthentication(claims);
         if (authenticationObject == null) {
             filterChain.doFilter(request, response);
             return;
         }
-
         // Xác thực thành công, lưu object Authentication vào SecurityContextHolder
         SecurityContextHolder.getContext().setAuthentication(authenticationObject);
         filterChain.doFilter(request, response);

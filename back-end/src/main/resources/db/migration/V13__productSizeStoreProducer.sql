@@ -1,8 +1,9 @@
 drop procedure if EXISTS productSize_create;
 DELIMITER $$
 CREATE PROCEDURE productSize_create(
-    in _size integer,
-    in _quantity integer
+    in _size VARCHAR(100),
+    in _quantity VARCHAR(100),
+    in _gender VARCHAR(100)
 ) body:
 
 BEGIN
@@ -19,8 +20,8 @@ SET @message_text = CONCAT('Product Size \'', _size, '\' already exists');
 SIGNAL
 SQLSTATE '45000' SET MESSAGE_TEXT = @message_text;
 else
-        insert into product_size(size, quantity,  active_flag, created_date, updated_date)
-        values (_size, _quantity, 1, NOW(), NOW());
+        insert into product_size(size, quantity, gender,  active_flag, created_date, updated_date)
+        values (_size, _quantity, _gender, 1, NOW(), NOW());
         set
 newId = last_insert_id();
 end if;
@@ -32,14 +33,16 @@ DELIMITER ;
 drop procedure if EXISTS productSize_update;
 DELIMITER $$
 CREATE PROCEDURE productSize_update(
-    in _size INTEGER,
-    in _quantity INTEGER,
+    in _size VARCHAR(100),
+    in _quantity VARCHAR(100),
+    in _gender VARCHAR(100),
     in _active INTEGER
 ) body:
 begin
 update product_size
 set size = _size,
     quantity = _quantity,
+    gender = _gender,
     active_flag = _active,
     updated_date = NOW();
 END$$
@@ -72,7 +75,7 @@ DELIMITER ;
 
 drop procedure if EXISTS productSize_findByQuantity;
 DELIMITER $$
-CREATE PROCEDURE productSize_findByQuantity(in _quantity integer)
+CREATE PROCEDURE productSize_findByQuantity(in _quantity VARCHAR(100))
 begin
 select *
 from product_size
@@ -85,11 +88,24 @@ DELIMITER ;
 
 drop procedure if EXISTS productSize_findBySize;
 DELIMITER $$
-CREATE PROCEDURE product_findBySize(in _size integer)
+CREATE PROCEDURE productSize_findBySize(in _size VARCHAR(100))
 begin
 select *
 from product_size
 where size = _size
+  and (active_flag = 1
+   or active_flag = 0)
+order by size;
+end$$
+DELIMITER ;
+
+drop procedure if EXISTS productSize_findByGender;
+DELIMITER $$
+CREATE PROCEDURE productSize_findByGender(in _gender VARCHAR(100),)
+begin
+select *
+from product_size
+where gender = _gender
   and (active_flag = 1
    or active_flag = 0)
 order by size;

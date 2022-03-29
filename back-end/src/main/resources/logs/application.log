@@ -246,3 +246,285 @@
 2022-03-25 15:58:54 INFO  QueryConstant:47 - query property ====>  call promotion_create(?, ?, ?, ?, ?, ?, ?)
 2022-03-25 15:58:54 INFO  BaseDAOImpl:212 - insert =>>> [8-3, CCC, 10, 0, 15, false, false]
 2022-03-25 15:58:54 INFO  QueryConstant:47 - query property ====>  call promotion_findById(?)
+2022-03-25 17:41:22 INFO  QueryConstant:25 - query property ====>  call product_checkTotalProduct()
+2022-03-25 17:41:34 INFO  QueryConstant:25 - query property ====>  call product_checkTotalProduct()
+2022-03-25 17:41:36 INFO  QueryConstant:25 - query property ====>  call product_checkTotalProduct()
+2022-03-25 17:46:25 INFO  QueryConstant:25 - query property ====>  call product_checkTotalProduct()
+2022-03-25 17:46:26 INFO  QueryConstant:25 - query property ====>  call product_checkTotalProduct()
+2022-03-25 17:46:26 INFO  QueryConstant:25 - query property ====>  call product_checkTotalProduct()
+2022-03-25 17:46:26 INFO  QueryConstant:25 - query property ====>  call product_checkTotalProduct()
+2022-03-25 17:46:26 INFO  QueryConstant:25 - query property ====>  call product_checkTotalProduct()
+2022-03-25 17:50:56 INFO  QueryConstant:25 - query property ====>  call product_checkTotalProduct()
+2022-03-25 19:06:25 INFO  QueryConstant:47 - query property ====>  call promotion_create(?, ?, ?, ?, ?, ?, ?)
+2022-03-25 19:06:25 INFO  BaseDAOImpl:212 - insert =>>> [8-3, CCC, 10, 0, 15, false, false]
+2022-03-25 19:06:25 ERROR BaseDAOImpl:240 - promotion 'CCC' already exists
+2022-03-25 19:06:25 ERROR PromotionServiceImpl:36 - 
+2022-03-25 23:44:22 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:44:22 INFO  QueryConstant:25 - query property ====>  call role_findByRoleName(?)
+2022-03-25 23:44:22 INFO  QueryConstant:25 - query property ====>  call user_create(?, ?, ?, ?, ?, ?)
+2022-03-25 23:44:22 INFO  BaseDAOImpl:212 - insert =>>> [Hoang, Bui Van, dasq1s, hoangbui, $2a$12$ftbAOBojULL55/cJnkUJSuqu3P7XCqrGdg.dGkmVgp/qvf5JR8DQC, buihoangsp@gmail.com]
+2022-03-25 23:44:22 INFO  QueryConstant:25 - query property ====>  call user_findById(?)
+2022-03-25 23:44:23 INFO  QueryConstant:25 - query property ====>  call user_findById(?)
+2022-03-25 23:45:29 INFO  JwtUserDetailsService:21 - email ====== NONE_PROVIDED
+2022-03-25 23:45:29 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:46:08 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-25 23:46:08 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:46:09 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-25 23:46:09 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:46:17 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-25 23:46:17 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:46:19 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-25 23:46:19 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:46:20 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-25 23:46:20 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:46:20 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-25 23:46:20 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:46:21 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-25 23:46:21 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:46:29 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-25 23:46:29 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:47:04 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-25 23:47:04 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:47:07 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:47:07 INFO  QueryConstant:25 - query property ====>  call role_findByRoleName(?)
+2022-03-25 23:47:08 INFO  QueryConstant:25 - query property ====>  call user_create(?, ?, ?, ?, ?, ?)
+2022-03-25 23:47:08 INFO  BaseDAOImpl:212 - insert =>>> [Hoang, Bui Van, dasq1s, hoangbui, $2a$12$PGC7g3fuQVDFetXE7ADefOhRIkdbEzgKBeFUxDtJvpWa2QLctrW4S, buihoangsp@gmail.com]
+2022-03-25 23:47:08 ERROR BaseDAOImpl:240 - User name 'buihoangsp@gmail.com' already exists
+2022-03-25 23:47:08 INFO  QueryConstant:25 - query property ====>  call user_findById(?)
+2022-03-25 23:47:22 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-25 23:47:22 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:47:23 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-25 23:47:23 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:47:24 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-25 23:47:24 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:47:48 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-25 23:47:48 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:56:35 INFO  JwtUserDetailsService:21 - email ====== NONE_PROVIDED
+2022-03-25 23:56:35 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:57:26 INFO  JwtUserDetailsService:21 - email ====== NONE_PROVIDED
+2022-03-25 23:57:26 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:58:05 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-25 23:58:05 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:58:08 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-25 23:58:08 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:58:21 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-25 23:58:21 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:58:49 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:58:49 INFO  QueryConstant:25 - query property ====>  call role_findByRoleName(?)
+2022-03-25 23:58:49 INFO  QueryConstant:25 - query property ====>  call user_create(?, ?, ?, ?, ?, ?)
+2022-03-25 23:58:49 INFO  BaseDAOImpl:212 - insert =>>> [Hoang, Bui Van, dasq1s, hoangbui, $2a$12$sy5b4jVEOa4RgnVNOdUhpOzRFYiSJ.fx6FmL5bIk2x4P1YjMSZAta, buihoang9b8@gmail.com]
+2022-03-25 23:58:49 INFO  QueryConstant:25 - query property ====>  call user_findById(?)
+2022-03-25 23:58:49 INFO  QueryConstant:25 - query property ====>  call user_findById(?)
+2022-03-25 23:58:56 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-25 23:58:56 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:59:05 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-25 23:59:05 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:59:06 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-25 23:59:06 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:59:06 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-25 23:59:06 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-25 23:59:08 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-25 23:59:08 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:01:37 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 00:01:37 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:01:55 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 00:01:55 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:02:56 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 00:02:56 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:04:15 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 00:04:15 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:06:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 00:06:33 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:07:00 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:07:00 INFO  QueryConstant:25 - query property ====>  call role_findByRoleName(?)
+2022-03-26 00:07:01 INFO  QueryConstant:25 - query property ====>  call user_create(?, ?, ?, ?, ?, ?)
+2022-03-26 00:07:01 INFO  BaseDAOImpl:212 - insert =>>> [Hoang, Bui Van, dasq1s, hoangbui, $2a$12$pTQiTC.3PwTRZSdNndrwKe6juN5JG7yV6/mXNgzcx5zFlUVEUPEYC, buihoang9b8@gmail.com]
+2022-03-26 00:07:01 ERROR BaseDAOImpl:240 - User name 'buihoang9b8@gmail.com' already exists
+2022-03-26 00:07:01 INFO  QueryConstant:25 - query property ====>  call user_findById(?)
+2022-03-26 00:07:29 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:07:29 INFO  QueryConstant:25 - query property ====>  call role_findByRoleName(?)
+2022-03-26 00:07:29 INFO  QueryConstant:25 - query property ====>  call user_create(?, ?, ?, ?, ?, ?)
+2022-03-26 00:07:29 INFO  BaseDAOImpl:212 - insert =>>> [Hoang, Bui Van, dasq1s, hoangbui, $2a$12$cxryPOLHnUCgdVMEUg3j7eXs1xiGn/XI9mJEC6qe.tz7DK2k7ERyu, buihoang9b8@gmail.com]
+2022-03-26 00:07:29 ERROR BaseDAOImpl:240 - User name 'buihoang9b8@gmail.com' already exists
+2022-03-26 00:07:29 INFO  QueryConstant:25 - query property ====>  call user_findById(?)
+2022-03-26 00:07:31 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 00:07:31 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:07:52 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 00:07:52 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:08:35 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 00:08:35 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:08:36 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 00:08:36 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:08:37 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 00:08:37 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:08:47 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-26 00:08:47 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:09:32 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-26 00:09:32 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:10:54 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-26 00:10:54 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:14:06 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-26 00:14:06 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:15:07 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-26 00:15:07 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:18:01 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-26 00:18:01 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:30:08 INFO  JwtUserDetailsService:21 - email ====== buihoangsp@gmail.com
+2022-03-26 00:30:08 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:30:18 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:30:18 INFO  QueryConstant:25 - query property ====>  call role_findByRoleName(?)
+2022-03-26 00:30:31 INFO  QueryConstant:25 - query property ====>  call user_create(?, ?, ?, ?, ?, ?)
+2022-03-26 00:30:31 INFO  BaseDAOImpl:212 - insert =>>> [Hoang, Bui Van, dasq1s, hoangbui, $2a$12$c2qoXqjanMQLAWY3qndwhOJQ0Xj9NUuvMbYeLtLFDlclmNh0nCjNe, buihoang9b8@gmail.com]
+2022-03-26 00:30:34 INFO  QueryConstant:25 - query property ====>  call user_findById(?)
+2022-03-26 00:35:05 INFO  QueryConstant:25 - query property ====>  call user_findById(?)
+2022-03-26 00:35:47 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 00:35:47 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:36:03 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:36:03 INFO  QueryConstant:25 - query property ====>  call role_findByRoleName(?)
+2022-03-26 00:36:20 INFO  QueryConstant:25 - query property ====>  call user_create(?, ?, ?, ?, ?, ?)
+2022-03-26 00:36:20 INFO  BaseDAOImpl:212 - insert =>>> [Hoang, Bui Van, dasq1s, hoangbui, $2a$12$r9HIxdoaUKOEfWGsxuZtieA26VuWZSUJwxWTETfYgJrcabKgZICQC, buihoang9b8@gmail.com]
+2022-03-26 00:36:20 INFO  QueryConstant:25 - query property ====>  call user_findById(?)
+2022-03-26 00:36:20 INFO  QueryConstant:25 - query property ====>  call user_findById(?)
+2022-03-26 00:36:41 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 00:36:41 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:36:51 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:36:51 INFO  QueryConstant:25 - query property ====>  call role_findByRoleName(?)
+2022-03-26 00:37:02 INFO  QueryConstant:25 - query property ====>  call user_create(?, ?, ?, ?, ?, ?)
+2022-03-26 00:37:02 INFO  BaseDAOImpl:212 - insert =>>> [Hoang, Bui Van, dasq1s, hoangbui, $2a$12$zVpiQ3Ghl4dJVSJb16oEs.S20saxC1S8Q0V685jKfNvKv1KyXhVV., buihoang9b8@gmail.com]
+2022-03-26 00:37:04 INFO  QueryConstant:25 - query property ====>  call user_findById(?)
+2022-03-26 00:37:08 INFO  QueryConstant:25 - query property ====>  call userRole_create(?, ?)
+2022-03-26 00:37:08 INFO  BaseDAOImpl:212 - insert =>>> [5, null]
+2022-03-26 00:37:08 ERROR BaseDAOImpl:240 - Column 'role_id' cannot be null
+2022-03-26 00:37:57 INFO  QueryConstant:25 - query property ====>  call user_findById(?)
+2022-03-26 00:38:11 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 00:38:11 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:38:28 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 00:38:28 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:41:37 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:41:37 INFO  QueryConstant:25 - query property ====>  call role_findByRoleName(?)
+2022-03-26 00:41:38 INFO  QueryConstant:25 - query property ====>  call user_create(?, ?, ?, ?, ?, ?)
+2022-03-26 00:41:38 INFO  BaseDAOImpl:212 - insert =>>> [Hoang, Bui Van, dasq1s, hoangbui, $2a$12$k7lolT54d4P.F4ueskKjUekJmOvn.QiuNZsnzJlAgidOCpACEL4F2, buihoang9b8@gmail.com]
+2022-03-26 00:41:38 INFO  QueryConstant:25 - query property ====>  call user_findById(?)
+2022-03-26 00:41:38 INFO  QueryConstant:25 - query property ====>  call userRole_create(?, ?)
+2022-03-26 00:41:38 INFO  BaseDAOImpl:212 - insert =>>> [6, null]
+2022-03-26 00:41:38 ERROR BaseDAOImpl:240 - Column 'role_id' cannot be null
+2022-03-26 00:41:38 INFO  QueryConstant:25 - query property ====>  call user_findById(?)
+2022-03-26 00:42:44 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:42:45 INFO  QueryConstant:25 - query property ====>  call role_findByRoleName(?)
+2022-03-26 00:42:57 INFO  QueryConstant:25 - query property ====>  call user_create(?, ?, ?, ?, ?, ?)
+2022-03-26 00:42:57 INFO  BaseDAOImpl:212 - insert =>>> [Hoang, Bui Van, dasq1s, hoangbui, $2a$12$3a7ulF49P0/sWZOHdeR0COnsKbxNkroY74zbPq6n8q/j1OjpqMXRK, buihoang9b8@gmail.com]
+2022-03-26 00:42:59 INFO  QueryConstant:25 - query property ====>  call user_findById(?)
+2022-03-26 00:43:27 INFO  QueryConstant:25 - query property ====>  call userRole_create(?, ?)
+2022-03-26 00:43:27 INFO  BaseDAOImpl:212 - insert =>>> [7, null]
+2022-03-26 00:43:27 ERROR BaseDAOImpl:240 - Column 'role_id' cannot be null
+2022-03-26 00:46:09 INFO  QueryConstant:25 - query property ====>  call user_findById(?)
+2022-03-26 00:46:44 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:46:45 INFO  QueryConstant:25 - query property ====>  call role_findByRoleName(?)
+2022-03-26 00:46:58 INFO  QueryConstant:25 - query property ====>  call user_create(?, ?, ?, ?, ?, ?)
+2022-03-26 00:46:58 INFO  BaseDAOImpl:212 - insert =>>> [Hoang, Bui Van, dasq1s, hoangbui, $2a$12$a8eauhRqrY2.Ze0jtqGg0.4DTaL80O1RTQ5ZkXLOQ2/8kDUKE3UaO, buihoang9b8@gmail.com]
+2022-03-26 00:46:59 INFO  QueryConstant:25 - query property ====>  call user_findById(?)
+2022-03-26 00:47:04 INFO  QueryConstant:25 - query property ====>  call userRole_create(?, ?)
+2022-03-26 00:47:04 INFO  BaseDAOImpl:212 - insert =>>> [8, 3]
+2022-03-26 00:47:07 INFO  QueryConstant:25 - query property ====>  call user_findById(?)
+2022-03-26 00:47:36 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 00:47:36 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:47:38 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 00:47:38 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:48:09 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 00:48:09 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:49:26 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 00:49:26 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 00:57:19 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 00:57:19 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 01:07:46 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 01:07:46 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 01:08:22 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 01:08:22 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 01:09:17 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 01:09:17 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 01:09:20 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 01:09:20 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 01:09:21 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 01:09:21 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 01:10:22 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 01:10:22 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 01:11:02 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 01:11:02 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 01:11:44 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 01:11:44 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-26 01:18:48 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-26 01:18:48 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 13:01:43 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 13:01:44 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 13:04:54 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 13:04:54 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 13:04:54 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 13:04:54 ERROR ProductSizeServiceImpl:53 - exist
+2022-03-29 13:05:10 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 13:05:10 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 13:05:10 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 13:05:10 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?)
+2022-03-29 13:05:10 INFO  BaseDAOImpl:212 - insert =>>> [2, S]
+2022-03-29 13:05:10 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-29 14:27:56 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 14:27:56 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 14:27:57 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 14:27:57 ERROR ProductSizeServiceImpl:112 - 
+2022-03-29 15:32:34 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 15:32:35 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 15:32:35 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 15:32:35 ERROR ProductSizeServiceImpl:130 - 
+2022-03-29 15:32:50 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 15:32:50 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 15:32:50 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 15:32:50 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 15:32:50 INFO  BaseDAOImpl:212 - insert =>>> [Small, 55-60, Male]
+2022-03-29 15:32:50 ERROR BaseDAOImpl:240 - Incorrect integer value: 'Small' for column 'size' at row 1
+2022-03-29 15:32:50 ERROR ProductSizeServiceImpl:130 - 
+2022-03-29 15:33:19 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 15:33:19 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 15:33:19 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 15:33:19 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 15:33:19 INFO  BaseDAOImpl:212 - insert =>>> [Medium, 60-65, Male]
+2022-03-29 15:33:19 ERROR BaseDAOImpl:240 - Incorrect integer value: 'Medium' for column 'size' at row 1
+2022-03-29 15:33:19 ERROR ProductSizeServiceImpl:130 - 
+2022-03-29 15:34:05 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 15:34:05 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 15:34:05 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 15:34:05 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 15:34:05 INFO  BaseDAOImpl:212 - insert =>>> [Extra Large, 70-76, Male]
+2022-03-29 15:34:05 ERROR BaseDAOImpl:240 - Incorrect integer value: 'Extra Large' for column 'size' at row 1
+2022-03-29 15:34:05 ERROR ProductSizeServiceImpl:130 - 
+2022-03-29 15:34:35 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 15:34:35 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 15:34:35 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 15:34:35 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 15:34:35 INFO  BaseDAOImpl:212 - insert =>>> [Extra Large, 70-76, Male]
+2022-03-29 15:34:35 ERROR BaseDAOImpl:240 - Incorrect integer value: 'Extra Large' for column 'size' at row 1
+2022-03-29 15:34:35 ERROR ProductSizeServiceImpl:130 - 
+2022-03-29 15:37:26 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 15:37:26 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 15:37:26 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 15:37:26 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 15:37:26 INFO  BaseDAOImpl:212 - insert =>>> [Extra Large, 70-76, Male]
+2022-03-29 15:37:26 ERROR BaseDAOImpl:240 - Incorrect integer value: 'Extra Large' for column 'size' at row 1
+2022-03-29 15:37:26 ERROR ProductSizeServiceImpl:130 - 
+2022-03-29 15:38:15 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 15:38:15 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 15:38:15 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 15:38:15 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 15:38:15 INFO  BaseDAOImpl:212 - insert =>>> [Extra Large, 70-76, Male]
+2022-03-29 15:38:15 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-29 15:43:08 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 15:43:08 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 15:43:08 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 15:43:08 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 15:43:08 INFO  BaseDAOImpl:212 - insert =>>> [Double Extra Large, 70-80, Male]
+2022-03-29 15:43:08 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-29 15:43:34 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 15:43:34 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 15:43:34 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 15:43:34 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 15:43:34 INFO  BaseDAOImpl:212 - insert =>>> [Double Extra Large, null, Famale]
+2022-03-29 15:43:34 ERROR BaseDAOImpl:240 - Product Size 'Double Extra Large' already exists
+2022-03-29 15:43:34 ERROR ProductSizeServiceImpl:130 - 

@@ -130,10 +130,8 @@ drop procedure if EXISTS product_checkTotalProduct;
 DELIMITER $$
 CREATE PROCEDURE product_checkTotalProduct()
 begin
-SELECT IF((
-              SELECT count(*) FROM product
-              WHERE total_product > 0 )
-           ,1,0);
+    SELECT count(*) FROM product
+    WHERE id > 0;
 end$$
 DELIMITER ;
 

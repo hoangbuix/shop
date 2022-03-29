@@ -168,7 +168,8 @@ CREATE TABLE product_size
 (
     id           INTEGER   NOT NULL AUTO_INCREMENT,
     size         INTEGER   NOT NULL,
-    quantity     INTEGER   NOT NULL,
+    quantity     VARCHAR(255)   NOT NULL,
+    gender       VARCHAR(255)   NOT NULL,
     active_flag  INTEGER   NOT NULL DEFAULT 1,
     created_date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,

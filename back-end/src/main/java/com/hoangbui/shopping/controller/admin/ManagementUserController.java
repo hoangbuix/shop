@@ -70,10 +70,8 @@ public class ManagementUserController {
                             req.getPassword()
                     )
             );
-
             // Gen token
             String token = jwtTokenUtil.generateToken((CustomUserDetails) authentication.getPrincipal());
-
             // Add token to cookie to login
             Cookie cookie = new Cookie("JWT_TOKEN", token);
             cookie.setMaxAge(MAX_AGE_COOKIE);

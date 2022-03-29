@@ -73,7 +73,6 @@ public class UserServiceImpl implements UserService {
         if (!BCrypt.checkpw(req.getOldPassword(), user.getPassword())) {
             throw new BadRequestException("Mật khẩu cũ không chính xác");
         }
-
         String hash = BCrypt.hashpw(req.getNewPassword(), BCrypt.gensalt(12));
         user.setPassword(hash);
         userDAO.update(user);
