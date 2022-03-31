@@ -9,7 +9,7 @@ import java.util.List;
 
 @Service
 public interface OrderService  {
-    OrderEntity save(CreateOrderReq req);
+    OrderEntity save(CreateOrderReq req, int userId);
     OrderEntity update(UpdateOrderReq req);
     void delete(int id);
     OrderEntity findById(int id);

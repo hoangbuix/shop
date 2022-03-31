@@ -22,7 +22,7 @@ public class OrderEntity extends BaseEntity {
     private String receiverName;
     private String receiverAddress;
     private String receiverPhone;
-    private int status;
+    private String status;
     private int totalPrice;
     private int buyer;
     private int createdBy;

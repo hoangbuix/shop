@@ -12,7 +12,7 @@ public class CreateOrderReq {
     private String receiverAddress;
     private String receiverName;
     private String receiverPhone;
-    private int status;
+    private String status;
     private int totalPrice;
     private int buyer;
     private int createdBy;

@@ -2,9 +2,7 @@ package com.hoangbui.shopping.service.impl;
 
 import com.hoangbui.shopping.dao.ProductSizeDAO;
 import com.hoangbui.shopping.entity.ProductSizeEntity;
-import com.hoangbui.shopping.exception.BadRequestException;
 import com.hoangbui.shopping.exception.DuplicateRecordException;
-import com.hoangbui.shopping.exception.NotFoundException;
 import com.hoangbui.shopping.model.req.create.CreateProductSizeReq;
 import com.hoangbui.shopping.model.req.update.UpdateProductSizeReq;
 import com.hoangbui.shopping.service.ProductSizeService;

@@ -4,19 +4,16 @@ CREATE PROCEDURE finance_create(in _amount integer,
                                 in _orderId integer) body:
 
 BEGIN
-    declare
-newId int;
-    SET
-max_sp_recursion_depth = 255;
-    if
-(
-select count(id)
-from finance
-where amount = _amount) > 0 then
-SET @message_text = CONCAT('Finance \'', _amount, '\' already exists');
-SIGNAL
-SQLSTATE '45000' SET MESSAGE_TEXT = @message_text;
-else
+    declare newId int;
+    SET max_sp_recursion_depth = 255;
+    if(
+        select count(id)
+        from finance
+        where amount = _amount) > 0 then
+        SET @message_text = CONCAT('Finance \'', _amount, '\' already exists');
+        SIGNAL
+        SQLSTATE '45000' SET MESSAGE_TEXT = @message_text;
+    else
         insert into finance(amount, order_id, active_flag, created_date, updated_date)
         values (_amount, _orderId, 1, NOW(), NOW());
         set
