@@ -1,7 +1,9 @@
 package com.hoangbui.shopping.controller.admin;
 
 import com.hoangbui.shopping.entity.ProductSizeEntity;
+import com.hoangbui.shopping.exception.DuplicateRecordException;
 import com.hoangbui.shopping.model.req.create.CreateProductSizeReq;
+import com.hoangbui.shopping.model.req.update.UpdateProductSizeReq;
 import com.hoangbui.shopping.service.ProductSizeService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,8 +37,19 @@ public class ManagementProductSizeController {
 
     @PostMapping("/create")
     private ResponseEntity<?> create(@Valid @RequestBody CreateProductSizeReq req){
-        ProductSizeEntity productSize = productSizeService.save(req);
-        return new ResponseEntity<>(productSize, HttpStatus.OK);
+        ProductSizeEntity check = productSizeService.findBySizeCodeAndGender(req.getSizeCode(), req.getGender());
+        if(check != null){
+            throw new DuplicateRecordException("Exist");
+        } else {
+            ProductSizeEntity productSize = productSizeService.save(req);
+            return new ResponseEntity<>(productSize, HttpStatus.OK);
+        }
+    }
+
+    @PostMapping("/update")
+    private ResponseEntity<?> update(@Valid @RequestBody UpdateProductSizeReq req){
+            ProductSizeEntity productSize = productSizeService.update(req);
+            return new ResponseEntity<>(productSize, HttpStatus.OK);
     }
 
 }

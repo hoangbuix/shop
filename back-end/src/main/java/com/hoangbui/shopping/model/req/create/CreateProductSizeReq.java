@@ -5,7 +5,8 @@ import lombok.Data;
 @Data
 public class CreateProductSizeReq {
     private String size;
+    private String sizeCode;
     private String quantity;
     private String gender;
-    private int activeFLag;
+    private int activeFlag;
 }

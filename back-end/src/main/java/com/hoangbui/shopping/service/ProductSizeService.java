@@ -16,5 +16,6 @@ public interface ProductSizeService {
     ProductSizeEntity findBySize(String size);
     ProductSizeEntity findByQuantity(String quantity);
     ProductSizeEntity findByGender(String gender);
+    ProductSizeEntity findBySizeCodeAndGender(String sizeCode, String gender);
     List<ProductSizeEntity> findAll();
 }

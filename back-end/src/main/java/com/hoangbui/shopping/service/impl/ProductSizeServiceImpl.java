@@ -2,7 +2,9 @@ package com.hoangbui.shopping.service.impl;
 
 import com.hoangbui.shopping.dao.ProductSizeDAO;
 import com.hoangbui.shopping.entity.ProductSizeEntity;
+import com.hoangbui.shopping.exception.BadRequestException;
 import com.hoangbui.shopping.exception.DuplicateRecordException;
+import com.hoangbui.shopping.exception.NotFoundException;
 import com.hoangbui.shopping.model.req.create.CreateProductSizeReq;
 import com.hoangbui.shopping.model.req.update.UpdateProductSizeReq;
 import com.hoangbui.shopping.service.ProductSizeService;
@@ -23,127 +25,14 @@ public class ProductSizeServiceImpl implements ProductSizeService {
     public ProductSizeEntity save(CreateProductSizeReq req) {
         int id = 0;
         try {
-            ProductSizeEntity check = productSizeDAO.findBySize(req.getSize());
+            ProductSizeEntity check = productSizeDAO.findBySizeCodeAndGender(req.getSizeCode(), req.getGender());
             if (check != null) {
                 throw new DuplicateRecordException("exist");
             } else {
                 ProductSizeEntity productSize = new ProductSizeEntity();
-                if(productSize.getQuantity() == null) {
-                    switch (req.getGender()) {
-                        case "Male":
-                            switch (req.getSize()) {
-                                case "XS":
-                                    productSize.setSize("Extra Small");
-                                    productSize.setQuantity("40-55");
-                                    break;
-                                case "S":
-                                    productSize.setSize("Small");
-                                    productSize.setQuantity("55-60");
-                                    break;
-                                case "M":
-                                    productSize.setSize("Medium");
-                                    productSize.setQuantity("60-65");
-                                    break;
-                                case "L":
-                                    productSize.setSize("Large");
-                                    productSize.setQuantity("66-70");
-                                    break;
-                                case "XL":
-                                    productSize.setSize("Extra Large");
-                                    productSize.setQuantity("70-76");
-                                    break;
-                                case "XXL":
-                                    productSize.setSize("Double Extra Large");
-                                    productSize.setQuantity("70-80");
-                                    break;
-                                default:
-                                    productSize.setSize(req.getSize());
-                                    productSize.setQuantity(req.getQuantity());
-                                    break;
-                            }
-                            productSize.setGender("Male");
-                            break;
-                        case "Female":
-                            switch (req.getSize()) {
-                                case "XS":
-                                    productSize.setSize("Extra Small");
-                                    productSize.setQuantity("30-38");
-                                    break;
-                                case "S":
-                                    productSize.setSize("Small");
-                                    productSize.setQuantity("38-43");
-                                    break;
-                                case "M":
-                                    productSize.setSize("Medium");
-                                    productSize.setQuantity("43-46");
-                                    break;
-                                case "L":
-                                    productSize.setSize("Large");
-                                    productSize.setQuantity("46-53");
-                                    break;
-                                case "XL":
-                                    productSize.setSize("Extra Large");
-                                    productSize.setQuantity("53-57");
-                                    break;
-                                case "XXL":
-                                    productSize.setSize("Double Extra Large");
-                                    productSize.setQuantity("57-66");
-                                    break;
-                                default:
-                                    productSize.setQuantity(req.getQuantity());
-                                    productSize.setSize(req.getSize());
-                                    break;
-                            }
-                            productSize.setGender("Female");
-                            break;
-                        default:
-                            switch (req.getSize()) {
-                                case "XS":
-                                    productSize.setSize("Extra Small");
-                                    break;
-                                case "S":
-                                    productSize.setSize("Small");
-                                    break;
-                                case "M":
-                                    productSize.setSize("Medium");
-                                    break;
-                                case "L":
-                                    productSize.setSize("Large");
-                                    break;
-                                case "XL":
-                                    productSize.setSize("Extra Large");
-                                    break;
-                                case "XXL":
-                                    productSize.setSize("Double Extra Large");
-                                    break;
-                                default:
-                                    productSize.setSize(req.getSize());
-                                    break;
-                            }
-                            productSize.setGender(req.getGender());
-                            productSize.setQuantity(req.getQuantity());
-                            break;
-                    }
-                }
-                id = productSizeDAO.save(productSize);
-            }
-        } catch (Exception e) {
-            e.printStackTrace();
-            log.error(e.getMessage());
-            return null;
-        }
-        return productSizeDAO.findById(id);
-    }
-
-    @Override
-    public ProductSizeEntity update(UpdateProductSizeReq req) {
-        ProductSizeEntity productSize = new ProductSizeEntity();
-        try {
-            productSize.setSize(req.getSize());
-            if (productSize.getQuantity() == null) {
                 switch (req.getGender()) {
                     case "Male":
-                        switch (req.getSize()) {
+                        switch (req.getSizeCode()) {
                             case "XS":
                                 productSize.setSize("Extra Small");
                                 productSize.setQuantity("40-55");
@@ -173,10 +62,11 @@ public class ProductSizeServiceImpl implements ProductSizeService {
                                 productSize.setQuantity(req.getQuantity());
                                 break;
                         }
+                        productSize.setSizeCode(req.getSizeCode());
                         productSize.setGender("Male");
                         break;
                     case "Female":
-                        switch (req.getSize()) {
+                        switch (req.getSizeCode()) {
                             case "XS":
                                 productSize.setSize("Extra Small");
                                 productSize.setQuantity("30-38");
@@ -206,45 +96,111 @@ public class ProductSizeServiceImpl implements ProductSizeService {
                                 productSize.setSize(req.getSize());
                                 break;
                         }
+                        productSize.setSizeCode(req.getSizeCode());
                         productSize.setGender("Female");
                         break;
                     default:
-                        switch (req.getSize()) {
-                            case "XS":
-                                productSize.setSize("Extra Small");
-                                break;
-                            case "S":
-                                productSize.setSize("Small");
-                                break;
-                            case "M":
-                                productSize.setSize("Medium");
-                                break;
-                            case "L":
-                                productSize.setSize("Large");
-                                break;
-                            case "XL":
-                                productSize.setSize("Extra Large");
-                                break;
-                            case "XXL":
-                                productSize.setSize("Double Extra Large");
-                                break;
-                            default:
-                                productSize.setSize(req.getSize());
-                                break;
-                        }
-                        productSize.setGender(req.getGender());
+                        productSize.setSize(req.getSize());
+                        productSize.setSizeCode(req.getSizeCode());
                         productSize.setQuantity(req.getQuantity());
+                        productSize.setGender(req.getGender());
                         break;
                 }
+                id = productSizeDAO.save(productSize);
             }
-            productSize.setActiveFlag(req.getActiveFLag());
-            productSizeDAO.update(productSize);
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
             log.error(e.getMessage());
             return null;
         }
-        return productSize;
+        return productSizeDAO.findById(id);
+    }
+
+
+
+    @Override
+    public ProductSizeEntity update(UpdateProductSizeReq req) {
+        ProductSizeEntity productSize = productSizeDAO.findById(req.getId());
+        try {
+            switch (req.getGender()) {
+                case "Male":
+                    switch (req.getSizeCode()) {
+                        case "XS":
+                            productSize.setSize("Extra Small");
+                            productSize.setQuantity("40-55");
+                            break;
+                        case "S":
+                            productSize.setSize("Small");
+                            productSize.setQuantity("55-60");
+                            break;
+                        case "M":
+                            productSize.setSize("Medium");
+                            productSize.setQuantity("60-65");
+                            break;
+                        case "L":
+                            productSize.setSize("Large");
+                            productSize.setQuantity("66-70");
+                            break;
+                        case "XL":
+                            productSize.setSize("Extra Large");
+                            productSize.setQuantity("70-76");
+                            break;
+                        case "XXL":
+                            productSize.setSize("Double Extra Large");
+                            productSize.setQuantity("70-80");
+                            break;
+                        default:
+                            break;
+                    }
+                    productSize.setSizeCode(req.getSizeCode());
+                    productSize.setGender("Male");
+                    break;
+                case "Female":
+                    switch (req.getSizeCode()) {
+                        case "XS":
+                            productSize.setSize("Extra Small");
+                            productSize.setQuantity("30-38");
+                            break;
+                        case "S":
+                            productSize.setSize("Small");
+                            productSize.setQuantity("38-43");
+                            break;
+                        case "M":
+                            productSize.setSize("Medium");
+                            productSize.setQuantity("43-46");
+                            break;
+                        case "L":
+                            productSize.setSize("Large");
+                            productSize.setQuantity("46-53");
+                            break;
+                        case "XL":
+                            productSize.setSize("Extra Large");
+                            productSize.setQuantity("53-57");
+                            break;
+                        case "XXL":
+                            productSize.setSize("Double Extra Large");
+                            productSize.setQuantity("57-66");
+                            break;
+                        default:
+                            break;
+                    }
+                    productSize.setSizeCode(req.getSizeCode());
+                    productSize.setGender("Female");
+                    break;
+                default:
+                    productSize.setSizeCode(req.getSizeCode());
+                    productSize.setGender(req.getGender());
+                    break;
+            }
+            productSize.setId(req.getId());
+            productSize.setActiveFlag(req.getActiveFlag());
+            productSizeDAO.update(productSize);
+        } catch (Exception e) {
+            e.printStackTrace();
+            log.error(e.getMessage());
+            return null;
+        }
+        return productSizeDAO.findById(req.getId());
     }
 
     @Override
@@ -275,6 +231,11 @@ public class ProductSizeServiceImpl implements ProductSizeService {
     @Override
     public ProductSizeEntity findByGender(String gender) {
         return productSizeDAO.findByGender(gender);
+    }
+
+    @Override
+    public ProductSizeEntity findBySizeCodeAndGender(String sizeCode, String gender) {
+        return productSizeDAO.findBySizeCodeAndGender(sizeCode, gender);
     }
 
     @Override

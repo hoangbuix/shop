@@ -13,6 +13,9 @@ public class ProductSizeEntity extends BaseEntity {
     @Column(name = "size")
     private String size;
 
+    @Column(name = "size_code")
+    private String sizeCode;
+
     @Column(name = "quantity")
     private String quantity;
 

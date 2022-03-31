@@ -528,3 +528,501 @@
 2022-03-29 15:43:34 INFO  BaseDAOImpl:212 - insert =>>> [Double Extra Large, null, Famale]
 2022-03-29 15:43:34 ERROR BaseDAOImpl:240 - Product Size 'Double Extra Large' already exists
 2022-03-29 15:43:34 ERROR ProductSizeServiceImpl:130 - 
+2022-03-29 15:52:04 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 15:52:04 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 15:52:05 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 15:52:05 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 15:52:05 INFO  BaseDAOImpl:212 - insert =>>> [Large, null, Famale]
+2022-03-29 15:52:05 ERROR BaseDAOImpl:240 - Column 'quantity' cannot be null
+2022-03-29 15:52:05 ERROR ProductSizeServiceImpl:130 - 
+2022-03-29 15:52:41 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 15:52:41 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 15:52:41 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 15:52:41 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 15:52:41 INFO  BaseDAOImpl:212 - insert =>>> [Large, null, Famale]
+2022-03-29 15:52:42 ERROR BaseDAOImpl:240 - Column 'quantity' cannot be null
+2022-03-29 15:52:42 ERROR ProductSizeServiceImpl:130 - 
+2022-03-29 15:52:42 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 15:52:42 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 15:52:42 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 15:52:42 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 15:52:42 INFO  BaseDAOImpl:212 - insert =>>> [Large, null, Famale]
+2022-03-29 15:52:42 ERROR BaseDAOImpl:240 - Column 'quantity' cannot be null
+2022-03-29 15:52:42 ERROR ProductSizeServiceImpl:130 - 
+2022-03-29 15:54:02 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 15:54:02 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 15:54:02 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 15:54:02 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 15:54:02 INFO  BaseDAOImpl:212 - insert =>>> [Large, null, Famale]
+2022-03-29 15:54:02 ERROR BaseDAOImpl:240 - Column 'quantity' cannot be null
+2022-03-29 15:54:02 ERROR ProductSizeServiceImpl:130 - 
+2022-03-29 15:56:00 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 15:56:00 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 15:56:00 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 15:56:00 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 15:56:00 INFO  BaseDAOImpl:212 - insert =>>> [Large, null, Famale]
+2022-03-29 15:56:00 ERROR BaseDAOImpl:240 - Column 'quantity' cannot be null
+2022-03-29 15:56:00 ERROR ProductSizeServiceImpl:132 - 
+2022-03-29 15:56:50 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 15:56:50 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 15:56:50 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 15:57:15 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 15:57:15 INFO  BaseDAOImpl:212 - insert =>>> [Large, null, Famale]
+2022-03-29 15:57:15 ERROR BaseDAOImpl:240 - Column 'quantity' cannot be null
+2022-03-29 15:57:15 ERROR ProductSizeServiceImpl:132 - 
+2022-03-29 15:58:18 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 15:58:19 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 15:58:19 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 15:58:22 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 15:58:22 INFO  BaseDAOImpl:212 - insert =>>> [Large, null, Famale]
+2022-03-29 15:58:22 ERROR BaseDAOImpl:240 - Column 'quantity' cannot be null
+2022-03-29 15:58:22 ERROR ProductSizeServiceImpl:132 - 
+2022-03-29 15:58:25 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 15:58:25 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 15:58:25 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 15:58:51 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 15:58:51 INFO  BaseDAOImpl:212 - insert =>>> [Large, null, Famale]
+2022-03-29 15:58:51 ERROR BaseDAOImpl:240 - Column 'quantity' cannot be null
+2022-03-29 15:58:51 ERROR ProductSizeServiceImpl:132 - 
+2022-03-29 16:01:25 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 16:01:25 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 16:01:25 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 16:01:35 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 16:01:35 INFO  BaseDAOImpl:212 - insert =>>> [Large, 46-53, Female]
+2022-03-29 16:01:37 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-29 16:02:11 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 16:02:11 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 16:02:11 INFO  QueryConstant:47 - query property ====>  call productSize_findBySize(?)
+2022-03-29 16:02:22 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 16:02:22 INFO  BaseDAOImpl:212 - insert =>>> [Large, 46-53, Famale]
+2022-03-29 16:02:22 ERROR BaseDAOImpl:240 - Product Size 'Large' already exists
+2022-03-29 16:02:23 ERROR ProductSizeServiceImpl:210 - 
+2022-03-29 16:12:10 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 16:12:11 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 16:12:11 INFO  QueryConstant:47 - query property ====>  call productSize_findByProductSizeAndGender(?, ?)
+2022-03-29 16:12:11 ERROR BaseDAOImpl:52 - PROCEDURE shop.productSize_findByProductSizeAndGender does not exist
+2022-03-29 16:12:11 ERROR ProductSizeServiceImpl:210 - 
+2022-03-29 16:12:34 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 16:12:34 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 16:12:34 INFO  QueryConstant:47 - query property ====>  call productSize_findByProductSizeAndGender(?, ?)
+2022-03-29 16:12:34 ERROR BaseDAOImpl:52 - PROCEDURE shop.productSize_findByProductSizeAndGender does not exist
+2022-03-29 16:12:34 ERROR ProductSizeServiceImpl:210 - 
+2022-03-29 16:15:09 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 16:15:09 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 16:15:09 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeAndGender(?, ?)
+2022-03-29 16:15:09 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 16:15:09 INFO  BaseDAOImpl:212 - insert =>>> [Large, 46-53, Famale]
+2022-03-29 16:15:09 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-29 16:15:14 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 16:15:14 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 16:15:14 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeAndGender(?, ?)
+2022-03-29 16:15:14 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 16:15:14 INFO  BaseDAOImpl:212 - insert =>>> [Large, 46-53, Famale]
+2022-03-29 16:15:14 ERROR BaseDAOImpl:240 - Product Size 'Large' already exists
+2022-03-29 16:15:14 ERROR ProductSizeServiceImpl:210 - 
+2022-03-29 16:16:13 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 16:16:13 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 16:16:13 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeAndGender(?, ?)
+2022-03-29 16:16:13 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 16:16:13 INFO  BaseDAOImpl:212 - insert =>>> [Large, 46-53, Famale]
+2022-03-29 16:16:13 ERROR BaseDAOImpl:240 - Product Size 'Large and Famale' already exists
+2022-03-29 16:16:13 ERROR ProductSizeServiceImpl:210 - 
+2022-03-29 16:28:39 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 16:28:40 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 16:28:40 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeAndGender(?, ?)
+2022-03-29 16:28:40 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeAndGender(?, ?)
+2022-03-29 16:28:40 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 16:28:40 INFO  BaseDAOImpl:212 - insert =>>> [Large, 46-53, Famale]
+2022-03-29 16:28:40 ERROR BaseDAOImpl:240 - Product Size 'Large and Famale' already exists
+2022-03-29 16:28:40 ERROR ProductSizeServiceImpl:210 - 
+2022-03-29 16:29:29 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 16:29:29 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 16:29:29 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeAndGender(?, ?)
+2022-03-29 16:31:27 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 16:31:27 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 16:31:28 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeAndGender(?, ?)
+2022-03-29 16:33:40 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 16:33:40 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 16:33:43 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeAndGender(?, ?)
+2022-03-29 17:23:29 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 17:23:29 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 17:23:29 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 17:24:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 17:24:45 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 17:24:48 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 17:25:11 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 17:25:11 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 17:25:16 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 17:37:25 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 17:37:25 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 17:37:28 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 20:45:35 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 20:45:35 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 20:45:43 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 21:02:40 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 21:02:40 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 21:03:30 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 21:05:36 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 21:05:37 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 21:05:37 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 21:05:44 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 21:05:44 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 21:05:44 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 21:10:25 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 21:10:25 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 21:10:25 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 21:17:34 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 21:17:34 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 21:17:34 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 21:18:34 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 21:18:34 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 21:18:34 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 21:48:52 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 21:48:53 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 21:48:53 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 21:49:35 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 21:49:35 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 21:49:35 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 21:50:47 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 21:50:47 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 21:50:58 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 21:52:34 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 21:52:34 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 21:52:40 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 21:53:38 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 21:53:39 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 21:53:39 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 21:54:44 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 21:54:45 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 21:54:47 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 21:55:37 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 21:55:37 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 21:55:45 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 21:56:21 ERROR ProductSizeServiceImpl:213 - 
+2022-03-29 21:58:04 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 21:58:04 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 21:58:09 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 21:58:49 ERROR ProductSizeServiceImpl:213 - 
+2022-03-29 22:00:27 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 22:00:27 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 22:00:32 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 22:01:11 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 22:01:11 INFO  BaseDAOImpl:212 - insert =>>> [Large, 46-53, Famale]
+2022-03-29 22:01:11 ERROR BaseDAOImpl:240 - Incorrect number of arguments for PROCEDURE shop.productSize_create; expected 4, got 3
+2022-03-29 22:01:20 ERROR ProductSizeServiceImpl:214 - 
+2022-03-29 22:03:57 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 22:03:57 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 22:04:03 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 22:04:21 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 22:04:21 INFO  BaseDAOImpl:212 - insert =>>> [Large, 46-53, Famale]
+2022-03-29 22:04:21 ERROR BaseDAOImpl:240 - Incorrect number of arguments for PROCEDURE shop.productSize_create; expected 4, got 3
+2022-03-29 22:04:51 ERROR ProductSizeServiceImpl:214 - 
+2022-03-29 22:05:27 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 22:05:28 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 22:05:32 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 22:05:43 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?)
+2022-03-29 22:05:43 INFO  BaseDAOImpl:212 - insert =>>> [Large, null, Famale]
+2022-03-29 22:05:44 ERROR BaseDAOImpl:240 - Incorrect number of arguments for PROCEDURE shop.productSize_create; expected 4, got 3
+2022-03-29 22:07:01 ERROR ProductSizeServiceImpl:214 - 
+2022-03-29 22:07:49 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 22:07:49 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 22:07:54 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 22:08:21 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?, ?)
+2022-03-29 22:08:21 INFO  BaseDAOImpl:212 - insert =>>> [Large, L, null, Famale]
+2022-03-29 22:08:21 ERROR BaseDAOImpl:240 - Column 'quantity' cannot be null
+2022-03-29 22:08:24 ERROR ProductSizeServiceImpl:214 - 
+2022-03-29 22:45:30 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 22:45:30 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 22:45:35 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 22:49:28 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?, ?)
+2022-03-29 22:49:28 INFO  BaseDAOImpl:212 - insert =>>> [Large, L, null, Famale]
+2022-03-29 22:49:28 ERROR BaseDAOImpl:240 - Column 'quantity' cannot be null
+2022-03-29 22:49:28 ERROR ProductSizeServiceImpl:214 - 
+2022-03-29 22:53:14 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 22:53:14 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 22:53:19 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 22:53:26 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?, ?)
+2022-03-29 22:53:26 INFO  BaseDAOImpl:212 - insert =>>> [null, L, null, Famale]
+2022-03-29 22:53:26 ERROR BaseDAOImpl:240 - Column 'size' cannot be null
+2022-03-29 22:53:28 ERROR ProductSizeServiceImpl:112 - 
+2022-03-29 22:57:21 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 22:57:22 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 22:57:26 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 22:57:47 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?, ?)
+2022-03-29 22:57:47 INFO  BaseDAOImpl:212 - insert =>>> [Triple Extra Large, L, 70-80, Famale]
+2022-03-29 22:57:47 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-29 22:58:18 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 22:58:18 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 22:58:37 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 22:58:37 ERROR ProductSizeServiceImpl:112 - exist
+2022-03-29 23:00:23 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 23:00:24 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 23:00:26 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-29 23:00:48 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-29 23:00:48 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-29 23:01:02 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-30 00:01:55 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-30 00:01:55 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-30 00:01:58 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-30 00:01:59 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-30 00:02:00 ERROR ProductSizeServiceImpl:113 - exist
+2022-03-30 00:02:32 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-30 00:02:32 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-30 00:02:35 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-30 00:02:37 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-30 00:02:37 ERROR ProductSizeServiceImpl:113 - exist
+2022-03-30 00:02:48 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-30 00:02:48 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-30 00:02:50 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-30 00:02:52 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-30 14:39:03 ERROR ProductSizeServiceImpl:113 - exist
+2022-03-30 22:45:54 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-30 22:45:54 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-30 22:45:54 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-30 22:45:54 ERROR ProductSizeServiceImpl:113 - exist
+2022-03-30 22:46:15 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-30 22:46:15 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-30 22:46:15 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-30 22:46:15 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?, ?)
+2022-03-30 22:46:15 INFO  BaseDAOImpl:212 - insert =>>> [Triple Extra Large, L, 70-80, ]
+2022-03-30 22:46:15 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-30 22:48:20 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-30 22:48:20 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-30 22:48:20 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-30 22:48:20 ERROR ProductSizeServiceImpl:111 - exist
+2022-03-31 09:17:27 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:17:28 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:17:28 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:17:28 ERROR ProductSizeServiceImpl:108 - exist
+2022-03-31 09:17:38 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:17:38 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:17:38 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:17:38 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?, ?)
+2022-03-31 09:17:38 INFO  BaseDAOImpl:212 - insert =>>> [Large, L, 66-70, Male]
+2022-03-31 09:17:38 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-31 09:20:13 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:20:14 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:20:14 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:20:14 ERROR ProductSizeServiceImpl:110 - exist
+2022-03-31 09:20:57 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:20:57 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:21:05 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:21:29 ERROR ProductSizeServiceImpl:110 - exist
+2022-03-31 09:22:04 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:22:04 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:22:09 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:22:46 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:22:46 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:22:49 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:22:53 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:22:55 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?, ?)
+2022-03-31 09:22:55 INFO  BaseDAOImpl:212 - insert =>>> [Extra Large, XL, 70-76, Male]
+2022-03-31 09:22:56 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-31 09:25:05 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:25:05 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:25:08 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:25:09 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:25:10 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?, ?)
+2022-03-31 09:25:10 INFO  BaseDAOImpl:212 - insert =>>> [Double Extra Large, XXL, 70-80, Male]
+2022-03-31 09:25:10 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-31 09:32:23 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:32:23 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:32:23 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:32:23 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:32:23 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?, ?)
+2022-03-31 09:32:23 INFO  BaseDAOImpl:212 - insert =>>> [null, SX, null, Male]
+2022-03-31 09:32:23 ERROR BaseDAOImpl:240 - Column 'size' cannot be null
+2022-03-31 09:32:23 ERROR ProductSizeServiceImpl:38 - 
+2022-03-31 09:34:27 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:34:27 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:34:28 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:34:28 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:34:28 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?, ?)
+2022-03-31 09:34:28 INFO  BaseDAOImpl:212 - insert =>>> [null, SX, null, Male]
+2022-03-31 09:34:28 ERROR BaseDAOImpl:240 - Column 'size' cannot be null
+2022-03-31 09:34:28 ERROR ProductSizeServiceImpl:38 - 
+2022-03-31 09:35:54 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:35:55 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:35:58 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:36:02 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:36:27 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?, ?)
+2022-03-31 09:36:27 INFO  BaseDAOImpl:212 - insert =>>> [null, SX, null, Male]
+2022-03-31 09:36:28 ERROR BaseDAOImpl:240 - Column 'size' cannot be null
+2022-03-31 09:36:30 ERROR ProductSizeServiceImpl:37 - 
+2022-03-31 09:37:36 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:37:36 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:37:38 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:37:40 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:37:44 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?, ?)
+2022-03-31 09:37:44 INFO  BaseDAOImpl:212 - insert =>>> [null, SX, null, Male]
+2022-03-31 09:37:44 ERROR BaseDAOImpl:240 - Column 'size' cannot be null
+2022-03-31 09:37:49 ERROR ProductSizeServiceImpl:37 - 
+2022-03-31 09:40:49 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:40:49 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:40:52 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:40:54 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:41:04 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?, ?)
+2022-03-31 09:41:04 INFO  BaseDAOImpl:212 - insert =>>> [null, SX, null, Male]
+2022-03-31 09:41:04 ERROR BaseDAOImpl:240 - Column 'size' cannot be null
+2022-03-31 09:41:25 ERROR ProductSizeServiceImpl:113 - 
+2022-03-31 09:42:23 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:42:23 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:42:29 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:42:50 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:43:13 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?, ?)
+2022-03-31 09:43:13 INFO  BaseDAOImpl:212 - insert =>>> [null, SX, null, Male]
+2022-03-31 09:43:13 ERROR BaseDAOImpl:240 - Column 'size' cannot be null
+2022-03-31 09:43:13 ERROR ProductSizeServiceImpl:113 - 
+2022-03-31 09:43:15 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:43:15 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:43:18 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:43:20 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:43:48 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?, ?)
+2022-03-31 09:43:48 INFO  BaseDAOImpl:212 - insert =>>> [Extra Small, XS, 40-55, Male]
+2022-03-31 09:43:49 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-31 09:45:12 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:45:12 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:45:14 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:45:16 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:45:36 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?, ?)
+2022-03-31 09:45:36 INFO  BaseDAOImpl:212 - insert =>>> [null, XS, null, FeMale]
+2022-03-31 09:45:36 ERROR BaseDAOImpl:240 - Column 'size' cannot be null
+2022-03-31 09:45:36 ERROR ProductSizeServiceImpl:113 - 
+2022-03-31 09:45:59 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:45:59 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:46:01 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:46:04 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:46:12 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?, ?)
+2022-03-31 09:46:12 INFO  BaseDAOImpl:212 - insert =>>> [Extra Small, XS, 30-38, Female]
+2022-03-31 09:46:14 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-31 09:46:28 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:46:28 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:46:31 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:46:34 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:46:40 INFO  QueryConstant:47 - query property ====>  call productSize_create(?, ?, ?, ?)
+2022-03-31 09:46:40 INFO  BaseDAOImpl:212 - insert =>>> [Extra Large, XL, 53-57, Female]
+2022-03-31 09:46:41 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-31 09:51:08 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:51:08 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:51:14 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:51:14 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:51:15 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:51:15 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:51:41 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:51:41 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:51:42 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:51:42 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:52:08 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:52:08 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:52:08 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:52:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:52:45 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:52:45 INFO  QueryConstant:47 - query property ====>  call productSize_update(?, ?, ?, ?, ?)
+2022-03-31 09:52:45 INFO  BaseDAOImpl:142 - ===> updating ... [Extra Large, XL, 53-57, Female, 0]
+2022-03-31 09:52:49 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:52:49 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:52:49 INFO  QueryConstant:47 - query property ====>  call productSize_update(?, ?, ?, ?, ?)
+2022-03-31 09:52:49 INFO  BaseDAOImpl:142 - ===> updating ... [Extra Large, XL, 53-57, Female, 0]
+2022-03-31 09:55:38 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:55:38 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:55:38 INFO  QueryConstant:47 - query property ====>  call productSize_update(?, ?, ?, ?, ?)
+2022-03-31 09:55:38 INFO  BaseDAOImpl:142 - ===> updating ... [Extra Large, XL, 53-57, Female, 0]
+2022-03-31 09:55:38 ERROR BaseDAOImpl:161 - Unknown column 'siz_code' in 'where clause'
+2022-03-31 09:55:39 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:55:39 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:55:39 INFO  QueryConstant:47 - query property ====>  call productSize_update(?, ?, ?, ?, ?)
+2022-03-31 09:55:39 INFO  BaseDAOImpl:142 - ===> updating ... [Extra Large, XL, 53-57, Female, 0]
+2022-03-31 09:55:39 ERROR BaseDAOImpl:161 - Unknown column 'siz_code' in 'where clause'
+2022-03-31 09:55:40 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:55:40 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:55:40 INFO  QueryConstant:47 - query property ====>  call productSize_update(?, ?, ?, ?, ?)
+2022-03-31 09:55:40 INFO  BaseDAOImpl:142 - ===> updating ... [Extra Large, XL, 53-57, Female, 0]
+2022-03-31 09:55:40 ERROR BaseDAOImpl:161 - Unknown column 'siz_code' in 'where clause'
+2022-03-31 09:57:13 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:57:13 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:57:13 INFO  QueryConstant:47 - query property ====>  call productSize_update(?, ?, ?, ?, ?)
+2022-03-31 09:57:13 INFO  BaseDAOImpl:142 - ===> updating ... [Extra Large, XL, 53-57, Female, 0]
+2022-03-31 09:57:13 ERROR BaseDAOImpl:161 - Unknown column 'siz_code' in 'where clause'
+2022-03-31 09:58:47 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:58:48 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:58:48 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:58:48 INFO  QueryConstant:47 - query property ====>  call productSize_update(?, ?, ?, ?, ?)
+2022-03-31 09:58:48 INFO  BaseDAOImpl:142 - ===> updating ... [Extra Large, XL, 53-57, Female, 0]
+2022-03-31 09:58:48 ERROR BaseDAOImpl:161 - Unknown column 'siz_code' in 'where clause'
+2022-03-31 09:59:53 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:59:53 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:59:53 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:59:53 INFO  QueryConstant:47 - query property ====>  call productSize_update(?, ?, ?, ?, ?)
+2022-03-31 09:59:53 INFO  BaseDAOImpl:142 - ===> updating ... [Extra Large, XL, 53-57, Female, 0]
+2022-03-31 09:59:54 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:59:54 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:59:54 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:59:54 INFO  QueryConstant:47 - query property ====>  call productSize_update(?, ?, ?, ?, ?)
+2022-03-31 09:59:54 INFO  BaseDAOImpl:142 - ===> updating ... [Extra Large, XL, 53-57, Female, 0]
+2022-03-31 09:59:55 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:59:55 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:59:55 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:59:55 INFO  QueryConstant:47 - query property ====>  call productSize_update(?, ?, ?, ?, ?)
+2022-03-31 09:59:55 INFO  BaseDAOImpl:142 - ===> updating ... [Extra Large, XL, 53-57, Female, 0]
+2022-03-31 09:59:55 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:59:55 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:59:55 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:59:55 INFO  QueryConstant:47 - query property ====>  call productSize_update(?, ?, ?, ?, ?)
+2022-03-31 09:59:55 INFO  BaseDAOImpl:142 - ===> updating ... [Extra Large, XL, 53-57, Female, 0]
+2022-03-31 09:59:56 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 09:59:56 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 09:59:56 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 09:59:56 INFO  QueryConstant:47 - query property ====>  call productSize_update(?, ?, ?, ?, ?)
+2022-03-31 09:59:56 INFO  BaseDAOImpl:142 - ===> updating ... [Extra Large, XL, 53-57, Female, 0]
+2022-03-31 10:00:05 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 10:00:05 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 10:00:05 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 10:00:05 INFO  QueryConstant:47 - query property ====>  call productSize_update(?, ?, ?, ?, ?)
+2022-03-31 10:00:05 INFO  BaseDAOImpl:142 - ===> updating ... [Extra Large, XL, 53-57, Female, 0]
+2022-03-31 10:00:27 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 10:00:27 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 10:00:27 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 10:00:27 INFO  QueryConstant:47 - query property ====>  call productSize_update(?, ?, ?, ?, ?)
+2022-03-31 10:00:27 INFO  BaseDAOImpl:142 - ===> updating ... [Extra Large, XL, 53-57, Female, 0]
+2022-03-31 10:03:58 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 10:03:58 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 10:03:58 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 10:03:58 INFO  QueryConstant:47 - query property ====>  call productSize_update(?, ?, ?, ?, ?, ?)
+2022-03-31 10:03:58 INFO  BaseDAOImpl:142 - ===> updating ... [0, Extra Large, XL, 53-5, Female, 0]
+2022-03-31 10:03:58 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-31 10:04:10 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 10:04:10 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 10:04:10 INFO  QueryConstant:47 - query property ====>  call productSize_findBySizeCodeAndGender(?, ?)
+2022-03-31 10:04:10 INFO  QueryConstant:47 - query property ====>  call productSize_update(?, ?, ?, ?, ?, ?)
+2022-03-31 10:04:10 INFO  BaseDAOImpl:142 - ===> updating ... [14, Extra Large, XL, 53-5, Female, 0]
+2022-03-31 10:04:10 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-31 10:05:29 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 10:05:29 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 10:05:34 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-31 10:06:39 INFO  QueryConstant:47 - query property ====>  call productSize_update(?, ?, ?, ?, ?, ?)
+2022-03-31 10:06:39 INFO  BaseDAOImpl:142 - ===> updating ... [14, Extra Large, XL, 53-5, Female, 0]
+2022-03-31 10:06:39 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-31 10:07:31 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 10:07:31 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 10:07:36 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-31 10:07:46 INFO  QueryConstant:47 - query property ====>  call productSize_update(?, ?, ?, ?, ?, ?)
+2022-03-31 10:07:46 INFO  BaseDAOImpl:142 - ===> updating ... [14, Extra Large, XL, 53-5, Female, 1]
+2022-03-31 10:07:50 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-31 10:08:05 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 10:08:05 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 10:08:08 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-31 10:08:08 INFO  QueryConstant:47 - query property ====>  call productSize_update(?, ?, ?, ?, ?, ?)
+2022-03-31 10:08:08 INFO  BaseDAOImpl:142 - ===> updating ... [1, Extra Large, XL, 53-58, Female, 1]
+2022-03-31 10:08:08 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-31 10:27:03 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 10:27:03 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 10:27:05 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-31 10:27:06 INFO  QueryConstant:47 - query property ====>  call productSize_update(?, ?, ?, ?, ?, ?)
+2022-03-31 10:27:06 INFO  BaseDAOImpl:142 - ===> updating ... [1, Extra Large, XL, 53-57, Female, 1]
+2022-03-31 10:27:06 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-31 10:30:00 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-03-31 10:30:00 INFO  QueryConstant:25 - query property ====>  call user_findByEmail(?)
+2022-03-31 10:30:02 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)
+2022-03-31 10:30:02 INFO  QueryConstant:47 - query property ====>  call productSize_update(?, ?, ?, ?, ?, ?)
+2022-03-31 10:30:02 INFO  BaseDAOImpl:142 - ===> updating ... [10, Extra Large, XL, 53-57, Female, 1]
+2022-03-31 10:30:03 INFO  QueryConstant:47 - query property ====>  call productSize_findById(?)

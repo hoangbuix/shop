@@ -17,12 +17,12 @@ public class ProductSizeDAOImpl extends BaseDAOImpl<ProductSizeEntity> implement
 
     @Override
     public int save(ProductSizeEntity productSize) {
-        return insert(QueryConstant.callQueryUpdate(PRODUCTSIZE, CREATE, 3), productSize.getSize(), productSize.getQuantity(), productSize.getGender());
+        return insert(QueryConstant.callQueryUpdate(PRODUCTSIZE, CREATE, 4), productSize.getSize(), productSize.getSizeCode(), productSize.getQuantity(), productSize.getGender());
     }
 
     @Override
     public void update(ProductSizeEntity productSize) {
-        update(QueryConstant.callQueryUpdate(PRODUCTSIZE, UPDATE, 4), productSize.getSize(), productSize.getQuantity(), productSize.getGender(),
+        update(QueryConstant.callQueryUpdate(PRODUCTSIZE, UPDATE, 6), productSize.getId(), productSize.getSize(), productSize.getSizeCode(), productSize.getQuantity(), productSize.getGender(),
                 productSize.getActiveFlag());
     }
 
@@ -57,6 +57,12 @@ public class ProductSizeDAOImpl extends BaseDAOImpl<ProductSizeEntity> implement
     @Override
     public ProductSizeEntity findByGender(String gender) {
         List<ProductSizeEntity> productSize = query(QueryConstant.callQueryUpdate(PRODUCTSIZE, "_findByGender", 1), new ProductSizeMapper(), gender);
+        return productSize.isEmpty() ? null : productSize.get(0);
+    }
+
+    @Override
+    public ProductSizeEntity findBySizeCodeAndGender(String sizeCode, String gender) {
+        List<ProductSizeEntity> productSize = query(QueryConstant.callQueryUpdate(PRODUCTSIZE, "_findBySizeCodeAndGender", 2), new ProductSizeMapper(), sizeCode, gender);
         return productSize.isEmpty() ? null : productSize.get(0);
     }
 }

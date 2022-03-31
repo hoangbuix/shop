@@ -4,8 +4,9 @@ import lombok.Data;
 
 @Data
 public class UpdateProductSizeReq {
-    private String size;
-    private String quantity;
+    private int id;
+    private String sizeCode;
     private String gender;
-    private int activeFLag;
+    private int activeFlag;
 }
+

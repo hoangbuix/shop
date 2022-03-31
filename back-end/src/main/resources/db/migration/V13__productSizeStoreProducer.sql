@@ -2,9 +2,10 @@ drop procedure if EXISTS productSize_create;
 DELIMITER $$
 CREATE PROCEDURE productSize_create(
     in _size VARCHAR(100),
+    in _sizeCode VARCHAR(100),
     in _quantity VARCHAR(100),
     in _gender VARCHAR(100)
-) body:
+        ) body:
 
 BEGIN
     declare
@@ -15,13 +16,13 @@ max_sp_recursion_depth = 255;
 (
 select count(product_size.id)
 from product_size
-where product_size.size = _size) > 0 then
-SET @message_text = CONCAT('Product Size \'', _size, '\' already exists');
+where product_size.size_code = _sizeCode and product_size.size = _size and product_size.gender = _gender) > 0 then
+SET @message_text = CONCAT('Product Size \'', _sizeCode,' and ', _gender, '\' already exists');
 SIGNAL
 SQLSTATE '45000' SET MESSAGE_TEXT = @message_text;
 else
-        insert into product_size(size, quantity, gender,  active_flag, created_date, updated_date)
-        values (_size, _quantity, _gender, 1, NOW(), NOW());
+        insert into product_size(size, size_code, quantity, gender,  active_flag, created_date, updated_date)
+        values (_size, _sizeCode, _quantity, _gender, 1, NOW(), NOW());
         set
 newId = last_insert_id();
 end if;
@@ -33,18 +34,22 @@ DELIMITER ;
 drop procedure if EXISTS productSize_update;
 DELIMITER $$
 CREATE PROCEDURE productSize_update(
+    in _id INTEGER,
     in _size VARCHAR(100),
+    in _sizeCode VARCHAR(100),
     in _quantity VARCHAR(100),
     in _gender VARCHAR(100),
     in _active INTEGER
-) body:
+        ) body:
 begin
 update product_size
 set size = _size,
+    size_code = _sizeCode,
     quantity = _quantity,
     gender = _gender,
     active_flag = _active,
-    updated_date = NOW();
+    updated_date = NOW()
+where id = _id and size_code = _sizeCode and gender = _gender;
 END$$
 DELIMITER ;
 
@@ -101,11 +106,24 @@ DELIMITER ;
 
 drop procedure if EXISTS productSize_findByGender;
 DELIMITER $$
-CREATE PROCEDURE productSize_findByGender(in _gender VARCHAR(100),)
+CREATE PROCEDURE productSize_findByGender(in _gender VARCHAR(100))
 begin
 select *
 from product_size
 where gender = _gender
+  and (active_flag = 1
+    or active_flag = 0)
+order by size;
+end$$
+DELIMITER ;
+
+drop procedure if EXISTS productSize_findBySizeCodeAndGender;
+DELIMITER $$
+CREATE PROCEDURE productSize_findBySizeCodeAndGender(in _sizeCode VARCHAR(100),in _gender VARCHAR(100))
+begin
+select *
+from product_size
+where gender = _gender or size_code = _sizeCode
   and (active_flag = 1
    or active_flag = 0)
 order by size;
