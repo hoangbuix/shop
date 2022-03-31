@@ -120,7 +120,8 @@ public class ProductSizeServiceImpl implements ProductSizeService {
 
     @Override
     public ProductSizeEntity update(UpdateProductSizeReq req) {
-        ProductSizeEntity productSize = productSizeDAO.findById(req.getId());
+        ProductSizeEntity productSize = new ProductSizeEntity();
+        productSize.setId(req.getId());
         try {
             switch (req.getGender()) {
                 case "Male":
@@ -150,8 +151,11 @@ public class ProductSizeServiceImpl implements ProductSizeService {
                             productSize.setQuantity("70-80");
                             break;
                         default:
+                            productSize.setSize("");
+                            productSize.setQuantity("");
                             break;
                     }
+                    productSize.setActiveFlag(req.getActiveFlag());
                     productSize.setSizeCode(req.getSizeCode());
                     productSize.setGender("Male");
                     break;
@@ -182,8 +186,11 @@ public class ProductSizeServiceImpl implements ProductSizeService {
                             productSize.setQuantity("57-66");
                             break;
                         default:
+                            productSize.setSize("");
+                            productSize.setQuantity("");
                             break;
                     }
+                    productSize.setActiveFlag(req.getActiveFlag());
                     productSize.setSizeCode(req.getSizeCode());
                     productSize.setGender("Female");
                     break;
@@ -192,8 +199,6 @@ public class ProductSizeServiceImpl implements ProductSizeService {
                     productSize.setGender(req.getGender());
                     break;
             }
-            productSize.setId(req.getId());
-            productSize.setActiveFlag(req.getActiveFlag());
             productSizeDAO.update(productSize);
         } catch (Exception e) {
             e.printStackTrace();

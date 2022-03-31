@@ -49,7 +49,7 @@ set size = _size,
     gender = _gender,
     active_flag = _active,
     updated_date = NOW()
-where id = _id and size_code = _sizeCode and gender = _gender;
+where id = _id;
 END$$
 DELIMITER ;
 

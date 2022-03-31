@@ -147,7 +147,7 @@ public class BaseDAOImpl<E> implements BaseDAO<E> {
             connection.setAutoCommit(false);
             callable = connection.prepareCall(sql);
             setCallable(callable, parameters);
-            callable.executeQuery();
+            callable.executeUpdate();
             connection.commit();
         } catch (SQLException e) {
             if (connection != null) {

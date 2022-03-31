@@ -17,13 +17,14 @@ public class ProductSizeDAOImpl extends BaseDAOImpl<ProductSizeEntity> implement
 
     @Override
     public int save(ProductSizeEntity productSize) {
-        return insert(QueryConstant.callQueryUpdate(PRODUCTSIZE, CREATE, 4), productSize.getSize(), productSize.getSizeCode(), productSize.getQuantity(), productSize.getGender());
+        return insert(QueryConstant.callQueryUpdate(PRODUCTSIZE, CREATE, 4), productSize.getSize(), productSize.getSizeCode(),
+                productSize.getQuantity(), productSize.getGender());
     }
 
     @Override
     public void update(ProductSizeEntity productSize) {
-        update(QueryConstant.callQueryUpdate(PRODUCTSIZE, UPDATE, 6), productSize.getId(), productSize.getSize(), productSize.getSizeCode(), productSize.getQuantity(), productSize.getGender(),
-                productSize.getActiveFlag());
+        update(QueryConstant.callQueryUpdate(PRODUCTSIZE, UPDATE, 6),productSize.getId(), productSize.getSize(), productSize.getSizeCode(),
+                productSize.getQuantity(), productSize.getGender(), productSize.getActiveFlag());
     }
 
     @Override

@@ -167,7 +167,8 @@ CREATE TABLE product_category
 CREATE TABLE product_size
 (
     id           INTEGER   NOT NULL AUTO_INCREMENT,
-    size         INTEGER   NOT NULL,
+    size         VARCHAR(255)   NOT NULL,
+    size_code    VARCHAR(255)   NOT NULL,
     quantity     VARCHAR(255)   NOT NULL,
     gender       VARCHAR(255)   NOT NULL,
     active_flag  INTEGER   NOT NULL DEFAULT 1,
