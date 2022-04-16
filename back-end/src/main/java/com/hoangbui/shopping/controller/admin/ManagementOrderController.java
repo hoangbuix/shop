@@ -1,8 +1,13 @@
 package com.hoangbui.shopping.controller.admin;
 
+import java.util.List;
+
+import javax.validation.Valid;
+
 import com.hoangbui.shopping.entity.OrderEntity;
 import com.hoangbui.shopping.entity.UserEntity;
 import com.hoangbui.shopping.model.req.create.CreateOrderReq;
+import com.hoangbui.shopping.model.req.update.UpdateOrderReq;
 import com.hoangbui.shopping.securiry.CustomUserDetails;
 import com.hoangbui.shopping.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,10 +25,26 @@ public class ManagementOrderController {
      private OrderService orderService;
 
      @PostMapping("/create")
-     private ResponseEntity<?> createOrder(@RequestBody CreateOrderReq req) {
-          UserEntity user = ((CustomUserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal()).getUser();
+     private ResponseEntity<?> createOrder(@Valid @RequestBody CreateOrderReq req) {
+          UserEntity user = ((CustomUserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal())
+                    .getUser();
           OrderEntity order = orderService.save(req, user.getId());
           return new ResponseEntity<>(order, HttpStatus.OK);
+     }
+
+     @PutMapping("/update")
+     private ResponseEntity<?> updateOrder(@Valid @RequestBody UpdateOrderReq req) {
+          UserEntity user = ((CustomUserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal())
+                    .getUser();
+          OrderEntity order = orderService.update(req, user.getId());
+          return new ResponseEntity<>(order, HttpStatus.OK);
+     }
+
+     @GetMapping("/findAll")
+     private ResponseEntity<?> findAll() {
+          List<OrderEntity> lstOrder = orderService.findAll();
+          OrderEntity orderEntity = new OrderEntity();
+          return new ResponseEntity<>(orderEntity, HttpStatus.OK);
      }
 
      @PostMapping("/check")

@@ -7,6 +7,8 @@ import java.sql.ResultSet;
 public class OrderMapper implements RowMapper<OrderEntity> {
     @Override
     public OrderEntity mapRow(ResultSet resultSet) {
-        return null;
+        OrderEntity order = new OrderEntity();
+
+        return order;
     }
 }

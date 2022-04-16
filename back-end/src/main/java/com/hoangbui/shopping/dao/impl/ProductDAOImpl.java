@@ -9,7 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
-import static  com.hoangbui.shopping.util.SqlConstant.*;
+import static com.hoangbui.shopping.util.SqlConstant.*;
 
 @Component
 @Transactional(rollbackFor = Exception.class)
@@ -18,35 +18,44 @@ public class ProductDAOImpl extends BaseDAOImpl<ProductEntity> implements Produc
 
     @Override
     public int save(ProductEntity product) {
-        return insert(QueryConstant.callQueryUpdate(PRODUCT, CREATE, 12), product.getProductCode(), product.getProductName(),
-                product.getDescription(), product.getSlug(), product.getBrandId(), product.getPrice(), product.getProductImage(), product.getTotalProduct(),
-                product.getTotalSold(), product.getQuantityProduct(), product.getCategoryId(), product.getProductSize());
+        return insert(QueryConstant.callQueryUpdate(PRODUCT, CREATE, 12), product.getProductCode(),
+                product.getProductName(),
+                product.getDescription(), product.getSlug(), product.getBrand().getId(), product.getPrice(),
+                product.getProductImage(), product.getTotalProduct(),
+                product.getTotalSold(), product.getQuantityProduct(), product.getCategory().getId(),
+                product.getProductSize().getId());
     }
 
     @Override
     public void update(ProductEntity product) {
-
+        update(QueryConstant.callQueryUpdate(PRODUCT, CREATE, 12), product.getProductCode(),
+                product.getProductName(),
+                product.getDescription(), product.getSlug(), product.getBrand().getId(), product.getPrice(),
+                product.getProductImage(), product.getTotalProduct(),
+                product.getTotalSold(), product.getQuantityProduct(), product.getCategory().getId(),
+                product.getProductSize().getId(), product.getActiveFlag());
     }
 
     @Override
     public void delete(int id) {
-        delete(QueryConstant.callQuery(PRODUCT, DELETE, id), id);
+        delete(QueryConstant.callQueryUpdate(PRODUCT, DELETE, 1), id);
     }
 
     @Override
     public List<ProductEntity> findAll() {
-        return query(QueryConstant.callQuery(PRODUCT,  FIND_ALL, null), new ProductMapper());
+        return query(QueryConstant.callQueryUpdate(PRODUCT, FIND_ALL, 0), new ProductMapper());
     }
 
     @Override
     public ProductEntity findById(int id) {
-        List<ProductEntity> product = query(QueryConstant.callQuery(PRODUCT, FIND_BY_ID, id), new ProductMapper(), id);
+        List<ProductEntity> product = query(QueryConstant.callQueryUpdate(PRODUCT, FIND_BY_ID, 1), new ProductMapper(),
+                id);
         return product.isEmpty() ? null : product.get(0);
     }
 
     @Override
     public int checkTotalProduct() {
-        int count = queryId(QueryConstant.callQuery(PRODUCT, "_checkTotalProduct", null),new ProductMapper());
+        int count = queryId(QueryConstant.callQueryUpdate(PRODUCT, "_checkTotalProduct", 0), new ProductMapper());
         return count;
     }
 }

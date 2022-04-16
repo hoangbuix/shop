@@ -19,4 +19,8 @@ public interface UserService {
     List<UserEntity> findAll();
 
     UserEntity findById(int id);
+
+    boolean activateUser(String code);
+
+    void sendMessage(UserEntity user);
 }

@@ -1,8 +1,7 @@
 import React from "react";
-import Card from "../../components/Card";
-import Navbar from "../../components/Navbar";
-import SidebarSort from "../../components/SidebarSort";
-import { Cookies } from "../../heplers/cookies";
+import Navbar from "../../../components/Navbar";
+import SidebarSort from "../../../components/SidebarSort";
+import { Cookies } from "../../../heplers/cookies";
 import "./Home.styles.scss";
 
 const Home: React.FC = () => {
@@ -12,17 +11,16 @@ const Home: React.FC = () => {
         <div className="wrapper__home">
             <div>
                 <Navbar />
-                <SidebarSort />
+                {/* <SidebarSort /> */}
             </div>
-            {/* <div>
+            <div>
                 <main>
                     <h1>Home</h1>
                     <div>
-                        <Card />
                     </div>
                 </main>
             </div>
-            <div>Footer</div> */}
+            <div>Footer</div>
         </div>
     )
 };

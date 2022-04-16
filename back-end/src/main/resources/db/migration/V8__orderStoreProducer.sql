@@ -9,6 +9,7 @@ CREATE PROCEDURE order_create(_note VARCHAR (255),
                               _receiver_name varchar (255),
                               _receiver_phone varchar (255),
                               _status varchar (255),
+                              _quantity INTEGER,
                               _total_price bigint,
                               _buyer bigint,
                               _created_by bigint,
@@ -37,6 +38,7 @@ else
                            receiver_name,
                            receiver_phone,
                            status,
+                           quantity,
                            total_price,
                            buyer,
                            created_by,
@@ -53,6 +55,7 @@ else
                 _receiver_name,
                 _receiver_phone,
                 _status,
+                _quantity,
                 _total_price,
                 _buyer,
                 _created_by,
@@ -79,6 +82,7 @@ CREATE PROCEDURE order_update(in _note VARCHAR (255),
                               in _receiver_name varchar (255),
                               in _receiver_phone varchar (255),
                               in _status varchar (255),
+                              in _quantity INTEGER,
                               in _total_price bigint,
                               in _buyer bigint,
                               in _created_by bigint,
@@ -96,6 +100,7 @@ set note = _note,
     receiver_phone = _receiver_phone,
     receiver_address = _receiver_address,
     status = _status,
+    quantity = _quantity,
     total_price = _total_price,
     buyer = _buyer,
     created_by = _created_by,
@@ -149,5 +154,17 @@ from orders
 where status = _status and product_id = _productId
       and (active_flag = 1
         or active_flag = 0);
+end$$
+DELIMITER ;
+
+drop procedure if EXISTS order_findAll;
+DELIMITER $$
+CREATE PROCEDURE order_findAll()
+begin
+select *
+from orders
+where (active_flag = 1
+    or active_flag = 0)
+order by id;
 end$$
 DELIMITER ;

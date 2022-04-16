@@ -29,7 +29,7 @@ SET @message_text = CONCAT('Product \'', _productCode, '\' already exists');
 SIGNAL
 SQLSTATE '45000' SET MESSAGE_TEXT = @message_text;
 else
-        insert into product(product_name, product_code, description, slug, brand_id, price, product_image, total_product, toal_sold, quantity_product, category_id, product_size, active_flag, created_date, updated_date)
+        insert into product(product_name, product_code, description, slug, brand_id, price, product_image, total_product, total_sold, quantity_product, category_id, product_size, active_flag, created_date, updated_date)
         values (_productName, _productCode, _description, _slug, _brandId, _price, _productImage,_totalProduct, _total_sold, _quantityProduct, _categoryId, _productSize, 1, NOW(), NOW());
         set
 newId = last_insert_id();
@@ -92,11 +92,14 @@ DELIMITER $$
 CREATE PROCEDURE product_findById(in _id int)
 begin
 select *
-from product
-where id = _id
-      and(active_flag = 1
-    or active_flag = 0)
-order by product_code;
+from product p
+         left join brand b on p.brand_id = b.id
+         left join category c on p.category_id = c.id
+         left join product_size ps on p.product_size = ps.id
+where p.id = 1
+  and(p.active_flag = 1
+    or p.active_flag = 0)
+order by p.product_code;
 end$$
 DELIMITER ;
 

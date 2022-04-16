@@ -24,21 +24,21 @@ public class ManagementProductSizeController {
     private ProductSizeService productSizeService;
 
     @GetMapping("/findAll")
-    private ResponseEntity<?> findAll(){
+    private ResponseEntity<?> findAll() {
         List<ProductSizeEntity> productSize = productSizeService.findAll();
         return new ResponseEntity<>(productSize, HttpStatus.OK);
     }
 
-    @GetMapping("/findId")
-    private ResponseEntity<?> findById(@RequestParam int id){
+    @GetMapping("/findById/{id}")
+    private ResponseEntity<?> findById(@PathVariable int id) {
         ProductSizeEntity productSize = productSizeService.findById(id);
         return new ResponseEntity<>(productSize, HttpStatus.OK);
     }
 
     @PostMapping("/create")
-    private ResponseEntity<?> create(@Valid @RequestBody CreateProductSizeReq req){
+    private ResponseEntity<?> create(@Valid @RequestBody CreateProductSizeReq req) {
         ProductSizeEntity check = productSizeService.findBySizeCodeAndGender(req.getSizeCode(), req.getGender());
-        if(check != null){
+        if (check != null) {
             throw new DuplicateRecordException("Exist");
         } else {
             ProductSizeEntity productSize = productSizeService.save(req);
@@ -47,9 +47,9 @@ public class ManagementProductSizeController {
     }
 
     @PostMapping("/update")
-    private ResponseEntity<?> update(@Valid @RequestBody UpdateProductSizeReq req){
-            ProductSizeEntity productSize = productSizeService.update(req);
-            return new ResponseEntity<>(productSize, HttpStatus.OK);
+    private ResponseEntity<?> update(@Valid @RequestBody UpdateProductSizeReq req) {
+        ProductSizeEntity productSize = productSizeService.update(req);
+        return new ResponseEntity<>(productSize, HttpStatus.OK);
     }
 
 }

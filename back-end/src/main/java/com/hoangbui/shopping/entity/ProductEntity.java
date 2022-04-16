@@ -2,9 +2,9 @@ package com.hoangbui.shopping.entity;
 
 import lombok.*;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.Table;
+import javax.persistence.*;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Data
 @Setter
@@ -41,12 +41,32 @@ public class ProductEntity extends BaseEntity {
     @Column(name = "total_sold")
     private int totalSold;
 
-    @Column(name = "brand_id")
-    private int brandId;
+    // @Column(name = "brand_id")
+    // @OneToMany(mappedBy = "brand")
+    // private int brandId;
 
-    @Column(name = "category_id")
-    private int categoryId;
+    // private Set<BrandEntity> brand;
 
-    @Column(name = "product_size")
-    private int productSize;
+    // @Column(name = "category_id")
+    // private int categoryId;
+
+    // private Set<CategoryEntity> category;
+
+    // @Column(name = "product_size")
+    // private int productSize;
+
+//    @JsonIgnore
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "brand_id")
+    private BrandEntity brand;
+
+//    @JsonIgnore
+    @OneToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "category_id")
+    private CategoryEntity category;
+
+//    @JsonIgnore
+    @ManyToOne(fetch = FetchType.LAZY)
+    @JoinColumn(name = "product_id")
+    private ProductSizeEntity productSize;
 }

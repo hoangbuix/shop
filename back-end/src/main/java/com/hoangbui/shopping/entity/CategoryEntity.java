@@ -8,10 +8,10 @@ import javax.persistence.Entity;
 import javax.persistence.Table;
 
 @Data
-@Setter
-@Getter
-@AllArgsConstructor
-@NoArgsConstructor
+//@Setter
+//@Getter
+//@AllArgsConstructor
+//@NoArgsConstructor
 @Entity(name = "category")
 @Table(name = "category")
 public class CategoryEntity extends BaseEntity {

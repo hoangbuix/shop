@@ -9,20 +9,21 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-import static  com.hoangbui.shopping.util.SqlConstant.*;
+import static com.hoangbui.shopping.util.SqlConstant.*;
 
 @Component
 @Transactional(rollbackFor = Exception.class)
 public class OrderDAOImpl extends BaseDAOImpl<OrderEntity> implements OrderDAO<OrderEntity> {
 
     final Logger log = Logger.getLogger(OrderDAOImpl.class);
-    private final String ORDER = "orders";
+    private final String ORDER = "order";
 
     @Override
     public int save(OrderEntity order) {
         return insert(QueryConstant.callQueryUpdate(ORDER, CREATE, 13), order.getNote(), order.getProductPrice(),
                 order.getPromotionId(), order.getProductId(), order.getProductSize(), order.getReceiverAddress(),
-                order.getReceiverName(), order.getReceiverPhone(), order.getStatus(), order.getTotalPrice(), order.getBuyer(),
+                order.getReceiverName(), order.getReceiverPhone(), order.getStatus(), order.getTotalPrice(),
+                order.getBuyer(),
                 order.getCreatedBy(), order.getModifiedBy());
     }
 
@@ -30,7 +31,8 @@ public class OrderDAOImpl extends BaseDAOImpl<OrderEntity> implements OrderDAO<O
     public void update(OrderEntity order) {
         update(QueryConstant.callQueryUpdate(ORDER, UPDATE, 14), order.getNote(), order.getProductPrice(),
                 order.getPromotionId(), order.getProductId(), order.getProductSize(), order.getReceiverAddress(),
-                order.getReceiverName(), order.getReceiverPhone(), order.getStatus(), order.getTotalPrice(), order.getBuyer(),
+                order.getReceiverName(), order.getReceiverPhone(), order.getStatus(), order.getTotalPrice(),
+                order.getBuyer(),
                 order.getCreatedBy(), order.getModifiedBy(), order.getActiveFlag());
     }
 
@@ -46,7 +48,7 @@ public class OrderDAOImpl extends BaseDAOImpl<OrderEntity> implements OrderDAO<O
 
     @Override
     public OrderEntity findById(int id) {
-        List<OrderEntity>orders = query(QueryConstant.callQueryUpdate(ORDER, FIND_BY_ID, 1), new OrderMapper(), id);
+        List<OrderEntity> orders = query(QueryConstant.callQueryUpdate(ORDER, FIND_BY_ID, 1), new OrderMapper(), id);
         return orders.isEmpty() ? null : orders.get(0);
     }
 }

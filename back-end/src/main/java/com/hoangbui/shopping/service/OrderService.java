@@ -8,10 +8,14 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public interface OrderService  {
+public interface OrderService {
     OrderEntity save(CreateOrderReq req, int userId);
-    OrderEntity update(UpdateOrderReq req);
+
+    OrderEntity update(UpdateOrderReq req, int userId);
+
     void delete(int id);
+
     OrderEntity findById(int id);
+
     List<OrderEntity> findAll();
 }

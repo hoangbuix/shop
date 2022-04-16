@@ -1,7 +1,6 @@
 package com.hoangbui.shopping.controller.admin;
 
 import com.hoangbui.shopping.entity.BrandEntity;
-import com.hoangbui.shopping.exception.BadRequestException;
 import com.hoangbui.shopping.exception.DuplicateRecordException;
 import com.hoangbui.shopping.model.req.create.CreateBrandReq;
 import com.hoangbui.shopping.service.BrandService;
@@ -22,12 +21,12 @@ public class ManagementBrandController {
 
     @PostMapping("/create")
     private ResponseEntity<?> create(@RequestBody CreateBrandReq req) {
-            BrandEntity brn = brandService.findByBrandName(req.getBrandName());
-            if (brn != null) {
-                throw new DuplicateRecordException("Đã tồn tại");
-            } else {
-                BrandEntity brand = brandService.save(req);
-                return new ResponseEntity<>(brand, HttpStatus.OK);
-            }
+        BrandEntity brn = brandService.findByBrandName(req.getBrandName());
+        if (brn != null) {
+            throw new DuplicateRecordException("Đã tồn tại");
+        } else {
+            BrandEntity brand = brandService.save(req);
+            return new ResponseEntity<>(brand, HttpStatus.OK);
+        }
     }
 }

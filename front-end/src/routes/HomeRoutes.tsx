@@ -4,7 +4,7 @@ import Loading from "../components/Loading"
 import { PATH } from "../constants/paths"
 import AuthenticatedGuard from "../guards/AuthenticatedGuard"
 
-const Home = lazy(() => import("../pages/Home"));
+const Home = lazy(() => import("../pages/client/Home"));
 
 export default function HomeRoutes() {
     return (

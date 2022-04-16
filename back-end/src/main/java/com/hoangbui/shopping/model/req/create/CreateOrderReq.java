@@ -9,6 +9,7 @@ public class CreateOrderReq {
     private int promotionId;
     private int productId;
     private int productSize;
+    private int quantity;
     private String receiverAddress;
     private String receiverName;
     private String receiverPhone;

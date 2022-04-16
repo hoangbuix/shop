@@ -43,6 +43,9 @@ const Login: React.FC = () => {
                     <Input type="password" placeholder="Password" onChange={handleChangePassword} />
                 </div>
                 <div>
+                    <input type="email" name="" id="" />
+                </div>
+                <div>
                     <button type="submit">Login</button>
                 </div>
             </form>

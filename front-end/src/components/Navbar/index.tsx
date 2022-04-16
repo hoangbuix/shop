@@ -1,4 +1,5 @@
 import React from "react";
+import Input from "../Input";
 import "./Navbar.styles.scss";
 
 const Navbar: React.FC = () => {
@@ -6,6 +7,9 @@ const Navbar: React.FC = () => {
         <div className="wrapper">
             <nav>
                 <a href="_" className="logo">AAA</a>
+                <div>
+                    <Input placeholder="Search" />
+                </div>
                 <ul>
                     <li>
                         <a href="_">About</a>
@@ -14,7 +18,7 @@ const Navbar: React.FC = () => {
                         <a href="_">Features</a>
                     </li>
                     <li>
-                        <a href="_">Pricing</a>
+                        <a href="/cart">Cart</a>
                     </li>
                     <li>
                         <a href="_">FAQ</a>

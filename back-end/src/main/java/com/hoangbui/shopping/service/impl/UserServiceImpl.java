@@ -12,15 +12,26 @@ import com.hoangbui.shopping.model.conveter.UserConvert;
 import com.hoangbui.shopping.model.req.create.CreateUserReq;
 import com.hoangbui.shopping.model.req.update.ChangePasswordReq;
 import com.hoangbui.shopping.model.req.update.UpdateUserReq;
+import com.hoangbui.shopping.service.MailService;
 import com.hoangbui.shopping.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.mail.MailSender;
 import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.stereotype.Component;
+import org.springframework.util.StringUtils;
 
 import java.util.List;
 
 @Component
 public class UserServiceImpl implements UserService {
+    @Value("${hostname}")
+    private String hostname;
+
+
+    @Autowired
+    private MailService mailService;
+
     @Autowired
     private UserDAO<UserEntity> userDAO;
 
@@ -40,6 +51,8 @@ public class UserServiceImpl implements UserService {
         user = UserConvert.toEntity(req);
         int id = 0;
         try {
+            user.setActiveCode(role.getRoleName());
+            user.setActiveFlag(1);
             id = userDAO.save(user);
             UserEntity newUser = userDAO.findById(id);
             if (id != 0) {
@@ -51,6 +64,7 @@ public class UserServiceImpl implements UserService {
         } catch (Exception e) {
             e.printStackTrace();
         }
+        sendMessage(userDAO.findById(id));
         return userDAO.findById(id);
     }
 
@@ -86,5 +100,30 @@ public class UserServiceImpl implements UserService {
     @Override
     public UserEntity findById(int id) {
         return userDAO.findById(id);
+    }
+
+    @Override
+    public boolean activateUser(String code) {
+        UserEntity user = userDAO.findByActivationCode(code);
+        if (user == null) {
+            return false;
+        }
+        user.setActiveFlag(1);
+        userDAO.update(user);
+        return true;
+    }
+
+    @Override
+    public void sendMessage(UserEntity user) {
+        if (!StringUtils.isEmpty(user.getEmail())) {
+            String message = String.format("Hello, %s! \n " +
+                            "HHH." +
+                            "Access link to http://%s/activate/%s",
+                    user.getUsername(),
+                    (hostname + "/api/v1/admin/user"),
+                    user.getActiveCode()
+            );
+            mailService.send(user.getEmail(), "Activation code", message);
+        }
     }
 }

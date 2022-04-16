@@ -4,11 +4,13 @@ import lombok.Data;
 
 @Data
 public class UpdateOrderReq {
+    private int id;
     private String note;
     private float productPrice;
     private int promotionId;
     private int productId;
     private int productSize;
+    private int quantity;
     private String receiverAddress;
     private String receiverName;
     private String receiverPhone;

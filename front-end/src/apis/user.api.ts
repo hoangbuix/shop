@@ -4,13 +4,11 @@ import axiosClient from "../heplers/axiosClient"
 export const loginApi = ({ email, password }: ReqLogin): Promise<ResLoginApi> =>
     new Promise((resolve, reject) => {
         setTimeout(() => {
-            axiosClient.post("http://localhost:8080/api/v1/admin/user/login", { email, password }, {
-                withCredentials: true,
-            })
+            axiosClient.post("http://localhost:8080/api/v1/admin/user/login", { email, password })
                 .then((res: any) => {
                     resolve({
-                        data: {
-                            access_token: res
+                        response: {
+                            data: res
                         },
                         message: "Login thành công"
                     })

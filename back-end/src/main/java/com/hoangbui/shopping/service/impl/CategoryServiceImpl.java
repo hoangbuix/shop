@@ -2,7 +2,6 @@ package com.hoangbui.shopping.service.impl;
 
 import com.hoangbui.shopping.dao.CategoryDAO;
 import com.hoangbui.shopping.entity.CategoryEntity;
-import com.hoangbui.shopping.exception.DuplicateRecordException;
 import com.hoangbui.shopping.model.req.create.CreateCategoryReq;
 import com.hoangbui.shopping.model.req.update.UpdateCategoryReq;
 import com.hoangbui.shopping.service.CategoryService;
@@ -44,7 +43,7 @@ public class CategoryServiceImpl implements CategoryService {
             cate.setCategoryName(req.getCategoryName());
             cate.setDescription(req.getDescription());
             id = categoryDAO.save(cate);
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
             log.error(e.getMessage());
         }
@@ -61,7 +60,7 @@ public class CategoryServiceImpl implements CategoryService {
             cate.setActiveFlag(req.getActiveFlag());
             categoryDAO.update(cate);
 
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
             log.error(e.getMessage());
         }
@@ -72,7 +71,7 @@ public class CategoryServiceImpl implements CategoryService {
     public void delete(int id) {
         try {
             categoryDAO.delete(id);
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
             log.error(e.getMessage());
         }

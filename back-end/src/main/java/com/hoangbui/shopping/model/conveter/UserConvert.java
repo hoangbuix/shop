@@ -35,6 +35,7 @@ public class UserConvert {
         dto.setEmail(entity.getEmail());
         dto.setUsername(entity.getUsername());
         dto.setPassword(entity.getPassword());
+        dto.setActiveCode(entity.getActiveCode());
         dto.setActiveFlag(entity.getActiveFlag());
         dto.setCreatedDate(entity.getCreatedDate());
         dto.setUpdatedDate(entity.getUpdatedDate());

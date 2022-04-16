@@ -1,9 +1,15 @@
 package com.hoangbui.shopping.service.impl;
 
+import com.hoangbui.shopping.dao.BrandDAO;
+import com.hoangbui.shopping.dao.CategoryDAO;
 import com.hoangbui.shopping.dao.ProductCategoryDAO;
 import com.hoangbui.shopping.dao.ProductDAO;
+import com.hoangbui.shopping.dao.ProductSizeDAO;
+import com.hoangbui.shopping.entity.BrandEntity;
+import com.hoangbui.shopping.entity.CategoryEntity;
 import com.hoangbui.shopping.entity.ProductCategoryEntity;
 import com.hoangbui.shopping.entity.ProductEntity;
+import com.hoangbui.shopping.entity.ProductSizeEntity;
 import com.hoangbui.shopping.model.req.create.CreateProductReq;
 import com.hoangbui.shopping.model.req.update.UpdateProductReq;
 import com.hoangbui.shopping.service.ProductService;
@@ -22,6 +28,15 @@ public class ProductServiceImpl implements ProductService {
 
     @Autowired
     private ProductCategoryDAO<ProductCategoryEntity> productCategoryDAO;
+
+    @Autowired
+    private BrandDAO<BrandEntity> brandDAO;
+
+    @Autowired
+    private CategoryDAO<CategoryEntity> categoryDAO;
+
+    @Autowired
+    private ProductSizeDAO<ProductSizeEntity> productSizeDAO;
 
     @Override
     public int checkTotalProduct() {
@@ -52,15 +67,15 @@ public class ProductServiceImpl implements ProductService {
             product.setTotalProduct(req.getTotalProduct());
             product.setTotalSold(req.getTotalSold());
             product.setQuantityProduct(req.getQuantityProduct());
-            product.setBrandId(req.getBrandId());
-            product.setCategoryId(req.getCategoryId());
-            product.setProductSize(req.getProductSize());
+            product.setBrand(brandDAO.findById(req.getBrandId()));
+            product.setCategory(categoryDAO.findById(req.getCategoryId()));
+            product.setProductSize(productSizeDAO.findById(req.getProductSize()));
             id = productDAO.save(product);
             ProductCategoryEntity productCategory = new ProductCategoryEntity();
             productCategory.setProductId(id);
             productCategory.setCategoryId(req.getCategoryId());
             productCategoryDAO.save(productCategory);
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             log.error(e.getMessage());
         }
@@ -72,7 +87,7 @@ public class ProductServiceImpl implements ProductService {
         try {
             ProductEntity product = new ProductEntity();
             productDAO.save(product);
-        } catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             log.error(e.getMessage());
         }
@@ -84,7 +99,7 @@ public class ProductServiceImpl implements ProductService {
     public void delete(int id) {
         try {
             productDAO.delete(id);
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             log.error(e.getMessage());
         }

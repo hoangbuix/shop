@@ -1,4 +1,4 @@
 interface Res {
-    data: any
+    response: any
     message: string
 }

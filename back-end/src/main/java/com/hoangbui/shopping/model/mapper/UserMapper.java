@@ -20,6 +20,7 @@ public class UserMapper implements RowMapper<UserEntity> {
             user.setUsername(resultSet.getString("user_name"));
             user.setPassword(resultSet.getString("password"));
             user.setEmail(resultSet.getString("email"));
+            user.setActiveCode(resultSet.getString("active_code"));
             user.setActiveFlag(resultSet.getInt("active_flag"));
             user.setCreatedDate(resultSet.getDate("created_date"));
             user.setUpdatedDate(resultSet.getDate("updated_date"));

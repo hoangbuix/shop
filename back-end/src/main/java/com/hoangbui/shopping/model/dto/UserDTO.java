@@ -20,6 +20,8 @@ public class UserDTO {
 
     private String email;
 
+    private String activeCode;
+
     private int activeFlag;
 
     private Date createdDate;

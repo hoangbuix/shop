@@ -1,10 +1,12 @@
 package com.hoangbui.shopping.service.impl;
 
 import com.hoangbui.shopping.dao.OrderDAO;
+import com.hoangbui.shopping.dao.ProductDAO;
 import com.hoangbui.shopping.dao.UserDAO;
 import com.hoangbui.shopping.entity.OrderEntity;
+import com.hoangbui.shopping.entity.ProductEntity;
 import com.hoangbui.shopping.entity.UserEntity;
-import com.hoangbui.shopping.exception.NotFoundException;
+import com.hoangbui.shopping.exception.*;
 import com.hoangbui.shopping.model.req.create.CreateOrderReq;
 import com.hoangbui.shopping.model.req.update.UpdateOrderReq;
 import com.hoangbui.shopping.service.OrderService;
@@ -17,6 +19,7 @@ import java.util.List;
 
 @Component
 public class OrderServiceImpl implements OrderService {
+
     final Logger log = Logger.getLogger(OrderServiceImpl.class);
 
     @Autowired
@@ -25,12 +28,15 @@ public class OrderServiceImpl implements OrderService {
     @Autowired
     private UserDAO<UserEntity> userDAO;
 
+    @Autowired
+    private ProductDAO<ProductEntity> productDAO;
+
     @Override
-    public OrderEntity save(CreateOrderReq req,int userId) {
+    public OrderEntity save(CreateOrderReq req, int userId) {
         int id = 0;
         try {
             UserEntity checkUser = userDAO.findById(userId);
-            if(checkUser == null) {
+            if (checkUser == null) {
                 throw new NotFoundException("User Not Found");
             } else {
                 OrderEntity order = new OrderEntity();
@@ -49,7 +55,7 @@ public class OrderServiceImpl implements OrderService {
                 order.setModifiedBy(req.getModifiedBy());
                 id = orderDAO.save(order);
             }
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
             log.error(e.getMessage());
             return null;
@@ -58,28 +64,37 @@ public class OrderServiceImpl implements OrderService {
     }
 
     @Override
-    public OrderEntity update(UpdateOrderReq req) {
-        OrderEntity order = new OrderEntity();
-        try {
-            order.setNote(req.getNote());
-            order.setProductPrice(req.getProductPrice());
-            order.setPromotionId(req.getPromotionId());
-            order.setProductId(req.getProductId());
-            order.setProductSize(req.getProductSize());
-            order.setReceiverName(req.getReceiverName());
-            order.setReceiverAddress(req.getReceiverAddress());
-            order.setReceiverPhone(req.getReceiverPhone());
-            order.setStatus(req.getStatus());
-            order.setTotalPrice(req.getTotalPrice());
-            order.setBuyer(req.getBuyer());
-            order.setCreatedBy(req.getCreatedBy());
-            order.setModifiedBy(req.getModifiedBy());
-            order.setActiveFlag(req.getActiveFlag());
-            orderDAO.update(order);
-        }catch (Exception e) {
-            e.printStackTrace();
-            log.error(e.getMessage());
-            return null;
+    public OrderEntity update(UpdateOrderReq req, int userId) {
+        OrderEntity order = orderDAO.findById(req.getId());
+        if (order == null) {
+            throw new BadRequestException("xxx");
+        } else {
+            try {
+                order.setNote(req.getNote());
+                order.setProductPrice(req.getProductPrice());
+                order.setPromotionId(req.getPromotionId());
+                order.setProductId(req.getProductId());
+                order.setProductSize(req.getProductSize());
+                order.setReceiverName(req.getReceiverName());
+                order.setReceiverAddress(req.getReceiverAddress());
+                order.setReceiverPhone(req.getReceiverPhone());
+                order.setStatus(Status.CONFIRM.toString());
+                order.setTotalPrice(req.getTotalPrice());
+                order.setBuyer(userId);
+                order.setCreatedBy(req.getCreatedBy());
+                order.setModifiedBy(req.getModifiedBy());
+                order.setActiveFlag(req.getActiveFlag());
+                orderDAO.update(order);
+
+                ProductEntity product = productDAO.findById(order.getId());
+                product.setTotalSold(product.getTotalSold() - 1);
+                product.setQuantityProduct(product.getQuantityProduct() - 1);
+                productDAO.update(product);
+            } catch (Exception e) {
+                e.printStackTrace();
+                log.error(e.getMessage());
+                return null;
+            }
         }
         return order;
     }
