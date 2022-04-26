@@ -1,5 +1,6 @@
 package com.hoangbui.shopping.config;
 
+import com.google.common.collect.Lists;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpHeaders;
@@ -16,6 +17,7 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import java.util.Arrays;
 import java.util.Collections;
+import java.util.List;
 
 @Configuration
 @EnableSwagger2
@@ -29,9 +31,9 @@ public class SwaggerConfiguration {
                 .apis(RequestHandlerSelectors.basePackage("com.hoangbui.shopping"))
                 .paths(PathSelectors.regex("/.*"))
                 .build()
-                .apiInfo(apiEndPointsInfo())
-                .securityContexts(Collections.singletonList(securityContext()))
-                .securitySchemes(Arrays.asList(apiCookieKey()));
+                .apiInfo(apiEndPointsInfo());
+//                .securityContexts(Collections.singletonList(securityContext()))
+//                .securitySchemes(Arrays.asList(apiCookieKey()));
     }
 
     private ApiInfo apiEndPointsInfo() {
@@ -45,8 +47,7 @@ public class SwaggerConfiguration {
 
     private SecurityContext securityContext() {
         return SecurityContext.builder()
-                .securityReferences(
-                        Arrays.asList(new SecurityReference("spring_oauth", scopes())))
+                .securityReferences(defaultAuth())
                 .forPaths(PathSelectors.regex("/api/v1/.*"))
                 .build();
     }
@@ -57,8 +58,15 @@ public class SwaggerConfiguration {
                 .grantTypes(Arrays.asList(grantType))
                 .scopes(Arrays.asList(scopes()))
                 .build();
-
         return oauth;
+    }
+
+    private List<SecurityReference> defaultAuth() {
+        AuthorizationScope authorizationScope = new AuthorizationScope("global", "accessEverything");
+        AuthorizationScope[] authorizationScopes = new AuthorizationScope[1];
+        authorizationScopes[0] = authorizationScope;
+        System.out.println("xxxx => " + authorizationScope.toString());
+        return Lists.newArrayList(new SecurityReference("JWT_TOKEN", authorizationScopes));
     }
 
     @Bean

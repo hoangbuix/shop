@@ -1,19 +1,52 @@
-import axiosClient from "../heplers/axiosClient"
+import service from "../utils/request";
 
 
-export const loginApi = ({ email, password }: ReqLogin): Promise<ResLoginApi> =>
+
+export const loginUser = ({ email, password }: ReqLogin): Promise<ResLoginApi> =>
     new Promise((resolve, reject) => {
         setTimeout(() => {
-            axiosClient.post("http://localhost:8080/api/v1/admin/user/login", { email, password })
-                .then((res: any) => {
-                    resolve({
-                        response: {
-                            data: res
-                        },
-                        message: "Login thành công"
-                    })
-                }).catch(err => {
-                    reject(new Error("Login thất bại"))
+            service.post(`/admin/user/login`, { email, password }).then((response) => {
+                resolve({
+                    data: {
+                        data: response.data
+                    }, message: 'Login success!'
                 })
-        }, 100)
-    })
+            }).catch(err => {
+                reject(new Error('Login failer!'))
+            })
+
+        }, 500);
+    });
+
+
+export const getUserId = (id: string): Promise<ResGetUserIdApi> =>
+    new Promise((resolve, reject) => {
+        setTimeout(() => {
+            service.get(`${process.env.API_URL}/admin/user/get-user-id/${id}`).then((response) => {
+                resolve({
+                    data: {
+                        user: response.data
+                    },
+                    message: 'success!'
+                })
+            }).catch(err => {
+                reject(new Error('Get failer!'))
+            })
+        }, 500);
+    });
+
+export const getUserAll = (): Promise<ResGetUserAllApi> =>
+    new Promise((resolve, reject) => {
+        setTimeout(() => {
+            service.get(`/admin/user/get-all`).then((response) => {
+                resolve({
+                    data: {
+                        users: response
+                    },
+                    message: 'success!'
+                })
+            }).catch(err => {
+                reject(new Error('Get failer!'))
+            })
+        }, 100);
+    });

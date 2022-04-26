@@ -26,10 +26,8 @@ public class UserMapper implements RowMapper<UserEntity> {
             user.setUpdatedDate(resultSet.getDate("updated_date"));
             try {
                 RoleEntity role = new RoleEntity();
-                if (resultSet.getString("role_name") != null || resultSet.getString("role_name") != "") {
-                    role.setRoleName(resultSet.getString("role_name"));
-                    user.setRoles(Collections.singleton(role));
-                }
+                role.setRoleName(resultSet.getString("role_name"));
+                user.setRoles(Collections.singleton(role));
             } catch (Exception e) {
                 e.printStackTrace();
             }

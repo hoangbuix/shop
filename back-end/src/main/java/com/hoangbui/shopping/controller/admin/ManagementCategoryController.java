@@ -16,9 +16,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 @RequestMapping("/api/v1/admin/category")
 @CrossOrigin(origins = "*")
 public class ManagementCategoryController {
-    // @Autowired
-    // private ProductService productService;
-
     @Autowired
     private CategoryService categoryService;
 
@@ -32,6 +29,16 @@ public class ManagementCategoryController {
             cate = categoryService.save(req);
         }
         return new ResponseEntity<>(cate, HttpStatus.OK);
+    }
+
+    @DeleteMapping("/delete/{id}")
+    private ResponseEntity<?> delete(@PathVariable int id){
+        try {
+            categoryService.delete(id);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return new ResponseEntity<>("Delete category success!", HttpStatus.OK);
     }
 
     @GetMapping("/findAll")

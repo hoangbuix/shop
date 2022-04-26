@@ -10,5 +10,7 @@ public interface UserDAO<E> extends CommonDAO<E> {
 
     E findByActivationCode(String code);
 
+    E findByIdAndRole(int id);
+
     void updateActiveCodeAndActiveFlag(E instance);
 }

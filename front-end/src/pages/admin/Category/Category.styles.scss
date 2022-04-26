@@ -1,0 +1,84 @@
+.wrapper__btn__action {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 0 10px;
+}
+
+.cart__btn {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 0 5px;
+
+    & button {
+        background-color: var(--main-color);
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        font-size: 20px;
+
+        i {
+            color:  var(--main-bg); 
+        }
+    }
+}
+
+button.btn__action {
+    margin: 0 5px !important;
+    background: none !important;
+}
+
+button.btn__action:hover {
+    background-color: var(--main-color) !important;
+    color: var(--main-bg) !important;
+}
+
+.action__update {
+    color: blue;
+    font-size: 20px !important;
+}
+
+.action__delete {
+    color: tomato;
+    font-size: 20px !important;
+}
+
+.wrapper__action__delete{
+    color: var(--txt-color);
+}
+
+.action__main {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 10px 0 10px;
+
+    & .action__main-data {
+        display: flex;
+        margin-bottom: 10px;
+    }
+}
+
+
+.action__btn {
+    margin-top: 20px;
+}
+
+.btn__action-delete {
+    background-color: tomato;
+    width: 60px;
+    height: 30px;
+    color: var(--txt-white);
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.btn__action-cancel {
+    background-color: rgb(219, 205, 202);
+    width: 60px;
+    height: 30px;
+    color: var(--txt-color);
+    border-radius: 5px;
+    margin-left: 20px;
+}
+

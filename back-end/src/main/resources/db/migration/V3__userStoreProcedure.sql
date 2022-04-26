@@ -45,7 +45,7 @@ CREATE PROCEDURE user_update(
     in _user_name VARCHAR (50),
     in _password VARCHAR (100),
     in _email VARCHAR (100),
-    in _activeCode VARCHAR (100)
+    in _activeFlag INTEGER
         ) body:
 begin
 update user
@@ -55,8 +55,8 @@ set first_name = _first_name,
     user_name = _user_name,
     password = _password,
     email = _email,
-    active_code = _activeCode,
-    active_flag = 1,
+    active_code = null ,
+    active_flag = _activeFlag,
     updated_date = NOW();
 END$$
 DELIMITER ;
@@ -65,15 +65,16 @@ DELIMITER ;
 drop procedure if EXISTS user_updateActiveCodeAndActiveFlag;
 DELIMITER $$
 CREATE PROCEDURE user_updateActiveCodeAndActiveFlag(
-    in _activeCode VARCHAR (100),
+    in _id INTEGER,
     in _activeFlag INTEGER
         ) body:
 begin
 update user
 set
-    active_code = _activeCode,
+    active_code = null ,
     active_flag = _activeFlag,
-    updated_date = NOW();
+    updated_date = NOW()
+where id = _id;
 END$$
 DELIMITER ;
 
@@ -111,6 +112,19 @@ DELIMITER ;
 drop procedure if EXISTS user_findById;
 DELIMITER $$
 CREATE PROCEDURE user_findById(in _id int)
+begin
+select *
+from user
+where id = _id
+      and(active_flag = 1
+    or active_flag = 0)
+order by first_name;
+end$$
+DELIMITER ;
+
+drop procedure if EXISTS user_findByIdAndRole;
+DELIMITER $$
+CREATE PROCEDURE user_findByIdAndRole(in _id int)
 begin
 SELECT DISTINCT u.id,
                 u.first_name,
@@ -198,7 +212,7 @@ WHERE 1 = 1
                       WHERE 1 = 1
                         and u.id = ur1.user_id
                         and r1.id = ur1.role_id)
-  AND u.active_code = _active_code
+  AND u.active_code = _activeCode
         AND(u.active_flag = 1 OR u.active_flag = 0)
 GROUP BY u.id
 ORDER BY first_name;

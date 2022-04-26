@@ -54,8 +54,8 @@ public class UserServiceImpl implements UserService {
             user.setActiveCode(role.getRoleName());
             user.setActiveFlag(1);
             id = userDAO.save(user);
-            UserEntity newUser = userDAO.findById(id);
             if (id != 0) {
+                UserEntity newUser = userDAO.findById(id);
                 UserRoleEntity userRole = new UserRoleEntity();
                 userRole.setUsers(newUser);
                 userRole.setRoles(role);
@@ -64,8 +64,8 @@ public class UserServiceImpl implements UserService {
         } catch (Exception e) {
             e.printStackTrace();
         }
-        sendMessage(userDAO.findById(id));
-        return userDAO.findById(id);
+        sendMessage(userDAO.findByIdAndRole(id));
+        return userDAO.findByIdAndRole(id);
     }
 
     @Override
@@ -94,7 +94,8 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public List<UserEntity> findAll() {
-        return userDAO.findAll();
+        List<UserEntity> user = userDAO.findAll();
+        return user.isEmpty() ? null : user;
     }
 
     @Override
@@ -108,8 +109,9 @@ public class UserServiceImpl implements UserService {
         if (user == null) {
             return false;
         }
+        user.setActiveCode(null);
         user.setActiveFlag(1);
-        userDAO.update(user);
+        userDAO.updateActiveCodeAndActiveFlag(user);
         return true;
     }
 

@@ -1,36 +1,17 @@
-import axiosClient from "../heplers/axiosClient"
+import service from "../utils/request";
 
-
-export const getAllProduct = (): Promise<Product> =>
+export const getProductAll = (): Promise<ResGetProductAllApi> =>
     new Promise((resolve, reject) => {
         setTimeout(() => {
-            axiosClient.get("http://localhost:8080/api/v1/admin/product/findAll")
-                .then((res: any) => {
-                    resolve({
-                        response: {
-                            data: res,
-                        },
-                        message: "Success"
-                    })
-                }).catch(err => {
-                    reject(new Error("Error"))
+            service.get(`/admin/product/findAll`).then((response) => {
+                resolve({
+                    data: {
+                        products: response
+                    },
+                    message: 'success!'
                 })
-        }, 1000)
+            }).catch(err => {
+                reject(new Error('Get failer!'))
+            })
+        }, 100);
     });
-
-export const findByProductId = (id: any): Promise<Product> =>
-    new Promise((resolve, reject) => {
-        setTimeout(() => {
-            axiosClient.get(`http://localhost:8080/api/v1/admin/product/findById/${id}`)
-                .then((res: any) => {
-                    resolve({
-                        response: {
-                            data: res,
-                        },
-                        message: "Success"
-                    })
-                }).catch(err => {
-                    reject(new Error("Error"))
-                })
-        }, 1000)
-    })

@@ -1,15 +1,22 @@
-:root {
-    $primary-color: #2f327d;
-    $secondary-color: #f48c06;
-    $third-color: #65daff;
-    $gray: #696984;
-    $gray-light: #6c6c6c;
-    $gray-dark: #464646;
-    $gray-darker: #252641;
-    $purple: #5b72ee;
-    $yellow: #fff2e1;
-    $blue: #29b9e7;
-    $font-primary: "Poppins", sans-serif;
-    $font-secondary: "Nunito Sans", sans-serif;
-    $wrapper: 1920px;
-} 
+// GLOBAL COLORS
+$color-white: #fff;
+$color-body: #1e2221;
+$color-error: red;
+
+$color-line: #eceae8;
+$color-black-transparent: rgba(27, 31, 35, .15);
+
+// fonts color
+$color-font-main: #5a5a5a;
+$color-font-dim: #ccc;
+$color-font-placeholder: #e5e5e5;
+
+$color-line: #e5e5e5;
+
+$color-gray-50: #d1d1d1;
+$color-gray-100: #cccccc;
+$color-gray-200: #bfbfbf;
+$color-gray-300: #adadad;
+$color-gray-400: #989898;
+$color-gray-450: #808080;
+$color-gray-500: #7a7a7a;

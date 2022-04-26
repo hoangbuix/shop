@@ -27,9 +27,8 @@ public class UserDAOImpl extends BaseDAOImpl<UserEntity> implements UserDAO<User
 
     @Override
     public void update(UserEntity user) {
-        update(QueryConstant.callQuery(USER, UPDATE, 8), user.getFirstName(), user.getLastName(),
-                user.getAvatar(), user.getUsername(), user.getPassword(), user.getEmail(), user.getActiveCode(),
-                user.getActiveFlag());
+        update(QueryConstant.callQuery(USER, UPDATE, 7), user.getFirstName(), user.getLastName(),
+                user.getAvatar(), user.getUsername(), user.getPassword(), user.getEmail(), user.getActiveFlag());
     }
 
     @Override
@@ -71,8 +70,14 @@ public class UserDAOImpl extends BaseDAOImpl<UserEntity> implements UserDAO<User
     }
 
     @Override
+    public UserEntity findByIdAndRole(int id) {
+        List<UserEntity> users = query(QueryConstant.callQueryUpdate(USER, "_findByIdAndRole", 1), new UserMapper(), id);
+        return users.isEmpty() ? null : users.get(0);
+    }
+
+    @Override
     public void updateActiveCodeAndActiveFlag(UserEntity user) {
-        update(QueryConstant.callQuery(USER, "_updateActiveCodeAndActiveFlag", 2),
-                user.getActiveCode(), user.getActiveFlag());
+        update(QueryConstant.callQueryUpdate(USER, "_updateActiveCodeAndActiveFlag", 2),
+                user.getId(), user.getActiveFlag());
     }
 }

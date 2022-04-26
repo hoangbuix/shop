@@ -1,10 +1,7 @@
 package com.hoangbui.shopping.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import javax.persistence.*;
 import java.util.HashSet;
@@ -13,6 +10,7 @@ import java.util.Set;
 @Setter
 @Getter
 @AllArgsConstructor
+@NoArgsConstructor
 @Data
 @Entity(name = "user")
 @Table(name = "user")
@@ -39,13 +37,11 @@ public class UserEntity extends BaseEntity {
     private String activeCode;
 
 
-    @JsonIgnore
+//    @JsonIgnore
     @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)
     @JoinTable(name = "user_role",
             joinColumns = {@JoinColumn(name = "user_id", referencedColumnName = "id")},
             inverseJoinColumns = @JoinColumn(name = "role_id", referencedColumnName = "id"))
     private Set<RoleEntity> roles = new HashSet<>();
 
-    public UserEntity() {
-    }
 }

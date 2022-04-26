@@ -1,19 +1,34 @@
-import axiosClient from "../heplers/axiosClient"
+import service from "../utils/request";
 
-
-export const getAllCategory = (): Promise<Order> =>
+export const getCategoryAll = (): Promise<ResGetCategoryAllApi> =>
     new Promise((resolve, reject) => {
         setTimeout(() => {
-            axiosClient.get("http://localhost:8080/api/v1/admin/category/findAll")
-                .then((res: any) => {
-                    resolve({
-                        response: {
-                            data: res,
-                        },
-                        message: "Success"
-                    })
-                }).catch(err => {
-                    reject(new Error("Error"))
+            service.get(`/admin/category/findAll`).then((response) => {
+                resolve({
+                    data: {
+                        categorys: response
+                    },
+                    message: 'success!'
                 })
-        }, 1000)
-    })
+            }).catch(err => {
+                reject(new Error('Get failer!'))
+            })
+        }, 100);
+    });
+
+
+export const deleteCategoryId = (id: any): Promise<ResDeleteCategoryIdApi> =>
+    new Promise((resolve, reject) => {
+        setTimeout(() => {
+            service.delete(`/admin/category/delete/${id}`).then((response) => {
+                resolve({
+                    data: {
+                        message: response
+                    },
+                    message: 'Delete success!'
+                })
+            }).catch(err => {
+                reject(new Error('Get failer!'))
+            })
+        }, 100);
+    });

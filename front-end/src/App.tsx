@@ -1,9 +1,8 @@
 import React from 'react';
-import "./@styles/app.scss";
-import Routes from './routes/routes';
+import Layout from './layouts';
 
 function App() {
-  return <Routes />;
+  return <Layout />
 }
 
 export default App;

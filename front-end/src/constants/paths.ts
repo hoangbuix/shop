@@ -2,8 +2,9 @@ export const PATH = {
     HOME: "/",
     PRODUCT: "/product",
     LOGIN: "/login",
-    CART: "/cart",
-
-    // management admin
-    ADMIN: "/admin"
+    DASHBOARD: "/admin/dashboard",
+    PRODUCTADMIN: "/admin/product",
+    PRODUCTSIZEADMIN: "/admin/product-size",
+    USERADMIN: "/admin/user",
+    CATEGORYADMIN: "/admin/category"
 }

@@ -49,6 +49,20 @@ set category_name = _name,
 END$$
 DELIMITER ;
 --
+drop procedure if EXISTS category_delete;
+DELIMITER $$
+CREATE PROCEDURE category_delete(
+    in _id INTEGER
+        )
+    body:
+begin
+update category
+set
+    active_flag   = 0,
+    updated_date  = NOW()
+where id = _id;
+END$$
+DELIMITER ;
 
 drop procedure if EXISTS category_findAll;
 DELIMITER $$

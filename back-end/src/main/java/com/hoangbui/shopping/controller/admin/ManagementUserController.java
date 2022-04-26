@@ -4,6 +4,7 @@ import com.hoangbui.shopping.entity.UserEntity;
 import com.hoangbui.shopping.exception.BadRequestException;
 import com.hoangbui.shopping.model.conveter.UserConvert;
 import com.hoangbui.shopping.model.dto.CaptchaResponseDTO;
+import com.hoangbui.shopping.model.dto.UserDTO;
 import com.hoangbui.shopping.model.req.LoginReq;
 import com.hoangbui.shopping.model.req.create.CreateUserReq;
 import com.hoangbui.shopping.model.req.update.ChangePasswordReq;
@@ -11,6 +12,7 @@ import com.hoangbui.shopping.model.req.update.UpdateUserReq;
 import com.hoangbui.shopping.securiry.CustomUserDetails;
 import com.hoangbui.shopping.securiry.JwtTokenUtil;
 import com.hoangbui.shopping.service.UserService;
+import io.swagger.annotations.Api;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
@@ -35,6 +37,7 @@ import static com.hoangbui.shopping.util.Constant.MAX_AGE_COOKIE;
 @RestController
 @RequestMapping("/api/v1/admin/user")
 @CrossOrigin(origins = "*")
+@Api(value = "Shop", description = "Quản lý người dùng")
 public class ManagementUserController {
 
     public static final String CAPTCHA_URL = "https://www.google.com/recaptcha/api/siteverify?secret=%s&response=%s";
@@ -141,6 +144,10 @@ public class ManagementUserController {
     @GetMapping("/get-all")
     private ResponseEntity<?> findAllUser() {
         List<UserEntity> users = userService.findAll();
+        UserDTO userDTO = null;
+        for (UserEntity user : users){
+          userDTO =   UserConvert.toDTO(user);
+        }
         return new ResponseEntity<>(users, HttpStatus.OK);
     }
 

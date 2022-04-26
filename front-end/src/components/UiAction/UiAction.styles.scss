@@ -1,0 +1,19 @@
+button.btn__action {
+    margin: 0 5px !important;
+    background: none !important;
+}
+
+button.btn__action:hover {
+    background-color: var(--main-color) !important;
+    color: var(--main-bg) !important;
+}
+
+.action__update {
+    color: blue;
+    font-size: 20px !important;
+}
+
+.action__delete {
+    color: tomato;
+    font-size: 20px !important;
+}
