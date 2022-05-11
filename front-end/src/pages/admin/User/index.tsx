@@ -72,6 +72,34 @@ const UserAdmin: React.FC<Props> = (props: Props) => {
         getAllUser();
     }, [getAllUser])
 
+    const showNotification = () => {
+        const notification = new Notification(
+            "Hi is xxxx there!",
+            {
+                body: "xxxxxxxxxxxx",
+                icon: ""
+            }
+        );
+        notification.onclick = () => {
+            window.location.href = "https://www.google.com"
+        }
+    }
+
+
+    if (Notification.permission === "granted") {
+        showNotification();
+        console.log(Notification.permission)
+
+    } else if (Notification.permission !== "denied") {
+        Notification.requestPermission()
+            .then(permisson => {
+                if (permisson === "granted") {
+                    showNotification();
+                    console.log(Notification.permission)
+                }
+            })
+    }
+
 
     return (
         <div className="card">
@@ -84,7 +112,7 @@ const UserAdmin: React.FC<Props> = (props: Props) => {
                     renderHead={(item: any, index: any) => renderOrderHead(item, index)}
                     bodyData={users}
                     renderBody={(item: any, index: any) => renderOrderBody(item, index)}
-                    limit={3}
+                    limit={10}
                 />
             </div>
             {/* <div className="card__footer">

@@ -11,13 +11,15 @@ interface Props {
 }
 
 const UiTable: React.FC<Props> = (props: Props) => {
-    const initDataShow = (props.limit && props.bodyData) ? props.bodyData.slice(0, Number(props.limit)) : props.bodyData;
+    const initDataShow: any = (props.limit && props.bodyData) ? props.bodyData.slice(0, Number(props.limit)) : props.bodyData;
 
-    const [dataShow, setDataShow] = useState([]);
+    const [dataShow, setDataShow] = useState<any>(initDataShow);
 
     useEffect(() => {
         setDataShow(initDataShow)
-    }, [initDataShow])
+    }, [props.bodyData])
+
+
 
     let pages: any = 1;
 

@@ -1,7 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
 import UiBadge from "../../../components/UiBadge";
+import UiChart from "../../../components/UiChart";
 import UiStatusCard from "../../../components/UiStatusCard";
 import UiTable from "../../../components/UiTable";
 
@@ -178,6 +179,7 @@ const renderOrderBody = (item: any, index: any) => (
 )
 const DashBoard = () => {
     const themeReducer = useSelector((state: any) => state.ThemeReducer.mode)
+    const [data, setData] = useState([0, 1, 2, 3, 4, 5, 6, 7]);
 
     return (
         <div>
@@ -213,6 +215,7 @@ const DashBoard = () => {
                             type='line'
                             height='100%'
                         /> */}
+                        <UiChart chartData={data} />
                     </div>
                 </div>
                 <div className="col-4">

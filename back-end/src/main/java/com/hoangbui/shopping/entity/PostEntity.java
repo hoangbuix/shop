@@ -29,6 +29,15 @@ public class PostEntity extends BaseEntity {
     @Column(name = "thumbnail")
     private String thumbnail;
 
+    @Column(name = "approved")
+    private boolean approved;
+
+    @Column(name = "del")
+    private boolean del;
+
+    @Column(name = "not_approved")
+    private boolean notApproved;
+
     @Column(name = "created_by")
     private int createdBy;
 

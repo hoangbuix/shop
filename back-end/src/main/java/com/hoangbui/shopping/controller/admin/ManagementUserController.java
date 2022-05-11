@@ -13,10 +13,12 @@ import com.hoangbui.shopping.securiry.CustomUserDetails;
 import com.hoangbui.shopping.securiry.JwtTokenUtil;
 import com.hoangbui.shopping.service.UserService;
 import io.swagger.annotations.Api;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -38,6 +40,7 @@ import static com.hoangbui.shopping.util.Constant.MAX_AGE_COOKIE;
 @RequestMapping("/api/v1/admin/user")
 @CrossOrigin(origins = "*")
 @Api(value = "Shop", description = "Quản lý người dùng")
+@RequiredArgsConstructor
 public class ManagementUserController {
 
     public static final String CAPTCHA_URL = "https://www.google.com/recaptcha/api/siteverify?secret=%s&response=%s";
@@ -141,13 +144,10 @@ public class ManagementUserController {
         return ResponseEntity.ok("Đổi mật khẩu thành công");
     }
 
+//    @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_MANAGEMENT')")
     @GetMapping("/get-all")
     private ResponseEntity<?> findAllUser() {
         List<UserEntity> users = userService.findAll();
-        UserDTO userDTO = null;
-        for (UserEntity user : users){
-          userDTO =   UserConvert.toDTO(user);
-        }
         return new ResponseEntity<>(users, HttpStatus.OK);
     }
 

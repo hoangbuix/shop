@@ -5,6 +5,7 @@ import com.hoangbui.shopping.entity.CategoryEntity;
 import com.hoangbui.shopping.model.req.create.CreateCategoryReq;
 import com.hoangbui.shopping.model.req.update.UpdateCategoryReq;
 import com.hoangbui.shopping.service.CategoryService;
+import lombok.RequiredArgsConstructor;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -12,6 +13,7 @@ import org.springframework.stereotype.Component;
 import java.util.List;
 
 @Component
+@RequiredArgsConstructor
 public class CategoryServiceImpl implements CategoryService {
     final Logger log = Logger.getLogger(CategoryService.class);
 
@@ -54,12 +56,12 @@ public class CategoryServiceImpl implements CategoryService {
     public CategoryEntity update(UpdateCategoryReq req) {
         try {
             CategoryEntity cate = new CategoryEntity();
+            cate.setId(req.getId());
             cate.setCategoryCode(req.getCategoryCode());
             cate.setCategoryName(req.getCategoryName());
             cate.setDescription(req.getDescription());
             cate.setActiveFlag(req.getActiveFlag());
             categoryDAO.update(cate);
-
         } catch (Exception e) {
             e.printStackTrace();
             log.error(e.getMessage());

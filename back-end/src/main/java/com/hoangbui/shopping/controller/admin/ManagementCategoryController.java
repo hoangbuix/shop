@@ -5,31 +5,51 @@ import java.util.List;
 import com.hoangbui.shopping.entity.CategoryEntity;
 import com.hoangbui.shopping.exception.DuplicateRecordException;
 import com.hoangbui.shopping.model.req.create.CreateCategoryReq;
+import com.hoangbui.shopping.model.req.update.UpdateCategoryReq;
 import com.hoangbui.shopping.service.CategoryService;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.bind.annotation.GetMapping;
 
+import javax.validation.Valid;
+import static com.hoangbui.shopping.util.PathUrl.*;
+
+
 @RestController
 @RequestMapping("/api/v1/admin/category")
 @CrossOrigin(origins = "*")
+@Slf4j
 public class ManagementCategoryController {
     @Autowired
     private CategoryService categoryService;
 
-    @PostMapping("/create")
-    private ResponseEntity<?> create(@RequestBody CreateCategoryReq req) {
-        CategoryEntity cate;
-        CategoryEntity code = categoryService.findByCode(req.getCategoryCode());
-        if (code != null) {
-            throw new DuplicateRecordException("Category exist");
-        } else {
+    @PostMapping(CREATE)
+    private ResponseEntity<?> create(@Valid @RequestBody CreateCategoryReq req) {
+        CategoryEntity cate = null;
+        CategoryEntity check = categoryService.findByCode(req.getCategoryCode());
+        if(check == null){
             cate = categoryService.save(req);
+        } else {
+            throw new DuplicateRecordException("Da ton tai!");
         }
         return new ResponseEntity<>(cate, HttpStatus.OK);
     }
+
+    @PutMapping(UPDATE)
+    private ResponseEntity<?> update(@Valid @RequestBody UpdateCategoryReq req) {
+        CategoryEntity cate = null;
+        try {
+            cate = categoryService.update(req);
+        } catch (Exception e){
+            e.printStackTrace();
+        }
+        return new ResponseEntity<>(cate, HttpStatus.OK);
+    }
+
+
 
     @DeleteMapping("/delete/{id}")
     private ResponseEntity<?> delete(@PathVariable int id){

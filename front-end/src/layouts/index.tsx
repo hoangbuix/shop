@@ -21,6 +21,8 @@ const Layout = () => {
         dispatch(ThemeAction.setColor(colorClass))
     }, [dispatch])
 
+
+
     return (
         <BrowserRouter>
             <Route render={(props) => (

@@ -55,6 +55,7 @@ CREATE TABLE notification
     user_id      INTEGER   NOT NULL,
     post_id      INTEGER   NOT NULL,
     seen         bit(1)    NOT NULL,
+    notification_name VARCHAR(255) NULL DEFAULT NULL,
     active_flag  INTEGER   NOT NULL DEFAULT 1,
     created_date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     updated_date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
@@ -105,11 +106,14 @@ CREATE TABLE brand
 CREATE TABLE post
 (
     id           INTEGER      NOT NULL AUTO_INCREMENT,
-    content      TEXT         NOT NULL,
+    content      VARCHAR(255)        NOT NULL,
     slug         VARCHAR(255) NOT NULL,
     title        VARCHAR(255) NOT NULL,
     thumbnail    varchar(255)          DEFAULT NULL,
     description  VARCHAR(255) NOT NULL,
+    del          BIT(1)       NOT NULL DEFAULT 0,
+    approved BIT(1)       NOT NULL DEFAULT 1,
+    not_approved BIT(1)       NOT NULL DEFAULT 1,
     active_flag  INTEGER      NOT NULL DEFAULT 1,
     created_date TIMESTAMP    NOT NULL DEFAULT CURRENT_TIMESTAMP,
     created_by   INTEGER      NOT NULL,

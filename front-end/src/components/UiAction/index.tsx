@@ -1,22 +1,19 @@
-import React, { useEffect, useState } from "react";
-import UiModal from "../UiModal";
+import React, { useState } from "react";
+import UiButton from "../UiButton";
+import UiModal, { ModalFooter } from "../UiModal";
 import "./UiAction.styles.scss";
 
 interface Props {
     bodyData: any;
     renderBodyDataDelete?: any;
     renderBodyDataEdit?: any;
-    close?: boolean;
+    onClick: () => void;
+    onClickDelete: () => void;
 }
 
 const UiAction: React.FC<Props> = (props: Props) => {
-    const [openEdit, setOpenEdit] = useState(false);
+    const [openEdit, setOpenEdit] = useState<any>(false);
     const [openDelete, setOpenDelete] = useState<any>(false);
-
-    // console.log(openDelete)
-    useEffect(() => {
-        setOpenDelete(props.close)
-    }, [props.close])
 
     const setBtnEdit = () => {
         setOpenEdit(true);
@@ -30,7 +27,6 @@ const UiAction: React.FC<Props> = (props: Props) => {
         setOpenEdit(false)
         setOpenDelete(false);
     }
-    console.log(props.close)
 
 
     return (
@@ -41,22 +37,30 @@ const UiAction: React.FC<Props> = (props: Props) => {
             <button className="btn__action action__delete" onClick={setBtnDelete}>
                 <i className="bx bx-trash"></i>
             </button>
-
             {
-                openEdit && <UiModal show={openEdit} handleClose={handleClose}>
+                openEdit && <UiModal show={openEdit} setShow={setOpenEdit}>
                     {
                         props.bodyData && props.renderBodyDataEdit ?
                             props.bodyData.map((item: any, index: any) => props.renderBodyDataEdit(item, index)) : null
                     }
+                    <ModalFooter>
+                        <UiButton onClick={props.onClick}>Update</UiButton>
+                        <UiButton onClick={() => setOpenEdit(false)}>Close</UiButton>
+                    </ModalFooter>
                 </UiModal>
             }
 
             {
-                openDelete && <UiModal show={openDelete} handleClose={handleClose}>
+                openDelete && <UiModal show={openDelete} setShow={handleClose}>
                     {
                         props.bodyData && props.renderBodyDataDelete ?
                             props.bodyData.map((item: any, index: any) => props.renderBodyDataDelete(item, index)) : null
                     }
+
+                    <ModalFooter>
+                        <UiButton onClick={props.onClickDelete}>Delete</UiButton>
+                        <UiButton onClick={() => setOpenEdit(false)}>Close</UiButton>
+                    </ModalFooter>
                 </UiModal>
             }
         </>

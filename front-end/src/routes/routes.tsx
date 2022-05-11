@@ -7,8 +7,8 @@ import LoginRoutes from "./LoginRoutes";
 export default function Routes() {
     return (
         <BrowserRouter>
-            <LoginRoutes />
-            <HomeRoutes />
+            {/* <LoginRoutes /> */}
+            {/* <HomeRoutes /> */}
             <DashboardRoutes />
         </BrowserRouter>
     )

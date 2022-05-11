@@ -33,6 +33,7 @@ DELIMITER ;
 drop procedure if EXISTS category_update;
 DELIMITER $$
 CREATE PROCEDURE category_update(
+    in _id INTEGER,
     in _name VARCHAR(255),
     in _code VARCHAR(100),
     in _description Text,
@@ -45,7 +46,8 @@ set category_name = _name,
     category_code = _code,
     description   = _description,
     active_flag   = _active_flag,
-    updated_date  = NOW();
+    updated_date  = NOW()
+    where  id = _id;
 END$$
 DELIMITER ;
 --

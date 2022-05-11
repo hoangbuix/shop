@@ -5,6 +5,9 @@ CREATE PROCEDURE post_create(in _content VARCHAR (255),
                              in _slug VARCHAR (255),
                              in _thumbnail VARCHAR (255),
                              in _description VARCHAR (255),
+                             in _del BIT(1),
+                             in _approved BIT(1),
+                             in _notApproved BIT(1),
                              in _createdBy INTEGER,
                              in _updatedBy INTEGER) body:
 BEGIN
@@ -21,9 +24,9 @@ SET @message_text = CONCAT('Post \'', _title, '\' already exists');
 SIGNAL
 SQLSTATE '45000' SET MESSAGE_TEXT = @message_text;
 else
-        insert into post(content, title, slug, thumbnail, description, created_by, updated_by, active_flag,
+        insert into post(content, title, slug, thumbnail, description, del, approved, not_approved, created_by, updated_by, active_flag,
                          created_date, updated_date)
-        values (_content, _title, _slug, _thumbnail, _description, _createdBy, _updatedBy, 1, NOW(), NOW());
+        values (_content, _title, _slug, _thumbnail, _description, _del, _approved, _notApproved, _createdBy, _updatedBy, 1, NOW(), NOW());
         set
 newId = last_insert_id();
 end if;
@@ -39,6 +42,9 @@ CREATE PROCEDURE post_update(in _content VARCHAR (255),
                              in _slug VARCHAR (255),
                              in _thumbnail VARCHAR (255),
                              in _description VARCHAR (255),
+                             in _del BIT(1),
+                             in _approved BIT(1),
+                             in _notApproved BIT(1),
                              in _updatedBy INTEGER,
                              in _active_flag INTEGER) body:
 begin
@@ -49,6 +55,9 @@ set content = _content,
     thumbnail = _thumbnail,
     description = _description,
     active_flag = _active_flag,
+    del = _del,
+    approved = _approved,
+    not_approved = _notApproved,
     updated_by = _updatedBy,
     updated_date = NOW();
 END$$
@@ -99,6 +108,17 @@ begin
 select *
 from post
 where title = _title
+      and(active_flag = 1
+    or active_flag = 0);
+end$$
+DELIMITER ;
+
+
+drop procedure if EXISTS post_findByUser;
+DELIMITER $$
+CREATE PROCEDURE post_findByUser(in _id integer )
+begin
+select * from post p, user u where p.created_by = u.id and u.id = _id
       and(active_flag = 1
     or active_flag = 0);
 end$$

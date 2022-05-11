@@ -4,11 +4,10 @@ import com.hoangbui.shopping.entity.NotificationEntity;
 import com.hoangbui.shopping.model.dto.NotificationDTO;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Repository
-public interface NotificationDAO<E> {
-    NotificationEntity createNotification();
+public interface NotificationDAO<E> extends CommonDAO<E> {
 
-    NotificationEntity getNotificationByEmail(String email, int page, boolean screen);
-
-    NotificationDTO seenNotification(Long id);
+    List<E> findAllByUserId(int id);
 }

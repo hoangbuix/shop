@@ -79,11 +79,13 @@ drop procedure if EXISTS product_findAll;
 DELIMITER $$
 CREATE PROCEDURE product_findAll()
 begin
-select *
-from product
-where (active_flag = 1
-    or active_flag = 0)
-order by product_name;
+select p.*, b.brand_name, c.category_code, ps.size_code from product p
+          left join brand b on  p.brand_id = b.id
+          left join category c on p.category_id = c.id
+          left join product_size ps on p.product_size = ps.id
+where (p.active_flag = 1
+    or p.active_flag = 0)
+order by p.product_name;
 end$$
 DELIMITER ;
 

@@ -14,6 +14,7 @@ import com.hoangbui.shopping.model.req.update.ChangePasswordReq;
 import com.hoangbui.shopping.model.req.update.UpdateUserReq;
 import com.hoangbui.shopping.service.MailService;
 import com.hoangbui.shopping.service.UserService;
+import lombok.RequiredArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.mail.MailSender;
@@ -24,11 +25,10 @@ import org.springframework.util.StringUtils;
 import java.util.List;
 
 @Component
+@RequiredArgsConstructor
 public class UserServiceImpl implements UserService {
     @Value("${hostname}")
     private String hostname;
-
-
     @Autowired
     private MailService mailService;
 
@@ -100,7 +100,7 @@ public class UserServiceImpl implements UserService {
 
     @Override
     public UserEntity findById(int id) {
-        return userDAO.findById(id);
+        return userDAO.findByIdAndRole(id);
     }
 
     @Override

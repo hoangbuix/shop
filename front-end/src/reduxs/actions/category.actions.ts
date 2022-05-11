@@ -43,3 +43,31 @@ export const deleteCategoryIdFailer = (messageError: string) => ({
     type: types.DELETE_CATEGORY_ID_FAILER,
     payload: messageError
 });
+
+export const updateCategoryStart = () => ({
+    type: types.UPDATTE_CATEGORY_ID_START
+});
+
+export const updateCategorySuccess = (categoryUpdate: ResUpdateCategoryApi) => ({
+    type: types.UPDATTE_CATEGORY_ID_SUCCESS,
+    payload: categoryUpdate
+});
+
+export const updateCategoryFailer = (messageError: string) => ({
+    type: types.UPDATTE_CATEGORY_ID_FAILER,
+    payload: messageError
+});
+
+export const addCategoryStart = () => ({
+    type: types.ADD_CATEGORY_START
+});
+
+export const addCategorySuccess = (addCategory: ResAddCategoryApi) => ({
+    type: types.ADD_CATEGORY_SUCCESS,
+    payload: addCategory
+});
+
+export const addCategoryFailer = (messageError: string) => ({
+    type: types.ADD_CATEGORY_FAILER,
+    payload: messageError
+});

@@ -23,8 +23,8 @@ public class CategoryDAOImpl extends BaseDAOImpl<CategoryEntity> implements Cate
 
     @Override
     public void update(CategoryEntity cate) {
-        update(QueryConstant.callQuery(CATEGORY, UPDATE, 3),cate.getCategoryCode(), cate.getCategoryName(),
-                cate.getDescription());
+        update(QueryConstant.callQueryUpdate(CATEGORY, UPDATE, 5), cate.getId(), cate.getCategoryName(), cate.getCategoryCode(),
+                cate.getDescription(), cate.getActiveFlag());
     }
 
     @Override

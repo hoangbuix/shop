@@ -40,6 +40,4 @@ interface ResGetUserAllApi extends Res {
         users: any;
     }
 }
-interface ResGetUserAll extends ActionRedux {
-    payload: ResGetUserAllApi
-}
+interface ResGetUserAll extends ActionRedux { }

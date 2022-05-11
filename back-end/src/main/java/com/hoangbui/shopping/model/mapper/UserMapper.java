@@ -7,6 +7,7 @@ import com.hoangbui.shopping.entity.UserEntity;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Collections;
+import java.util.Objects;
 
 public class UserMapper implements RowMapper<UserEntity> {
     @Override
@@ -25,9 +26,11 @@ public class UserMapper implements RowMapper<UserEntity> {
             user.setCreatedDate(resultSet.getDate("created_date"));
             user.setUpdatedDate(resultSet.getDate("updated_date"));
             try {
-                RoleEntity role = new RoleEntity();
-                role.setRoleName(resultSet.getString("role_name"));
-                user.setRoles(Collections.singleton(role));
+                if (!Objects.equals(resultSet.getString("role_name"), "")){
+                    RoleEntity role = new RoleEntity();
+                    role.setRoleName(resultSet.getString("role_name"));
+                    user.setRoles(Collections.singleton(role));
+                }
             } catch (Exception e) {
                 e.printStackTrace();
             }
