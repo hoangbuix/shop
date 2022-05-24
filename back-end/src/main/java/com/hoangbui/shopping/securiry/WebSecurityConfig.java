@@ -27,7 +27,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
         prePostEnabled = true
 )
 @RequiredArgsConstructor
-public class WebSecurityConfig<CustomerUserDetailService> extends WebSecurityConfigurerAdapter {
+public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     private MyAccessDeniedHandler myAccessDeniedHandler;
@@ -41,8 +41,9 @@ public class WebSecurityConfig<CustomerUserDetailService> extends WebSecurityCon
     @Autowired
     private JwtUserDetailsService jwtUserDetailsService;
 
-    private static final String[] STATIC_RESOURCES = { "/swagger-resources/**", "/swagger-ui.html", "/v2/api-docs",
-            "/webjars/**", "/data/**", "/static/admin/**" };
+    private static final String[] STATIC_RESOURCES = { "/v2/api-docs", "/configuration/ui",
+            "/swagger-resources/**", "/configuration/**", "/swagger-ui.html",
+            "/webjars/**", "/csrf", "/data/**", "/static/admin/**" };
 
     @Bean
     public static PasswordEncoder passwordEncoder() {

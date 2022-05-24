@@ -4,12 +4,14 @@ export const getProductAll = (): Promise<ResGetProductAllApi> =>
     new Promise((resolve, reject) => {
         setTimeout(() => {
             service.get(`/admin/product/findAll`).then((response) => {
-                resolve({
-                    data: {
-                        products: response
-                    },
-                    message: 'success!'
-                })
+                if (response.data.length > 0) {
+                    resolve({
+                        data: {
+                            products: response
+                        },
+                        message: 'success!'
+                    })
+                }
             }).catch(err => {
                 reject(new Error('Get failer!'))
             })

@@ -6,7 +6,6 @@ import com.hoangbui.shopping.entity.UserEntity;
 import com.hoangbui.shopping.model.req.create.CreatePostReq;
 import com.hoangbui.shopping.securiry.CustomUserDetails;
 import com.hoangbui.shopping.service.PostService;
-import com.hoangbui.shopping.util.PathUrl;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 import lombok.extern.slf4j.Slf4j;

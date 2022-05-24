@@ -5,8 +5,10 @@ import { PATH } from "../constants/paths"
 import AuthenticatedGuard from "../guards/AuthenticatedGuard"
 import CategoryAdmin from "../pages/admin/Category"
 import DashBoard from "../pages/admin/Dashboard"
+import OrderAdmin from "../pages/admin/Order"
 import ProductAdmin from "../pages/admin/Product"
 import ProductSizeAdmin from "../pages/admin/ProductSize"
+import Profile from "../pages/admin/Profile"
 import UserAdmin from "../pages/admin/User"
 
 export default function DashboardRoutes() {
@@ -18,6 +20,16 @@ export default function DashboardRoutes() {
                 component={() => (
                     <Suspense fallback={<Loading />}>
                         <DashBoard />
+                    </Suspense>
+                )}
+            />
+            <AuthenticatedGuard
+
+                exact
+                path={PATH.PROFLE}
+                component={() => (
+                    <Suspense fallback={<Loading />}>
+                        <Profile />
                     </Suspense>
                 )}
             />
@@ -54,6 +66,15 @@ export default function DashboardRoutes() {
                 component={() => (
                     <Suspense fallback={<Loading />}>
                         <ProductSizeAdmin />
+                    </Suspense>
+                )}
+            />
+            <AuthenticatedGuard
+                exact
+                path={PATH.ORDERADMIN}
+                component={() => (
+                    <Suspense fallback={<Loading />}>
+                        <OrderAdmin />
                     </Suspense>
                 )}
             />

@@ -1,8 +1,10 @@
 package com.hoangbui.shopping.config;
 
 import com.google.common.collect.Lists;
+import org.springframework.boot.autoconfigure.condition.ConditionalOnExpression;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Profile;
 import org.springframework.http.HttpHeaders;
 
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -21,6 +23,8 @@ import java.util.List;
 
 @Configuration
 @EnableSwagger2
+//@Profile({"dev && swagger"})
+//@ConditionalOnExpression(value = "${useSwagger:false}")
 public class SwaggerConfiguration {
     private static final String AUTH_END_POINT = "/api/v1/admin/user/login";
 
@@ -36,7 +40,8 @@ public class SwaggerConfiguration {
 //                .securitySchemes(Arrays.asList(apiCookieKey()));
     }
 
-    private ApiInfo apiEndPointsInfo() {
+    @Bean
+    public ApiInfo apiEndPointsInfo() {
         return new ApiInfoBuilder()
                 .title(" website")
                 .description("REST API")

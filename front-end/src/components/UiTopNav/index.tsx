@@ -33,7 +33,7 @@ const user_menu = [
     {
         "icon": "bx bx-user",
         "content": "Profile",
-        "route": "/profile",
+        "route": "/admin/profile",
     },
     {
         "icon": "bx bx-wallet-alt",

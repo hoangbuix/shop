@@ -4,12 +4,14 @@ export const getCategoryAll = (): Promise<ResGetCategoryAllApi> =>
     new Promise((resolve, reject) => {
         setTimeout(() => {
             service.get(`/admin/category/findAll`).then((response) => {
-                resolve({
-                    data: {
-                        categorys: response
-                    },
-                    message: 'success!'
-                })
+                if (response.data) {
+                    resolve({
+                        data: {
+                            categorys: response.data
+                        },
+                        message: 'success!'
+                    })
+                }
             }).catch(err => {
                 reject(new Error('Get failer!'))
             })

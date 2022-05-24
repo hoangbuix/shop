@@ -1,7 +1,5 @@
 package com.hoangbui.shopping.controller.admin;
 
-import java.util.List;
-
 import javax.validation.Valid;
 
 import com.hoangbui.shopping.entity.OrderEntity;
@@ -42,7 +40,6 @@ public class ManagementOrderController {
 
      @GetMapping("/findAll")
      private ResponseEntity<?> findAll() {
-          List<OrderEntity> lstOrder = orderService.findAll();
           OrderEntity orderEntity = new OrderEntity();
           return new ResponseEntity<>(orderEntity, HttpStatus.OK);
      }

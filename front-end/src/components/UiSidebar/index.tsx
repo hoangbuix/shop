@@ -27,7 +27,7 @@ const sidebar_items = [
     },
     {
         "display_name": "Orders",
-        "route": "/admin/orders",
+        "route": "/admin/order",
         "icon": "bx bx-cart"
     },
     {

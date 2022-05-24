@@ -4145,3 +4145,1849 @@
 2022-05-11 18:03:32 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
 2022-05-11 18:03:32 INFO  CustomUserDetails:30 - [ROLE_USER]
 2022-05-11 18:05:28 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-11 21:04:49 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 21:04:49 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 21:04:49 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 21:04:49 INFO  UserDAOImpl:41 - find All
+2022-05-11 21:04:49 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-11 21:04:49 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 21:04:49 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 21:04:49 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 21:04:49 INFO  UserDAOImpl:41 - find All
+2022-05-11 21:04:49 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-11 21:04:49 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 21:04:49 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 21:04:49 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 21:04:49 INFO  UserDAOImpl:41 - find All
+2022-05-11 21:04:49 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-11 21:04:49 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 21:04:49 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 21:04:49 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 21:04:49 INFO  UserDAOImpl:41 - find All
+2022-05-11 21:04:49 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-11 21:09:22 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 21:09:22 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 21:09:22 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 21:09:22 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-11 21:09:22 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 21:09:22 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 21:09:22 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 21:09:22 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-11 21:09:22 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 21:09:22 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 21:09:22 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 21:09:22 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-11 21:09:22 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 21:09:22 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 21:09:22 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 21:09:22 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-11 21:09:26 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 21:09:26 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 21:09:26 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 21:09:26 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-11 21:09:26 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 21:09:26 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 21:09:26 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 21:09:26 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-11 21:09:26 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 21:09:26 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 21:09:26 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 21:09:26 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-11 21:09:26 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 21:09:26 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 21:09:26 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 21:09:26 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-11 21:09:30 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 21:09:30 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 21:09:30 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 21:09:30 INFO  QueryConstant:47 - query property ====>  call category_delete(?)
+2022-05-11 21:09:32 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 21:09:32 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 21:09:32 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 21:09:32 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-11 21:09:32 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 21:09:32 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 21:09:32 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 21:09:32 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-11 21:09:32 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 21:09:32 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 21:09:32 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 21:09:32 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-11 21:09:32 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 21:09:32 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 21:09:32 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 21:09:32 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-11 21:57:34 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 21:57:34 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 21:57:34 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 21:57:34 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-11 21:57:34 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 21:57:34 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 21:57:34 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 21:57:34 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-11 21:57:35 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 21:57:35 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 21:57:35 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 21:57:35 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-11 21:57:35 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 21:57:35 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 21:57:35 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 21:57:35 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-11 22:02:12 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:02:12 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:02:12 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:02:12 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-11 22:02:12 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:02:12 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:02:12 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:02:12 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-11 22:02:15 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:02:15 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:02:15 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:02:15 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-11 22:02:15 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:02:15 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:02:15 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:02:15 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-11 22:02:17 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:02:17 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:02:17 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:02:17 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-11 22:02:17 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:02:17 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:02:17 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:02:17 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-11 22:02:18 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:02:18 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:02:18 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:02:18 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-11 22:02:18 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:02:18 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:02:18 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:02:18 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-11 22:09:42 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:09:42 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:09:42 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:09:42 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-11 22:09:42 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:09:42 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:09:42 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:09:42 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-11 22:09:42 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:09:42 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:09:42 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:09:42 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-11 22:09:42 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:09:42 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:09:42 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:09:42 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-11 22:32:32 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:32:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:32:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:32:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:32:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:32:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:32:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:32:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:32:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:32:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:32:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:32:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:32:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:32:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:32:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:32:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:32:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:32:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:32:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:32:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:32:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:32:36 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:32:36 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:32:36 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:33:04 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:33:04 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:33:04 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:33:07 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:33:07 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:33:07 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:33:07 INFO  QueryConstant:47 - query property ====>  call post_findAll()
+2022-05-11 22:35:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:35:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:35:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:35:40 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:35:40 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:35:40 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:35:43 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:35:43 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:35:43 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:35:43 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:35:43 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:35:43 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:35:44 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:35:44 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:35:44 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:35:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:35:45 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:35:45 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-11 22:35:48 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-11 22:35:48 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-11 22:35:48 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:08:12 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:08:12 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:08:12 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:08:12 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:08:12 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:08:12 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:08:12 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:08:12 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:08:12 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:08:12 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:08:12 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:08:12 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:08:12 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:08:12 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:08:12 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:08:12 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:08:12 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:08:12 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:08:13 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:08:13 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:08:13 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:19:14 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:19:14 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:19:14 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:19:14 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:19:14 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:19:14 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:19:14 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:19:14 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:19:14 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:19:14 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:19:14 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:19:14 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:19:14 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:19:14 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:19:14 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:19:14 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:19:14 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:19:14 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:19:14 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:19:14 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:19:14 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:19:20 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:19:20 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:19:20 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:26:31 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:26:31 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:26:31 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:26:31 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:26:31 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:26:31 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:26:31 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:26:31 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:26:31 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:26:31 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:26:31 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:26:31 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:26:31 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:26:31 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:26:31 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:26:31 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:26:31 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:26:31 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:26:31 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:26:31 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:26:31 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:26:31 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:26:31 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:26:31 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:31:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:31:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:31:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:31:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:31:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:31:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:31:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:31:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:31:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:31:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:31:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:31:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:31:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:31:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:31:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:31:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:31:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:31:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:31:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:31:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:31:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:31:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:31:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:31:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:31:39 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:31:39 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:31:39 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:31:43 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:31:43 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:31:43 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:34:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:34:45 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:34:45 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:34:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:34:45 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:34:45 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:34:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:34:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:34:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:34:45 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:34:45 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:34:45 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:34:45 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:34:45 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:34:45 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:34:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:34:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:34:45 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:34:45 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:34:45 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:34:45 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:34:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:34:45 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:34:45 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:35:46 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:35:46 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:35:46 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:35:46 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:35:46 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:35:46 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:35:46 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:35:46 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:35:46 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:35:46 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:35:46 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:35:46 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:35:46 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:35:46 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:35:46 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:35:46 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:35:46 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:35:46 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:35:46 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:35:46 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:35:46 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:35:47 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:35:47 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:35:47 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:38:52 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:38:52 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:38:52 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:38:52 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:38:52 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:38:52 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:38:52 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:38:52 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:38:52 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:38:52 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:38:52 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:38:52 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:38:52 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:38:52 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:38:52 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:38:52 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:38:52 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:38:52 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:38:52 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:38:52 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:38:52 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:38:52 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:38:52 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:38:52 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:41:20 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:41:20 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:41:20 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:41:20 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:41:20 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:41:20 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:41:20 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:41:20 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:41:20 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:41:21 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:41:21 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:41:21 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:41:21 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:41:21 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:41:21 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:41:21 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:41:21 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:41:21 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:41:21 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:41:21 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:41:21 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:41:28 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:41:28 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:41:28 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:41:28 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:41:28 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:41:28 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:41:28 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:41:28 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:41:28 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:41:28 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:41:28 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:41:28 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:41:28 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:41:28 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:41:28 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:41:28 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:41:28 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:41:28 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:41:28 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:41:28 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:41:28 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 08:41:28 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-12 08:41:28 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-12 08:41:28 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-12 09:20:48 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-12 09:27:47 INFO  QueryConstant:47 - query property ====>  call category_findById(?)
+2022-05-13 17:57:51 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-13 20:53:15 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-21 20:44:40 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-21 20:44:40 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-21 20:44:41 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-21 20:44:55 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-21 20:44:55 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-21 20:44:55 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-21 20:44:55 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-21 20:44:55 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-21 20:44:55 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-21 20:44:55 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-21 20:44:55 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-21 20:44:55 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-21 20:44:55 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-21 20:44:55 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-21 20:44:55 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-21 20:44:55 INFO  UserDAOImpl:41 - find All
+2022-05-21 20:44:55 INFO  UserDAOImpl:41 - find All
+2022-05-21 20:44:55 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-21 20:44:55 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-21 20:44:55 INFO  UserDAOImpl:41 - find All
+2022-05-21 20:44:55 INFO  UserDAOImpl:41 - find All
+2022-05-21 20:44:55 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-21 20:44:55 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-22 00:24:35 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-22 00:24:35 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-22 00:24:35 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-22 13:11:44 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-22 13:11:44 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-22 13:11:44 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-22 13:32:42 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-22 13:32:43 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-22 13:32:43 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-22 13:32:43 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-22 13:32:43 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-22 13:32:43 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-22 13:46:58 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-22 13:46:58 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-22 13:46:58 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-22 13:49:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-22 13:49:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-22 13:49:34 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-22 13:49:50 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-22 13:49:50 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-22 13:49:50 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-22 13:49:50 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-22 13:49:50 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-22 13:49:51 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-22 13:50:41 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-22 13:50:41 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-22 13:50:41 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-22 13:50:41 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-22 13:50:41 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-22 13:50:42 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-22 13:51:40 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-22 13:51:40 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-22 13:51:41 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-22 13:52:41 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-22 13:52:41 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-22 13:52:41 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-22 14:49:16 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-22 14:49:16 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-22 14:49:17 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-22 14:54:58 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-22 14:54:58 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-22 14:54:59 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:20:18 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:20:18 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:20:18 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:20:19 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:20:19 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:20:19 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:29:38 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:29:38 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:29:39 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:29:39 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:29:39 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:29:40 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:30:31 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:30:31 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:30:32 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:30:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:30:45 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:30:46 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:31:59 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:31:59 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:32:00 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:32:01 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:32:02 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:32:02 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:34:30 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:34:30 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:34:31 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:35:08 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:35:08 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:35:08 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:35:43 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:35:43 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:35:44 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:37:39 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:37:39 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:37:39 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:38:21 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:38:21 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:38:22 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:39:06 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:39:06 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:39:07 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:42:42 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:42:42 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:42:42 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:44:06 INFO  JwtUserDetailsService:21 - email ====== 
+2022-05-23 15:44:06 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:44:53 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:44:53 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:44:53 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:46:50 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 15:47:34 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:47:34 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:47:34 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:55:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:55:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:55:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:55:34 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:55:34 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:55:34 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:55:37 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:55:37 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:55:37 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:55:37 INFO  UserDAOImpl:41 - find All
+2022-05-23 15:55:37 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 15:57:19 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:57:19 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:57:19 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:57:21 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:57:21 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:57:22 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:57:22 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 15:57:22 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 15:57:22 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 15:57:22 INFO  UserDAOImpl:41 - find All
+2022-05-23 15:57:22 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:01:01 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:01:01 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:01:01 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:01:01 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:01:01 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:01:01 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:01:01 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:01:01 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:01:01 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:01:01 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:01:01 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:01:01 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:01:01 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:01:01 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:01:01 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:01:01 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:01:01 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:01:01 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:01:01 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:01:01 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:01:01 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:01:01 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:01:01 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:01:01 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:01:05 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:01:05 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:01:05 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:01:10 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:01:10 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:01:10 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:01:10 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:01:10 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:01:42 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:01:42 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:01:42 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:03:54 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:03:54 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:03:55 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:04:32 INFO  JwtUserDetailsService:21 - email ====== 
+2022-05-23 16:04:32 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:05:08 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:05:08 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:05:09 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:07:46 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:07:46 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:07:46 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:08:28 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:08:28 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:08:29 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:08:30 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:08:30 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:08:30 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:08:56 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:08:56 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:08:57 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:09:32 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:09:32 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:09:32 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:09:42 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:09:42 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:09:43 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:11:20 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:11:20 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:11:21 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:11:40 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:11:40 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:11:40 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:11:53 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:11:53 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:11:54 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:12:02 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:12:02 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:12:03 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:12:21 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:12:21 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:12:22 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:12:46 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:12:46 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:12:47 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:15:06 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:15:06 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:15:06 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:17:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:17:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:17:34 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:17:39 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:17:39 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:17:39 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:17:39 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:17:39 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:17:40 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:17:50 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:17:50 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:17:50 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:17:50 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:17:50 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:17:50 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:17:50 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:17:50 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:17:50 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:17:50 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:17:50 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:17:50 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:17:50 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:17:50 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:17:50 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:17:50 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:17:50 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:17:50 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:17:50 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:17:50 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:18:24 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:18:24 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:18:24 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:18:24 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:18:24 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:18:24 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:18:24 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:18:24 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:18:24 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:18:24 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:18:24 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:18:24 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:18:24 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:18:24 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:18:24 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:18:24 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:18:24 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:18:24 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:18:24 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:18:24 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:18:43 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:18:43 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:18:43 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:18:43 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:18:43 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:18:43 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:18:43 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:18:43 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:18:43 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:18:43 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:18:43 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:18:43 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:18:43 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:18:43 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:18:43 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:18:43 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:18:43 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:18:43 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:18:43 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:18:43 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:19:18 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:19:18 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:19:18 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:19:18 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:19:18 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:19:20 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:19:20 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:19:20 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:19:20 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:19:20 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:19:20 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:19:20 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:19:20 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:19:20 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:19:20 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:19:20 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:19:20 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:19:20 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:19:20 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:19:20 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:19:20 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:19:20 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:19:20 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:19:20 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:19:20 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:19:29 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:19:29 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:19:29 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:19:29 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:19:29 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:19:29 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:19:29 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:19:29 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:19:29 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:19:29 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:19:29 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:19:29 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:19:29 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:19:29 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:19:29 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:19:29 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:19:29 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:19:29 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:19:29 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:19:29 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:19:38 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:19:38 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:19:38 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:19:38 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:19:38 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:19:42 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:19:42 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:19:42 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:19:42 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:19:42 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:20:26 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:20:26 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:20:26 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:20:26 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:20:26 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:20:31 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:20:31 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:20:31 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:20:31 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:20:31 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:20:31 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:20:31 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:20:31 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:20:31 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:20:31 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:20:31 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:20:31 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:20:31 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:20:31 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:20:31 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:20:31 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:20:31 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:20:31 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:20:31 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:20:31 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:20:49 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:20:49 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:20:49 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:20:49 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:20:49 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:20:51 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:20:51 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:20:51 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:20:51 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:20:51 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:20:51 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:20:51 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:20:51 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:20:51 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:20:51 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:20:51 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:20:51 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:20:51 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:20:51 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:20:51 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:20:51 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:20:51 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:20:51 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:20:51 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:20:51 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:22:10 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:22:10 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:22:10 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:22:10 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:22:10 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:22:21 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:22:21 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:22:21 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:22:21 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:22:21 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:22:21 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:22:21 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:22:21 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:22:21 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:22:21 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:22:21 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:22:21 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:22:21 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:22:21 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:22:21 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:22:21 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:22:21 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:22:21 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:22:21 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:22:21 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:22:48 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:22:48 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:22:48 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:22:48 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:22:48 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:22:48 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:22:48 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:22:48 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:22:48 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:22:48 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:22:48 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:22:48 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:22:48 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:22:48 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:22:48 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:22:48 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:22:48 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:22:48 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:22:48 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:22:48 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:22:59 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:22:59 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:22:59 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:22:59 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:22:59 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:22:59 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:22:59 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:22:59 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:22:59 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:22:59 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:22:59 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:22:59 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:22:59 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:22:59 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:22:59 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:22:59 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:22:59 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:22:59 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:22:59 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:22:59 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:23:06 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:23:06 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:23:06 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:23:06 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:23:06 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:23:08 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:23:08 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:23:08 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:23:08 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:23:08 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:23:08 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:23:08 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:23:08 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:23:08 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:23:08 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:23:08 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:23:08 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:23:08 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:23:08 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:23:08 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:23:08 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:23:08 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:23:08 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:23:08 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:23:08 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:23:23 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:23:23 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:23:23 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:23:23 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:23:23 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:23:23 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:23:23 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:23:23 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:23:23 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:23:23 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:23:23 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:23:23 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:23:23 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:23:23 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:23:23 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:23:23 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:23:23 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:23:23 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:23:23 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:23:23 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:23:34 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:23:34 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:23:34 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:23:34 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:23:34 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:23:34 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:23:34 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:23:34 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:23:34 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:23:34 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:23:34 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:23:34 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:23:34 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:23:34 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:23:34 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:23:34 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:23:34 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:23:34 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:23:34 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:23:34 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:23:43 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:23:43 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:23:43 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:23:43 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:23:43 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:23:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:23:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:23:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:23:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:23:45 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:23:45 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:23:45 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:23:45 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:23:45 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:23:45 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:23:45 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:23:45 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:23:45 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:23:45 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:23:45 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:23:45 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:23:45 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:23:45 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:23:45 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:23:45 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:24:10 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:24:10 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:24:10 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:24:10 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:24:10 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:24:12 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:24:12 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:24:12 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:24:12 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:24:12 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:24:12 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:24:12 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:24:12 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:24:12 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:24:12 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:24:12 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:24:12 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:24:12 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:24:12 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:24:12 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:24:12 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:24:12 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:24:12 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:24:12 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:24:12 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:25:02 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:25:02 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:25:02 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:25:02 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:25:02 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:25:02 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:25:02 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:25:02 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:25:02 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:25:02 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:25:02 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:25:02 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:25:02 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:25:02 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:25:02 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:25:02 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:25:02 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:25:02 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:25:02 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:25:02 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:25:18 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:25:18 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:25:18 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:25:18 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:25:18 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:25:18 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:25:18 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:25:18 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:25:18 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:25:18 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:25:18 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:25:18 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:25:18 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:25:18 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:25:18 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:25:18 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:25:18 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:25:18 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:25:18 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:25:18 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:25:28 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:25:28 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:25:28 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:25:28 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:25:28 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:25:28 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:25:28 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:25:28 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:25:28 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:25:28 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:25:28 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:25:28 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:25:28 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:25:28 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:25:28 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:25:28 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:25:28 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:25:28 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:25:28 INFO  UserDAOImpl:41 - find All
+2022-05-23 16:25:28 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 16:25:30 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:25:30 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:25:30 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:25:30 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:25:30 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:25:30 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:25:30 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:25:30 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:25:30 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:25:30 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:25:30 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:25:30 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:25:30 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:25:30 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:25:30 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:25:30 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:25:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:25:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:25:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:25:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:25:45 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:25:45 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:25:45 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:25:45 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:25:45 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:25:45 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:25:45 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:25:45 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:25:45 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:25:45 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:25:45 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:25:45 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:25:58 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:25:58 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:25:58 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:25:58 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:26:00 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:26:00 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:26:00 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:26:00 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:26:00 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:26:00 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:26:00 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:26:00 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:26:00 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:26:00 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:26:00 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:26:00 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:26:00 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:26:00 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:26:00 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:26:00 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:26:31 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:26:31 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:26:31 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:26:31 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:26:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:26:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:26:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:26:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:26:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:26:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:26:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:26:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:26:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:26:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:26:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:26:33 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:26:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:26:33 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:26:33 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:26:33 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:26:47 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:26:47 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:26:47 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:26:47 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:27:29 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:27:29 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:27:29 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:27:29 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:27:31 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:27:31 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:27:31 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:27:31 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:27:31 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:27:31 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:27:31 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:27:31 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:27:31 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:27:31 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:27:31 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:27:31 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:27:31 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:27:31 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:27:31 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:27:31 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:28:07 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:28:07 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:28:07 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:28:07 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:28:09 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:28:09 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:28:09 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:28:09 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:28:09 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:28:09 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:28:09 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:28:09 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:28:09 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:28:09 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:28:09 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:28:09 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:28:09 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:28:09 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:28:09 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:28:09 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:28:58 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:28:58 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:28:58 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:28:58 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:29:01 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:29:01 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:29:01 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:29:01 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:30:34 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:30:34 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:30:34 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:30:34 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:30:39 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:30:39 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:30:39 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:30:39 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:33:02 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:33:02 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:33:02 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:33:02 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:33:11 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:33:11 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:33:11 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:33:11 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:33:11 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:33:11 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:33:11 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:33:11 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:33:11 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:33:11 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:33:11 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:33:11 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:33:11 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:33:11 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:33:11 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:33:11 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:33:23 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:33:23 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:33:23 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:33:23 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:33:34 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:33:34 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:33:34 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:33:34 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:33:36 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:33:36 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:33:36 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:33:36 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:33:36 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:33:36 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:33:36 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:33:36 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:33:36 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:33:36 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:33:36 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:33:36 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:33:36 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:33:36 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:33:36 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:33:36 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:33:38 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:33:38 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:33:38 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:33:38 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:33:38 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:33:38 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:33:38 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:33:38 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:33:38 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:33:38 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:33:38 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:33:38 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:33:38 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:33:38 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:33:38 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:33:38 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:34:16 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:34:16 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:34:16 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:34:16 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:34:38 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:34:38 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:34:38 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:34:38 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:34:40 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:34:40 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:34:40 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:34:40 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:34:40 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:34:40 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:34:40 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:34:40 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:34:40 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:34:40 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:34:40 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:34:40 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:34:40 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:34:40 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:34:40 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:34:40 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:35:01 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:35:01 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:35:01 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:35:01 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:35:23 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:35:23 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:35:23 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:35:24 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:35:24 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:35:24 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:35:24 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 16:35:24 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:35:24 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:35:24 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:35:24 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 16:35:24 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:35:24 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:35:24 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:35:24 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 16:35:24 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:35:24 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:35:24 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 16:35:24 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 20:27:10 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:27:10 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:27:10 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:27:10 INFO  UserDAOImpl:41 - find All
+2022-05-23 20:27:10 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 20:27:10 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:27:10 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:27:10 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:27:10 INFO  UserDAOImpl:41 - find All
+2022-05-23 20:27:10 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 20:27:10 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:27:10 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:27:10 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:27:10 INFO  UserDAOImpl:41 - find All
+2022-05-23 20:27:10 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 20:27:10 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:27:10 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:27:10 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:27:10 INFO  UserDAOImpl:41 - find All
+2022-05-23 20:27:10 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 20:27:13 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:27:13 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:27:13 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:27:13 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-23 20:27:13 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:27:13 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:27:13 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:27:13 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-23 20:27:13 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:27:13 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:27:13 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:27:13 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-23 20:27:13 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:27:13 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:27:14 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:27:14 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-23 20:27:48 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:27:48 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:27:48 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:27:48 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-23 20:27:48 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:27:48 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:27:48 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:27:48 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-23 20:27:48 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:27:48 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:27:48 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:27:48 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-23 20:27:48 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:27:48 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:27:48 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:27:48 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-23 20:28:09 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:28:09 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:28:09 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:28:09 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:28:09 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:28:09 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:28:09 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:28:09 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:28:09 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:28:09 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:28:09 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:28:09 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:28:09 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-23 20:28:09 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-23 20:28:09 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-23 20:28:09 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-23 20:28:17 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:28:17 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:28:17 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:28:17 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:28:17 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:28:17 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:28:17 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:28:17 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:28:17 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:28:17 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:28:17 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:28:17 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:28:17 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:28:17 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:28:17 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:28:17 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:28:53 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:28:53 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:28:53 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:28:53 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:28:53 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:28:53 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:28:53 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:28:53 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:28:53 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:28:53 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:28:53 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:28:53 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:28:53 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:28:53 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:28:53 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:28:53 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:28:59 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:28:59 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:28:59 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:28:59 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:28:59 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:28:59 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:28:59 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:28:59 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:28:59 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:28:59 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:28:59 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:28:59 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:28:59 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:28:59 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:28:59 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:28:59 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:00 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:00 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:00 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:00 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:00 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:00 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:00 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:00 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:00 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:00 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:00 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:00 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:00 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:00 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:00 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:00 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:00 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:00 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:00 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:00 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:00 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:00 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:00 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:00 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:01 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:01 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:01 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:01 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:01 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:01 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:01 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:01 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:01 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:01 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:01 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:01 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:01 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:01 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:01 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:01 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:01 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:01 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:01 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:01 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:01 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:01 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:01 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:01 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:06 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:06 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:06 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:06 INFO  UserDAOImpl:41 - find All
+2022-05-23 20:29:06 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 20:29:06 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:06 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:06 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:06 INFO  UserDAOImpl:41 - find All
+2022-05-23 20:29:06 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 20:29:06 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:06 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:06 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:06 INFO  UserDAOImpl:41 - find All
+2022-05-23 20:29:06 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 20:29:06 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:06 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:06 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:06 INFO  UserDAOImpl:41 - find All
+2022-05-23 20:29:06 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 20:29:25 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:25 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:25 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:25 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:25 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:25 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:25 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:25 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:25 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:25 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:25 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:25 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:25 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:25 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:25 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:25 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:45 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:45 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:45 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:45 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:45 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:45 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:45 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:45 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:45 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:45 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:46 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:46 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:46 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:46 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:47 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:47 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:47 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:47 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:47 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:47 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:47 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:47 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:47 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:47 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:47 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:47 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:47 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 20:29:47 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 20:29:47 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 20:29:47 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 20:29:47 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:47 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:47 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:47 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:47 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:47 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:47 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:47 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:47 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:47 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:47 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:47 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:47 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:47 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:47 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:47 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:48 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:48 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:48 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:48 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:48 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:48 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:48 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:48 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:48 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:48 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:48 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:48 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:48 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:48 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:48 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:48 INFO  QueryConstant:47 - query property ====>  call category_findAll()
+2022-05-23 20:29:55 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:55 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:55 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:55 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-23 20:29:55 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:55 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:55 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:55 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-23 20:29:55 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:55 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:55 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:55 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-23 20:29:55 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:55 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:55 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:55 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-23 20:29:57 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:57 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:57 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:57 INFO  UserDAOImpl:41 - find All
+2022-05-23 20:29:57 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 20:29:57 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:57 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:57 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:57 INFO  UserDAOImpl:41 - find All
+2022-05-23 20:29:57 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 20:29:57 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:57 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:57 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:57 INFO  UserDAOImpl:41 - find All
+2022-05-23 20:29:57 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 20:29:58 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:29:58 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:29:58 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:29:58 INFO  UserDAOImpl:41 - find All
+2022-05-23 20:29:58 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 20:30:00 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:30:00 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:30:00 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:30:00 INFO  UserDAOImpl:41 - find All
+2022-05-23 20:30:00 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 20:30:00 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:30:00 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:30:00 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:30:00 INFO  UserDAOImpl:41 - find All
+2022-05-23 20:30:00 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 20:30:00 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:30:00 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:30:00 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:30:00 INFO  UserDAOImpl:41 - find All
+2022-05-23 20:30:00 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 20:30:00 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:30:01 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:30:01 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:30:01 INFO  UserDAOImpl:41 - find All
+2022-05-23 20:30:01 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-23 20:30:03 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:30:03 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:30:03 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:30:03 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-23 20:30:03 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:30:03 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:30:03 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:30:03 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-23 20:30:03 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:30:03 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:30:03 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:30:03 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-23 20:30:03 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:30:03 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:30:03 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:30:03 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-23 20:30:05 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:30:05 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:30:05 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:30:05 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 20:30:05 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:30:05 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:30:05 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:30:05 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 20:30:05 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:30:05 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:30:05 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:30:05 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 20:30:05 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:30:05 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:30:05 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:30:05 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 20:30:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:30:33 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-23 20:30:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:30:33 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-23 20:30:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:30:33 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-23 20:30:33 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-23 20:30:33 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:19:16 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:19:16 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:19:16 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:19:16 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-24 08:19:16 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:19:16 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:19:16 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:19:16 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-24 08:19:16 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:19:16 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:19:16 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:19:16 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-24 08:19:16 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:19:16 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:19:16 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:19:16 INFO  QueryConstant:47 - query property ====>  call product_findAll()
+2022-05-24 08:19:18 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:19:18 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:19:18 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:19:18 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:19:18 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:19:18 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:19:18 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:19:18 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:19:18 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:19:18 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:19:18 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:19:18 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:19:18 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:19:18 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:19:18 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:19:18 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:25:41 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:25:41 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:25:41 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:25:41 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:25:41 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:25:41 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:25:41 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:25:41 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:25:41 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:25:41 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:25:41 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:25:41 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:25:41 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:25:41 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:25:41 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:25:41 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:26:00 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:26:00 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:26:00 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:26:00 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:26:02 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:26:02 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:26:02 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:26:02 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:26:02 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:26:02 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:26:02 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:26:02 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:26:02 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:26:02 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:26:02 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:26:02 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:26:02 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:26:02 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:26:02 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:26:02 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:26:10 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:26:10 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:26:10 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:26:10 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:26:10 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:26:10 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:26:10 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:26:10 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:26:12 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:26:12 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:26:12 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:26:12 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:26:12 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:26:12 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:26:12 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:26:12 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:26:13 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:26:13 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:26:13 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:26:13 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:26:13 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:26:13 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:26:13 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:26:13 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:26:13 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:26:13 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:26:14 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:26:14 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:26:14 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:26:14 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:26:14 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:26:14 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:26:14 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:26:14 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:26:14 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:26:14 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:26:14 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:26:14 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:26:14 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:26:14 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:26:20 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:26:20 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:26:20 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:26:20 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:26:20 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:26:20 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:26:20 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:26:20 INFO  QueryConstant:47 - query property ====>  call productSize_findAll()
+2022-05-24 08:27:37 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:27:37 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:27:37 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:29:17 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:29:17 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:29:17 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:29:24 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:29:24 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:29:24 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:30:04 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:30:04 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:30:05 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:30:11 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:30:11 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:30:11 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:30:11 INFO  UserDAOImpl:41 - find All
+2022-05-24 08:30:11 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-24 08:30:11 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:30:11 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:30:11 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:30:11 INFO  UserDAOImpl:41 - find All
+2022-05-24 08:30:11 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-24 08:30:11 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:30:11 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:30:11 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:30:11 INFO  UserDAOImpl:41 - find All
+2022-05-24 08:30:11 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-24 08:30:11 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:30:11 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:30:11 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:30:11 INFO  UserDAOImpl:41 - find All
+2022-05-24 08:30:11 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-24 08:32:08 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:32:08 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:32:08 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:32:08 INFO  UserDAOImpl:41 - find All
+2022-05-24 08:32:08 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-24 08:32:08 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:32:08 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:32:08 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:32:08 INFO  UserDAOImpl:41 - find All
+2022-05-24 08:32:08 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-24 08:32:20 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:32:20 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:32:20 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:32:20 INFO  UserDAOImpl:41 - find All
+2022-05-24 08:32:20 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-24 08:32:20 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:32:20 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:32:20 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:32:20 INFO  UserDAOImpl:41 - find All
+2022-05-24 08:32:20 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-24 08:32:42 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:32:42 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:32:42 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:32:42 INFO  UserDAOImpl:41 - find All
+2022-05-24 08:32:42 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-24 08:32:42 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:32:42 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:32:42 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:32:42 INFO  UserDAOImpl:41 - find All
+2022-05-24 08:32:42 INFO  QueryConstant:47 - query property ====>  call user_findAll()
+2022-05-24 08:36:16 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:36:16 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:36:16 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:36:16 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:36:16 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:36:16 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:36:16 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:36:16 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:36:16 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:36:16 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:36:16 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:36:16 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:36:16 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:36:16 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:36:17 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:36:17 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:36:17 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:36:17 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:36:17 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:36:17 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:36:17 INFO  JwtUserDetailsService:21 - email ====== buihoang9b8@gmail.com
+2022-05-24 08:36:17 INFO  QueryConstant:47 - query property ====>  call user_findByEmail(?)
+2022-05-24 08:36:17 INFO  CustomUserDetails:30 - [ROLE_USER]
+2022-05-24 08:36:17 INFO  CustomUserDetails:30 - [ROLE_USER]

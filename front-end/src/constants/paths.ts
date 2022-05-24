@@ -6,5 +6,7 @@ export const PATH = {
     PRODUCTADMIN: "/admin/product",
     PRODUCTSIZEADMIN: "/admin/product-size",
     USERADMIN: "/admin/user",
-    CATEGORYADMIN: "/admin/category"
+    PROFLE: "/admin/profile",
+    CATEGORYADMIN: "/admin/category",
+    ORDERADMIN: "/admin/order",
 }

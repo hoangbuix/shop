@@ -2,12 +2,14 @@ package com.hoangbui.shopping.securiry;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.http.CacheControl;
+import org.springframework.scheduling.annotation.EnableAsync;
 import org.springframework.web.servlet.config.annotation.*;
 
 import java.util.concurrent.TimeUnit;
 
 @Configuration
 @EnableWebMvc
+@EnableAsync
 public class WebMvcConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
@@ -27,6 +29,8 @@ public class WebMvcConfig implements WebMvcConfigurer {
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("swagger-ui.html")
+                .addResourceLocations("classpath:/META-INF/resources/");
         registry.addResourceHandler("/image/**").addResourceLocations("classpath:/static/image/")
                 .setCacheControl(CacheControl.maxAge(2, TimeUnit.HOURS).cachePublic());
         registry.addResourceHandler("/vendor/**").addResourceLocations("classpath:/static/vendor/")

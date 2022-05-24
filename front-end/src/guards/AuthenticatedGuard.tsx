@@ -4,9 +4,10 @@ import {
     RouteProps,
     Redirect,
     RouteComponentProps
-} from "react-router-dom"
-// import { connect } from "react-redux"
+} from "react-router-dom";
+import { connect } from "react-redux";
 import { Cookies } from "../utils/cookies";
+import { PATH } from "../constants/paths";
 
 interface ReduxProps {
     isAuthenticated?: boolean;
@@ -23,7 +24,7 @@ function AuthenticatedGuard(props: Props) {
             {...rest}
             render={props => {
                 if (!isAuthenticated && !cookies.getCookie('JWT_TOKEN')) {
-                    return <Redirect to="/login" />
+                    return <Redirect to={PATH.LOGIN} />
                 }
                 return <Component {...props} />
             }}
@@ -31,10 +32,10 @@ function AuthenticatedGuard(props: Props) {
     )
 }
 
-// const mapStateToProps = state => ({
-//   isAuthenticated: state.app.isAuthenticated
-// })
+const mapStateToProps = (state: any) => ({
+    isAuthenticated: state.user.isAuthenticated
+})
 
-// const mapDispatchToProps = {}
+const mapDispatchToProps = {}
 
-export default AuthenticatedGuard;
+export default connect(mapStateToProps, mapDispatchToProps)(AuthenticatedGuard);

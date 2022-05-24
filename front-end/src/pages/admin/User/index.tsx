@@ -72,33 +72,33 @@ const UserAdmin: React.FC<Props> = (props: Props) => {
         getAllUser();
     }, [getAllUser])
 
-    const showNotification = () => {
-        const notification = new Notification(
-            "Hi is xxxx there!",
-            {
-                body: "xxxxxxxxxxxx",
-                icon: ""
-            }
-        );
-        notification.onclick = () => {
-            window.location.href = "https://www.google.com"
-        }
-    }
+    // const showNotification = () => {
+    //     const notification = new Notification(
+    //         "Hi is xxxx there!",
+    //         {
+    //             body: "xxxxxxxxxxxx",
+    //             icon: ""
+    //         }
+    //     );
+    //     notification.onclick = () => {
+    //         window.location.href = "https://www.google.com"
+    //     }
+    // }
 
 
-    if (Notification.permission === "granted") {
-        showNotification();
-        console.log(Notification.permission)
+    // if (Notification.permission === "granted") {
+    //     showNotification();
+    //     console.log(Notification.permission)
 
-    } else if (Notification.permission !== "denied") {
-        Notification.requestPermission()
-            .then(permisson => {
-                if (permisson === "granted") {
-                    showNotification();
-                    console.log(Notification.permission)
-                }
-            })
-    }
+    // } else if (Notification.permission !== "denied") {
+    //     Notification.requestPermission()
+    //         .then(permisson => {
+    //             if (permisson === "granted") {
+    //                 showNotification();
+    //                 console.log(Notification.permission)
+    //             }
+    //         })
+    // }
 
 
     return (

@@ -13,22 +13,24 @@ export const Message = ({ message, type, duration }: ReqMessage): any => {
     duration: duration,
   };
 };
-// process.env.REACT_APP_API_URL
+// const URL: any = process.env.REACT_APP_API_URL;
 // create an axios instance
 const service = axios.create({
-  baseURL: "/api/v1",
+  baseURL: "/api/v1/", // api base_url
   timeout: 5000, // request timeout
   headers: { "Content-Type": "application/json" },
-  withCredentials: false,
+  // withCredentials: false,
   xsrfCookieName: "JWT_TOKEN",
   xsrfHeaderName: "X-JWT_TOKEN",
 });
 
 // request interceptor
-service.interceptors.request.use((serviceConfig) => {
-  // if (store.getters.token) {
-  // serviceConfig.headers['X-Token'] = getToken();
-  // }
+service.interceptors.request.use((serviceConfig: any) => {
+  // const cookies = new Cookies();
+  // const getCookie = cookies.getCookie("JWT_TOKEN");
+  // if (getCookie)
+  //   serviceConfig.headers["Cookie"] = `${getCookie}`;
+
   return serviceConfig;
 },
   (error) => {
@@ -39,9 +41,8 @@ service.interceptors.request.use((serviceConfig) => {
 // respone interceptor
 service.interceptors.response.use((response) => {
   if (response && response.data) {
-    return response.data;
+    return response;
   }
-
   return response;
 },
   (error) => {
@@ -50,7 +51,7 @@ service.interceptors.response.use((response) => {
       type: "error",
       duration: 5 * 1000,
     });
-    return Promise.resolve(error);
+    return Promise.reject(error);
   }
 );
 

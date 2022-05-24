@@ -11,13 +11,14 @@ interface Props {
 }
 
 const UiTable: React.FC<Props> = (props: Props) => {
-    const initDataShow: any = (props.limit && props.bodyData) ? props.bodyData.slice(0, Number(props.limit)) : props.bodyData;
+    const initDataShow: any = (props.bodyData && props.limit) ? props.bodyData.slice(0, Number(props.limit)) : props.bodyData;
 
     const [dataShow, setDataShow] = useState<any>(initDataShow);
+    console.log(dataShow);
 
     useEffect(() => {
         setDataShow(initDataShow)
-    }, [props.bodyData])
+    }, [props])
 
 
 
@@ -67,10 +68,10 @@ const UiTable: React.FC<Props> = (props: Props) => {
                             props.bodyData && props.renderBody ? (
                                 <tbody>
                                     {
-                                        dataShow.map((item: any, index: any) => props.renderBody(item, index))
+                                        dataShow?.map((item: any, index: any) => props.renderBody(item, index))
                                     }
                                 </tbody>
-                            ) : null
+                            ) : <p>No resuls</p>
                         }
                     </table>
                 </div>
