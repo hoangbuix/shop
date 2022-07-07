@@ -17,7 +17,7 @@ public class ProductCategoryMapper implements RowMapper<ProductCategoryEntity> {
             productCategory.setCreatedDate(resultSet.getDate("created_date"));
             productCategory.setUpdatedDate(resultSet.getDate("updated_date"));
             return productCategory;
-        }catch (SQLException e) {
+        } catch (SQLException e) {
             return null;
         }
     }

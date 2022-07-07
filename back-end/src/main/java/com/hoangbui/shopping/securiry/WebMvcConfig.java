@@ -11,6 +11,12 @@ import java.util.concurrent.TimeUnit;
 @EnableWebMvc
 @EnableAsync
 public class WebMvcConfig implements WebMvcConfigurer {
+
+    @Override
+    public void addViewControllers(ViewControllerRegistry registry) {
+        registry.addRedirectViewController("/", "/swagger-ui/index.html");
+    }
+
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/**") // Cho phép tất cả các đường dẫn
@@ -21,11 +27,13 @@ public class WebMvcConfig implements WebMvcConfigurer {
                 .allowCredentials(false).maxAge(3600);
     }
 
-//    @Override
-//    public void addInterceptors(InterceptorRegistry registry) {
-//        registry.addInterceptor(new ConfigInterceptor())
-//                .excludePathPatterns("/image/**", "/vendor/**", "/css/**", "/script/**", "/api/**", "/api/register", "/favicon.ico", "/adminlte/**", "/media/static/**");
-//    }
+    // @Override
+    // public void addInterceptors(InterceptorRegistry registry) {
+    // registry.addInterceptor(new ConfigInterceptor())
+    // .excludePathPatterns("/image/**", "/vendor/**", "/css/**", "/script/**",
+    // "/api/**", "/api/register", "/favicon.ico", "/adminlte/**",
+    // "/media/static/**");
+    // }
 
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {

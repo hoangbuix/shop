@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+
 import static com.hoangbui.shopping.util.SqlConstant.*;
 
 @Component
@@ -35,7 +36,7 @@ public class NotificationDAOImpl extends BaseDAOImpl<NotificationEntity> impleme
     public void delete(int id) {
         try {
             delete(QueryConstant.callQueryUpdate(NOTIFICATION, DELETE, 1), id);
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
     }

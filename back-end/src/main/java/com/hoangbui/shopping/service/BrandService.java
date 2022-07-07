@@ -10,9 +10,14 @@ import java.util.List;
 @Service
 public interface BrandService {
     BrandEntity save(CreateBrandReq req);
+
     BrandEntity update(UpdateBrandReq req);
+
     void delete(int id);
+
     BrandEntity findById(int id);
+
     BrandEntity findByBrandName(String brandName);
+
     List<BrandEntity> findAll();
 }

@@ -1,4 +1,5 @@
 package com.hoangbui.shopping.entity;
+
 import com.hoangbui.shopping.util.NotificationName;
 import lombok.Data;
 
@@ -20,7 +21,7 @@ public class NotificationEntity extends BaseEntity {
     @Column(name = "seen")
     private Boolean seen;
 
-//    @Column(name = "notification_name")
+    //    @Column(name = "notification_name")
     @Enumerated(EnumType.STRING)
     private NotificationName notificationName;
 

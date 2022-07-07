@@ -1,15 +1,7 @@
 package com.hoangbui.shopping.service.impl;
 
-import com.hoangbui.shopping.dao.BrandDAO;
-import com.hoangbui.shopping.dao.CategoryDAO;
-import com.hoangbui.shopping.dao.ProductCategoryDAO;
-import com.hoangbui.shopping.dao.ProductDAO;
-import com.hoangbui.shopping.dao.ProductSizeDAO;
-import com.hoangbui.shopping.entity.BrandEntity;
-import com.hoangbui.shopping.entity.CategoryEntity;
-import com.hoangbui.shopping.entity.ProductCategoryEntity;
-import com.hoangbui.shopping.entity.ProductEntity;
-import com.hoangbui.shopping.entity.ProductSizeEntity;
+import com.hoangbui.shopping.dao.*;
+import com.hoangbui.shopping.entity.*;
 import com.hoangbui.shopping.model.req.create.CreateProductReq;
 import com.hoangbui.shopping.model.req.update.UpdateProductReq;
 import com.hoangbui.shopping.service.ProductService;

@@ -13,7 +13,7 @@ const UiChart: React.FC<Props> = (props: Props) => {
     const randomColor = () => {
         let color = '#ccc';
         color = '#' + Math.floor(Math.random() * 16777215).toString();
-        if (color.length != 7) {
+        if (color.length !== 7) {
             color = randomColor();
         }
         return color;

@@ -10,8 +10,12 @@ import java.util.List;
 @Service
 public interface PromotionService {
     PromotionEntity save(CreatePromotionReq req);
+
     PromotionEntity update(UpdatePromotionReq req);
+
     void delete(int id);
+
     List<PromotionEntity> findAll();
+
     PromotionEntity findById(int id);
 }

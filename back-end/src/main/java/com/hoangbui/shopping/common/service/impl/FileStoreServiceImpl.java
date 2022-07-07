@@ -10,7 +10,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.io.Resource;
 import org.springframework.core.io.UrlResource;
 import org.springframework.stereotype.Component;
-
 import org.springframework.util.FileSystemUtils;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
@@ -55,7 +54,7 @@ public class FileStoreServiceImpl implements FileStoreService {
             String uploadedFileName = UUID.randomUUID().toString() + "." + extension;
 
             Path destinationFile = rootLocation.resolve(
-                            Paths.get(uploadedFileName))
+                    Paths.get(uploadedFileName))
                     .normalize().toAbsolutePath();
 
             try (InputStream inputStream = file.getInputStream()) {
@@ -65,7 +64,7 @@ public class FileStoreServiceImpl implements FileStoreService {
                 final String baseUrl =
                         ServletUriComponentsBuilder.fromCurrentContextPath().build().toUriString();
 
-                return baseUrl+"/fileUpload/files/"+uploadedFileName;
+                return baseUrl + "/fileUpload/files/" + uploadedFileName;
             }
 //            Files.copy(file.getInputStream(), this.rootLocation.resolve(file.getOriginalFilename()));
         } catch (IOException e) {
@@ -81,7 +80,8 @@ public class FileStoreServiceImpl implements FileStoreService {
                     .map(path -> this.rootLocation.relativize(path));
         } catch (IOException e) {
             throw new StorageException("Failed to read stored files", e);
-        }    }
+        }
+    }
 
     @Override
     public Path load(String filename) {
@@ -93,10 +93,9 @@ public class FileStoreServiceImpl implements FileStoreService {
         try {
             Path file = load(filename);
             Resource resource = new UrlResource(file.toUri());
-            if(resource.exists() || resource.isReadable()) {
+            if (resource.exists() || resource.isReadable()) {
                 return resource;
-            }
-            else {
+            } else {
                 throw new StorageFileNotFoundException("Could not read file: " + filename);
 
             }

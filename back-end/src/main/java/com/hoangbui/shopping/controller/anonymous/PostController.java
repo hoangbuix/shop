@@ -26,14 +26,14 @@ public class PostController {
 
     @ApiOperation(value = "Tất cả tin mới")
     @GetMapping(FIND_ALL)
-    private ResponseEntity<?> findAll(){
+    private ResponseEntity<?> findAll() {
         List<PostEntity> post = postService.findAll();
         return new ResponseEntity<>(post, HttpStatus.OK);
     }
 
     @ApiOperation(value = "TÌm tin theo Id")
     @GetMapping(FIND_BY_ID + "/{id}")
-    private ResponseEntity<?> findById(@PathVariable int id){
+    private ResponseEntity<?> findById(@PathVariable int id) {
         PostEntity post = postService.findById(id);
         return new ResponseEntity<>(post, HttpStatus.OK);
     }

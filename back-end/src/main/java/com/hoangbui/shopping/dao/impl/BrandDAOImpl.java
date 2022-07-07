@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+
 import static com.hoangbui.shopping.util.SqlConstant.*;
 
 @Component

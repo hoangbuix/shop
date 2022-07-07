@@ -2,12 +2,10 @@ package com.hoangbui.shopping.model.mapper;
 
 import com.hoangbui.shopping.entity.NotificationEntity;
 import com.hoangbui.shopping.entity.PostEntity;
-import com.hoangbui.shopping.entity.RoleEntity;
 import com.hoangbui.shopping.entity.UserEntity;
 import com.hoangbui.shopping.util.NotificationName;
 
 import java.sql.ResultSet;
-import java.util.Collections;
 import java.util.Objects;
 
 public class NotificationMapper implements RowMapper<NotificationEntity> {
@@ -22,7 +20,7 @@ public class NotificationMapper implements RowMapper<NotificationEntity> {
             notification.setCreatedDate(resultSet.getDate("created_date"));
             notification.setUpdatedDate(resultSet.getDate("updated_date"));
             try {
-                if(!Objects.equals(resultSet.getString("content"), "")){
+                if (!Objects.equals(resultSet.getString("content"), "")) {
                     PostEntity post = new PostEntity();
                     post.setId(resultSet.getInt("id"));
                     post.setContent(resultSet.getString("content"));
@@ -40,7 +38,7 @@ public class NotificationMapper implements RowMapper<NotificationEntity> {
                     post.setUpdatedDate(resultSet.getDate("updated_date"));
                     notification.setPost(post);
                 }
-            } catch (Exception e){
+            } catch (Exception e) {
                 e.printStackTrace();
             }
             try {
@@ -66,11 +64,11 @@ public class NotificationMapper implements RowMapper<NotificationEntity> {
 //                    e.printStackTrace();
 //                }
                 notification.setUser(user);
-            }catch (Exception e){
+            } catch (Exception e) {
                 e.printStackTrace();
             }
             return notification;
-        } catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             return null;
         }

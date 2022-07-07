@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+
 import static com.hoangbui.shopping.util.SqlConstant.*;
 
 @Component
@@ -23,7 +24,7 @@ public class ProductSizeDAOImpl extends BaseDAOImpl<ProductSizeEntity> implement
 
     @Override
     public void update(ProductSizeEntity productSize) {
-        update(QueryConstant.callQueryUpdate(PRODUCTSIZE, UPDATE, 6),productSize.getId(), productSize.getSize(), productSize.getSizeCode(),
+        update(QueryConstant.callQueryUpdate(PRODUCTSIZE, UPDATE, 6), productSize.getId(), productSize.getSize(), productSize.getSizeCode(),
                 productSize.getQuantity(), productSize.getGender(), productSize.getActiveFlag());
     }
 

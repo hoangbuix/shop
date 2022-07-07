@@ -19,7 +19,7 @@ public class ProductSizeMapper implements RowMapper<ProductSizeEntity> {
             productSize.setCreatedDate(resultSet.getDate("created_date"));
             productSize.setUpdatedDate(resultSet.getDate("updated_date"));
             return productSize;
-        }catch (SQLException e) {
+        } catch (SQLException e) {
             e.printStackTrace();
             return null;
         }

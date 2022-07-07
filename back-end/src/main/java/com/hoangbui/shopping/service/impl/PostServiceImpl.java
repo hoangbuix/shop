@@ -41,7 +41,7 @@ public class PostServiceImpl implements PostService {
         try {
 
             UserEntity check = userDAO.findByIdAndRole(userId);
-            if(check != null) {
+            if (check != null) {
                 PostEntity post = PostConverter.toEntity(req);
                 post.setCreatedBy(userId);
                 post.setUpdatedBy(userId);
@@ -50,7 +50,7 @@ public class PostServiceImpl implements PostService {
                 post.setNotApproved(false);
                 id = postDAO.save(post);
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return postDAO.findById(id);
@@ -68,7 +68,7 @@ public class PostServiceImpl implements PostService {
     public void delete(int id) {
         try {
             postDAO.delete(id);
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             log.error(e.getMessage());
         }
@@ -88,9 +88,9 @@ public class PostServiceImpl implements PostService {
     public List<PostEntity> getPostByUserId(int userId, Authentication auth) {
         UserEntity user = userDAO.findByIdAndRole(userId);
         List<PostEntity> post;
-        if(user != null){
-            if(auth == null || !user.getEmail().equals(auth.getName())){
-                post = postDAO.findAllByUserEmailAndDelAndApproved(user.getEmail(), false,true);
+        if (user != null) {
+            if (auth == null || !user.getEmail().equals(auth.getName())) {
+                post = postDAO.findAllByUserEmailAndDelAndApproved(user.getEmail(), false, true);
             } else {
                 post = postDAO.findByUser(user);
             }
@@ -104,7 +104,9 @@ public class PostServiceImpl implements PostService {
     public PostEntity approvePost(int idPost, String usernameApproved, boolean isApprove) {
         try {
             PostEntity post = postDAO.findById(idPost);
-            if (post == null){throw new NotFoundException("Không tìm thấy post id " + idPost);}
+            if (post == null) {
+                throw new NotFoundException("Không tìm thấy post id " + idPost);
+            }
             if (isApprove) {
                 UserEntity user = userDAO.findByEmail(usernameApproved);
                 post.setApproved(true);

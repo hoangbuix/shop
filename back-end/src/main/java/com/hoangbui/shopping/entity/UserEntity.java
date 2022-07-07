@@ -1,6 +1,5 @@
 package com.hoangbui.shopping.entity;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 
 import javax.persistence.*;
@@ -37,7 +36,7 @@ public class UserEntity extends BaseEntity {
     private String activeCode;
 
 
-//    @JsonIgnore
+    //    @JsonIgnore
     @EqualsAndHashCode.Exclude
     @ToString.Exclude
     @ManyToMany(fetch = FetchType.EAGER, cascade = CascadeType.ALL)

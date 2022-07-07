@@ -10,9 +10,14 @@ import java.util.List;
 @Service
 public interface ProductCategoryService {
     ProductCategoryEntity save(CreateProductCategoryReq req);
+
     ProductCategoryEntity update(UpdateProductCategoryReq req);
+
     void delete(int id);
+
     ProductCategoryEntity findById(int id);
+
     ProductCategoryEntity findByProductIdAndCategoryId(int productId, int categoryId);
+
     List<ProductCategoryEntity> findAll();
 }

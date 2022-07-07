@@ -4,8 +4,6 @@ import lombok.*;
 
 import javax.persistence.*;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 @Data
 @Setter
 @Getter
@@ -55,17 +53,17 @@ public class ProductEntity extends BaseEntity {
     // @Column(name = "product_size")
     // private int productSize;
 
-//    @JsonIgnore
+    //    @JsonIgnore
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "brand_id")
     private BrandEntity brand;
 
-//    @JsonIgnore
+    //    @JsonIgnore
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "category_id")
     private CategoryEntity category;
 
-//    @JsonIgnore
+    //    @JsonIgnore
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "product_id")
     private ProductSizeEntity productSize;

@@ -24,7 +24,7 @@ public class BrandServiceImpl implements BrandService {
         int id = 0;
         try {
             BrandEntity result = brandDAO.findByBrandName(req.getBrandName());
-            if(result == null) {
+            if (result == null) {
                 BrandEntity brand = new BrandEntity();
                 brand.setBrandName(req.getBrandName());
                 brand.setThumbnail(req.getThumbnail());
@@ -32,7 +32,7 @@ public class BrandServiceImpl implements BrandService {
             } else {
                 throw new DuplicateRecordException("Brand Name exists");
             }
-        } catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             log.error(e.getMessage());
         }
@@ -47,7 +47,7 @@ public class BrandServiceImpl implements BrandService {
             brand.setThumbnail(req.getThumbnail());
             brand.setActiveFlag(req.getActiveFlag());
             brandDAO.update(brand);
-        }catch (Exception e){
+        } catch (Exception e) {
             log.error(e.getMessage());
             e.printStackTrace();
         }
@@ -58,7 +58,7 @@ public class BrandServiceImpl implements BrandService {
     public void delete(int id) {
         try {
             brandDAO.delete(id);
-        } catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             log.error(e.getMessage());
         }

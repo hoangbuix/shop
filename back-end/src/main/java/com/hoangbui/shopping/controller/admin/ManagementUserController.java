@@ -3,8 +3,6 @@ package com.hoangbui.shopping.controller.admin;
 import com.hoangbui.shopping.entity.UserEntity;
 import com.hoangbui.shopping.exception.BadRequestException;
 import com.hoangbui.shopping.model.conveter.UserConvert;
-import com.hoangbui.shopping.model.dto.CaptchaResponseDTO;
-import com.hoangbui.shopping.model.dto.UserDTO;
 import com.hoangbui.shopping.model.req.LoginReq;
 import com.hoangbui.shopping.model.req.create.CreateUserReq;
 import com.hoangbui.shopping.model.req.update.ChangePasswordReq;
@@ -18,7 +16,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.Authentication;
@@ -30,11 +27,9 @@ import org.springframework.web.client.RestTemplate;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
-import java.util.Collections;
 import java.util.List;
 
 import static com.hoangbui.shopping.util.Constant.MAX_AGE_COOKIE;
-
 
 @RestController
 @RequestMapping("/api/v1/admin/user")
@@ -44,7 +39,6 @@ import static com.hoangbui.shopping.util.Constant.MAX_AGE_COOKIE;
 public class ManagementUserController {
 
     public static final String CAPTCHA_URL = "https://www.google.com/recaptcha/api/siteverify?secret=%s&response=%s";
-
 
     @Autowired
     private static RestTemplate restTemplate;
@@ -64,15 +58,15 @@ public class ManagementUserController {
     @PostMapping("/register")
     private ResponseEntity<?> register(@Valid @RequestBody CreateUserReq req, HttpServletResponse response) {
 
-//        @RequestParam("g-recaptcha-response") String captchaResponse
-//        String url = String.format(CAPTCHA_URL, secret, captchaResponse);
-//
-//        CaptchaResponseDTO res = restTemplate.postForObject(url, Collections.emptyList(), CaptchaResponseDTO.class);
-//
-//        if (!res.isSuccess()) {
-//            throw new BadRequestException("Fill captcha");
-//        }
-
+        // @RequestParam("g-recaptcha-response") String captchaResponse
+        // String url = String.format(CAPTCHA_URL, secret, captchaResponse);
+        //
+        // CaptchaResponseDTO res = restTemplate.postForObject(url,
+        // Collections.emptyList(), CaptchaResponseDTO.class);
+        //
+        // if (!res.isSuccess()) {
+        // throw new BadRequestException("Fill captcha");
+        // }
 
         // Create user
         UserEntity result = userService.save(req);
@@ -91,10 +85,10 @@ public class ManagementUserController {
     }
 
     @GetMapping("/activate/{code}")
-    private ResponseEntity<?> activateEmailCode(@PathVariable String code){
+    private ResponseEntity<?> activateEmailCode(@PathVariable String code) {
         boolean isActive = userService.activateUser(code);
-        if(isActive){
-            return new ResponseEntity<>("Access",HttpStatus.ACCEPTED);
+        if (isActive) {
+            return new ResponseEntity<>("Access", HttpStatus.ACCEPTED);
         } else {
             throw new BadRequestException("No Access");
         }
@@ -107,9 +101,7 @@ public class ManagementUserController {
             Authentication authentication = authenticationManager.authenticate(
                     new UsernamePasswordAuthenticationToken(
                             req.getEmail(),
-                            req.getPassword()
-                    )
-            );
+                            req.getPassword()));
             // Gen token
             String token = jwtTokenUtil.generateToken((CustomUserDetails) authentication.getPrincipal());
             // Add token to cookie to login
@@ -124,14 +116,14 @@ public class ManagementUserController {
         }
     }
 
-
-
     @PutMapping("/update-profile")
     private ResponseEntity<?> updateProfile(UpdateUserReq req) {
-        UserEntity user = ((CustomUserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal()).getUser();
+        UserEntity user = ((CustomUserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal())
+                .getUser();
         user = userService.update(user, req);
         UserDetails principal = new CustomUserDetails(user);
-        Authentication authentication = new UsernamePasswordAuthenticationToken(principal, null, principal.getAuthorities());
+        Authentication authentication = new UsernamePasswordAuthenticationToken(principal, null,
+                principal.getAuthorities());
         SecurityContextHolder.getContext().setAuthentication(authentication);
 
         return ResponseEntity.ok("Cập nhật profile thành công");
@@ -139,12 +131,13 @@ public class ManagementUserController {
 
     @PostMapping("/change-password")
     public ResponseEntity<?> changePassword(@Valid @RequestBody ChangePasswordReq req) {
-        UserEntity user = ((CustomUserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal()).getUser();
+        UserEntity user = ((CustomUserDetails) SecurityContextHolder.getContext().getAuthentication().getPrincipal())
+                .getUser();
         userService.changePassword(user, req);
         return ResponseEntity.ok("Đổi mật khẩu thành công");
     }
 
-//    @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_MANAGEMENT')")
+    // @PreAuthorize("hasAnyRole('ROLE_ADMIN','ROLE_MANAGEMENT')")
     @GetMapping("/get-all")
     private ResponseEntity<?> findAllUser() {
         List<UserEntity> users = userService.findAll();

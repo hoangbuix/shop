@@ -2,7 +2,9 @@ package com.hoangbui.shopping.entity;
 
 import lombok.*;
 
-import javax.persistence.*;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.Table;
 
 @Setter
 @Getter
@@ -28,7 +30,7 @@ public class OrderEntity extends BaseEntity {
     @Column(name = "product_id")
     private int productId;
 
-    @Column(name="product_size")
+    @Column(name = "product_size")
     private int productSize;
 
     @Column(name = "quantity")

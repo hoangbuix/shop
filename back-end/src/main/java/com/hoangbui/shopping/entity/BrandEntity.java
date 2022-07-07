@@ -1,6 +1,6 @@
 package com.hoangbui.shopping.entity;
 
-import lombok.*;
+import lombok.Data;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

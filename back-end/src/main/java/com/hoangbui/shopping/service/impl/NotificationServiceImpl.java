@@ -45,7 +45,7 @@ public class NotificationServiceImpl implements NotificationService {
             }
             notificationDAO.save(notification);
 
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             log.error(e.getMessage());
         }
@@ -55,7 +55,7 @@ public class NotificationServiceImpl implements NotificationService {
     public NotificationEntity update(UpdateNotificationReq req) {
         try {
 
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             log.error(e.getMessage());
         }
@@ -67,25 +67,25 @@ public class NotificationServiceImpl implements NotificationService {
         List<NotificationEntity> notification = null;
         try {
             UserEntity user = userDAO.findByEmail(email);
-            if(user != null){
-                if(screen){
+            if (user != null) {
+                if (screen) {
                     notification = notificationDAO.findAllByUserId(user.getId());
                 } else {
                     notification = notificationDAO.findAllByUserId(user.getId());
                 }
             }
-        } catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             log.error(e.getMessage());
         }
-        return  notification;
+        return notification;
     }
 
     @Override
     public NotificationEntity sendNotification(int id) {
         try {
             NotificationEntity notification = notificationDAO.findById(id);
-            if(notification != null){
+            if (notification != null) {
                 notification.setSeen(true);
                 notificationDAO.update(notification);
                 return notification;
@@ -93,7 +93,7 @@ public class NotificationServiceImpl implements NotificationService {
                 throw new NotFoundException("Not found notification Id" + id);
             }
 
-        } catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             log.error(e.getMessage());
             return null;

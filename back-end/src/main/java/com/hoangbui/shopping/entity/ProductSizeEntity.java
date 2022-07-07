@@ -19,6 +19,6 @@ public class ProductSizeEntity extends BaseEntity {
     @Column(name = "quantity")
     private String quantity;
 
-    @Column(name="gender")
+    @Column(name = "gender")
     private String gender;
 }

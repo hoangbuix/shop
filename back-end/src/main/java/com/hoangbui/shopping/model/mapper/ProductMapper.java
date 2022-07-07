@@ -5,7 +5,6 @@ import com.hoangbui.shopping.entity.CategoryEntity;
 import com.hoangbui.shopping.entity.ProductEntity;
 import com.hoangbui.shopping.entity.ProductSizeEntity;
 
-import java.sql.Array;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 

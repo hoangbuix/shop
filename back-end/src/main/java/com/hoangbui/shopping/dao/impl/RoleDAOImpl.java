@@ -1,4 +1,5 @@
 package com.hoangbui.shopping.dao.impl;
+
 import com.hoangbui.shopping.dao.RoleDAO;
 import com.hoangbui.shopping.entity.RoleEntity;
 import com.hoangbui.shopping.model.mapper.RoleMapper;

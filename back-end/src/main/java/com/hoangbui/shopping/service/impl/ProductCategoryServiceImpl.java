@@ -25,14 +25,14 @@ public class ProductCategoryServiceImpl implements ProductCategoryService {
         try {
             ProductCategoryEntity productCategory = new ProductCategoryEntity();
             ProductCategoryEntity check = productCategoryDAO.findByProductIdAndCategoryId(req.getProductId(), req.getCategoryId());
-            if(check != null) {
+            if (check != null) {
                 throw new DuplicateRecordException("Exist");
             } else {
                 productCategory.setCategoryId(req.getCategoryId());
                 productCategory.setProductId(req.getProductId());
                 id = productCategoryDAO.save(productCategory);
             }
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             log.error(e.getMessage());
         }
@@ -47,7 +47,7 @@ public class ProductCategoryServiceImpl implements ProductCategoryService {
             productCategory.setCategoryId(req.getCategoryId());
             productCategory.setActiveFlag(req.getActiveFlag());
             productCategoryDAO.update(productCategory);
-        } catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             log.error(e.getMessage());
         }

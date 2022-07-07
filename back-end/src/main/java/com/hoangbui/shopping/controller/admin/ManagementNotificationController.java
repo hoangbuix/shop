@@ -1,7 +1,5 @@
 package com.hoangbui.shopping.controller.admin;
 
-import com.hoangbui.shopping.common.controller.UploadFileController;
-import com.hoangbui.shopping.common.message.ResponseMessage;
 import com.hoangbui.shopping.service.NotificationService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
@@ -11,11 +9,6 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.multipart.MultipartFile;
-import org.springframework.web.servlet.mvc.method.annotation.MvcUriComponentsBuilder;
-
-import java.util.List;
-import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/v1/admin/notification")

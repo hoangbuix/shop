@@ -1,7 +1,6 @@
 package com.hoangbui.shopping.model.mapper;
 
 import com.hoangbui.shopping.entity.PostEntity;
-import com.hoangbui.shopping.entity.UserEntity;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;

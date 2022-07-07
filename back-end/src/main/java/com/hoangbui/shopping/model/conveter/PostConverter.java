@@ -4,7 +4,7 @@ import com.hoangbui.shopping.entity.PostEntity;
 import com.hoangbui.shopping.model.req.create.CreatePostReq;
 
 public class PostConverter {
-    public static PostEntity toEntity(CreatePostReq req){
+    public static PostEntity toEntity(CreatePostReq req) {
         PostEntity post = new PostEntity();
         post.setContent(req.getContent());
         post.setSlug(req.getSlug());

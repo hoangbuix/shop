@@ -8,9 +8,9 @@ import com.hoangbui.shopping.util.QueryConstant;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
-import static com.hoangbui.shopping.util.SqlConstant.*;
-
 import java.util.List;
+
+import static com.hoangbui.shopping.util.SqlConstant.*;
 
 @Component
 @Transactional(rollbackFor = Exception.class)
@@ -46,7 +46,7 @@ public class PostDAOImpl extends BaseDAOImpl<PostEntity> implements PostDAO<Post
 
     @Override
     public PostEntity findById(int id) {
-        List<PostEntity> post = query(QueryConstant.callQueryUpdate(POST, FIND_BY_ID,1), new PostMapper(), id);
+        List<PostEntity> post = query(QueryConstant.callQueryUpdate(POST, FIND_BY_ID, 1), new PostMapper(), id);
         return post.isEmpty() ? null : post.get(0);
     }
 

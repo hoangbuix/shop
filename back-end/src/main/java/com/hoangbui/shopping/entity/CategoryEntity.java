@@ -1,7 +1,7 @@
 package com.hoangbui.shopping.entity;
 
 
-import lombok.*;
+import lombok.Data;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -18,7 +18,7 @@ public class CategoryEntity extends BaseEntity {
     @Column(name = "category_name")
     private String categoryName;
 
-    @Column(name="category_code")
+    @Column(name = "category_code")
     private String categoryCode;
 
     @Column(name = "description")

@@ -32,7 +32,7 @@ public class CategoryController {
 
 
     @ApiOperation(value = "Xem thể loại sản phầm")
-    @GetMapping(FIND_BY_ID+"/{id}")
+    @GetMapping(FIND_BY_ID + "/{id}")
     private ResponseEntity<?> findById(@PathVariable int id) {
         CategoryEntity cate = categoryService.findById(id);
         return new ResponseEntity<>(cate, HttpStatus.OK);

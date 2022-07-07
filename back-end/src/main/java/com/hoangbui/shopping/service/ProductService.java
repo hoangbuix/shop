@@ -16,6 +16,8 @@ public interface ProductService {
     ProductEntity findById(int id);
 
     ProductEntity save(CreateProductReq req);
+
     ProductEntity update(UpdateProductReq req);
+
     void delete(int id);
 }

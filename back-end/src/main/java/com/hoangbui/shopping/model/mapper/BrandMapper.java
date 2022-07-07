@@ -17,7 +17,7 @@ public class BrandMapper implements RowMapper<BrandEntity> {
             brand.setCreatedDate(resultSet.getDate("created_date"));
             brand.setUpdatedDate(resultSet.getDate("updated_date"));
             return brand;
-        }catch (SQLException e){
+        } catch (SQLException e) {
             e.printStackTrace();
             return null;
         }

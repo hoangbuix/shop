@@ -8,6 +8,7 @@ import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+
 import static com.hoangbui.shopping.util.SqlConstant.*;
 
 @Component
@@ -17,7 +18,7 @@ public class CategoryDAOImpl extends BaseDAOImpl<CategoryEntity> implements Cate
 
     @Override
     public int save(CategoryEntity cate) {
-        return insert(QueryConstant.callQueryUpdate(CATEGORY, CREATE, 3),cate.getCategoryCode(), cate.getCategoryName(),
+        return insert(QueryConstant.callQueryUpdate(CATEGORY, CREATE, 3), cate.getCategoryCode(), cate.getCategoryName(),
                 cate.getDescription());
     }
 

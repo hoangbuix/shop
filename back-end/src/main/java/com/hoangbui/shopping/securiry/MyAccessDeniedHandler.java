@@ -22,8 +22,8 @@ public class MyAccessDeniedHandler implements AccessDeniedHandler {
     public void handle(HttpServletRequest request, HttpServletResponse response, AccessDeniedException accessDeniedException) throws IOException, ServletException {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
 
-        if (authentication != null){
-            logger.info("'" +authentication.getName() + "'"
+        if (authentication != null) {
+            logger.info("'" + authentication.getName() + "'"
                     + " was trying to access protected url " + request.getRequestURI());
         }
         response.sendRedirect(request.getContextPath() + "/access-denied");

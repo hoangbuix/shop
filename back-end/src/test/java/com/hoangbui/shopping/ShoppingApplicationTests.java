@@ -21,8 +21,8 @@ class ShoppingApplicationTests {
         assertThat(result).isEqualTo(expected);
     }
 
-    class Calculator{
-        int add(int a, int b){
+    class Calculator {
+        int add(int a, int b) {
             return a + b;
         }
     }

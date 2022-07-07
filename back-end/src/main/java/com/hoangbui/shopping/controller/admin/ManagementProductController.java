@@ -7,8 +7,6 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.access.annotation.Secured;
-import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -33,13 +31,13 @@ public class ManagementProductController {
         try {
             List<ProductEntity> products = productService.findAll();
             return new ResponseEntity<>(products, HttpStatus.CREATED);
-        }catch (Exception e) {
+        } catch (Exception e) {
             log.error("Create Cart method error {}", e.getMessage(), e);
             return new ResponseEntity<>(e.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
 
-//    @Secured("ROLE_ADMIN")
+    //    @Secured("ROLE_ADMIN")
 //    @PreAuthorize("hasRole('admin')")
     @GetMapping("/findById/{id}")
     private ResponseEntity<?> getById(@PathVariable int id) {

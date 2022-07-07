@@ -34,13 +34,13 @@ public class QueryConstant {
         if (values != 0 && values > 1) {
             int count = values;
             sql.append("?");
-            while(count != 1 && count > 1) {
+            while (count != 1 && count > 1) {
                 sql.append(getGenericName()).append(", ?");
                 count--;
             }
-        } else if(values > 0 && values <= 1) {
+        } else if (values > 0 && values <= 1) {
             sql.append("?");
-        } else  {
+        } else {
             sql.append("");
         }
         sql.append(")");

@@ -1,7 +1,5 @@
 package com.hoangbui.shopping.controller.admin;
 
-import java.util.List;
-
 import com.hoangbui.shopping.entity.CategoryEntity;
 import com.hoangbui.shopping.exception.DuplicateRecordException;
 import com.hoangbui.shopping.model.req.create.CreateCategoryReq;
@@ -12,10 +10,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import org.springframework.web.bind.annotation.GetMapping;
 
 import javax.validation.Valid;
-import static com.hoangbui.shopping.util.PathUrl.*;
+import java.util.List;
+
+import static com.hoangbui.shopping.util.PathUrl.CREATE;
+import static com.hoangbui.shopping.util.PathUrl.UPDATE;
 
 
 @RestController
@@ -30,7 +30,7 @@ public class ManagementCategoryController {
     private ResponseEntity<?> create(@Valid @RequestBody CreateCategoryReq req) {
         CategoryEntity cate = null;
         CategoryEntity check = categoryService.findByCode(req.getCategoryCode());
-        if(check == null){
+        if (check == null) {
             cate = categoryService.save(req);
         } else {
             throw new DuplicateRecordException("Da ton tai!");
@@ -43,19 +43,18 @@ public class ManagementCategoryController {
         CategoryEntity cate = null;
         try {
             cate = categoryService.update(req);
-        } catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return new ResponseEntity<>(cate, HttpStatus.OK);
     }
 
 
-
     @DeleteMapping("/delete/{id}")
-    private ResponseEntity<?> delete(@PathVariable int id){
+    private ResponseEntity<?> delete(@PathVariable int id) {
         try {
             categoryService.delete(id);
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
         }
         return new ResponseEntity<>("Delete category success!", HttpStatus.OK);

@@ -20,7 +20,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 
 @EnableWebSecurity
 @Configuration
-@SuppressWarnings({ "PMD.SignatureDeclareThrowsException" })
+@SuppressWarnings({"PMD.SignatureDeclareThrowsException"})
 @EnableGlobalMethodSecurity(
         securedEnabled = true,
         jsr250Enabled = true,
@@ -41,9 +41,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     @Autowired
     private JwtUserDetailsService jwtUserDetailsService;
 
-    private static final String[] STATIC_RESOURCES = { "/v2/api-docs", "/configuration/ui",
+    private static final String[] STATIC_RESOURCES = {"/v2/api-docs", "/configuration/ui",
             "/swagger-resources/**", "/configuration/**", "/swagger-ui.html",
-            "/webjars/**", "/csrf", "/data/**", "/static/admin/**" };
+            "/webjars/**", "/csrf", "/data/**", "/static/admin/**"};
 
     @Bean
     public static PasswordEncoder passwordEncoder() {

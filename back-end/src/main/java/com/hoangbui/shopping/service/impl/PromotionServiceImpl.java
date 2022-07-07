@@ -31,7 +31,7 @@ public class PromotionServiceImpl implements PromotionService {
             promotion.setActive(req.isActive());
             promotion.setPublic(req.isPublic());
             id = promotionDAO.save(promotion);
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
             log.error(e.getMessage());
             return null;
@@ -52,7 +52,7 @@ public class PromotionServiceImpl implements PromotionService {
             promotion.setPublic(req.isPublic());
             promotion.setActiveFlag(req.getActiveFlag());
             promotionDAO.update(promotion);
-        }catch (Exception e) {
+        } catch (Exception e) {
             e.printStackTrace();
             log.error(e.getMessage());
             return null;
@@ -64,7 +64,7 @@ public class PromotionServiceImpl implements PromotionService {
     public void delete(int id) {
         try {
             promotionDAO.delete(id);
-        }catch (Exception e){
+        } catch (Exception e) {
             e.printStackTrace();
             log.error(e.getMessage());
         }
